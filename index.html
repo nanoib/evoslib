@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Библиотека компонентов</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Библиотека компонентов</h1>
+    </header>
+    <div class="content-wrapper">
+        <aside class="filters">
+            <div class="filter-section">
+                <div class="filter-header">
+                    <h2>Фильтры</h2>
+                    <button id="resetFilters">Сбросить все</button>
+                </div>
+        
+                <div class="filter-category">
+                    <h3>Категория сайта</h3>
+                    <div class="filter-options scrollable" id="siteCategory"></div>
+                </div>
+        
+                <div class="filter-category">
+                    <h3>Производитель</h3>
+                    <div class="filter-options" id="manufacturer"></div>
+                </div>
+        
+                <div class="filter-category">
+                    <h3>Тип графики</h3>
+                    <div class="filter-options" id="graphicType"></div>
+                </div>
+        
+                <div class="filter-category">
+                    <h3>Форма</h3>
+                    <div class="filter-options" id="shape"></div>
+                </div>
+            </div>
+        </aside>
+        <main>
+            <section class="library">
+                <div class="component-grid" id="componentGrid"></div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

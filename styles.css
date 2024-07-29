@@ -1,0 +1,227 @@
+/* Global styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    flex-shrink: 0;
+}
+
+.content-wrapper {
+    flex-grow: 1;
+    display: flex;
+    overflow: hidden;
+}
+
+/* Filters styles */
+/* Filters styles */
+.filters {
+    width: 350px;
+    background-color: white;
+    padding: 1rem;
+    margin: 2rem 4rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow-y: auto; /* This allows scrolling if content exceeds height */
+    max-height: calc(100vh - 4rem); /* Subtracting top and bottom margins */
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-section {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.filter-section h2 {
+    margin-top: 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5rem;
+}
+
+.filter-category {
+    margin-bottom: 0.5rem;
+}
+
+.filter-category,
+.filter-subcategory,
+.filter-option {
+    margin-bottom: 0.5rem;
+}
+
+.filter-subcategory {
+    margin-left: 1.5rem;
+}
+
+.filter-category label,
+.filter-subcategory label,
+.filter-option label {
+    margin-left: 0.5rem;
+}
+
+.filter-category h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.filter-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-options label {
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+.subcategories {
+    margin-left: 1rem;
+}
+
+.filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.filter-options.scrollable {
+    flex-grow: 1; /* This allows it to grow and fill available space */
+    min-height: 200px; /* Minimum height, adjust as needed */
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+.filter-options.scrollable::-webkit-scrollbar {
+    width: 8px;
+}
+
+.filter-options.scrollable::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.filter-options.scrollable::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+.filter-options.scrollable::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+#resetFilters {
+    padding: 0.5rem 1rem;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    align-content: center;
+    margin-bottom: 1.3rem;
+    margin-right: 1.3rem;
+    font-size: 0.9rem;
+}
+
+#resetFilters:hover {
+    background-color: #d32f2f;
+}
+
+/* Library styles */
+main {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 1rem;
+}
+
+.library {
+    height: 100%;
+    margin-top: 1rem;
+    margin-right: 4rem;
+}
+
+.component-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    gap: 3rem;
+}
+
+.component-tile {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.component-tile:hover {
+    border: 1px solid #e1e1e1;
+    transform: translateY(-10px);
+}
+
+.component-tile img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    margin-bottom: 0.5rem;
+}
+
+.component-details {
+    width: 100%;
+    padding: 5px;
+}
+
+.component-name {
+    text-align: left;
+    margin: 5px 0 0 0;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.gray-info {
+    text-align: left;
+    font-size: 1em;
+    margin: 2;
+    line-height: 1.2;
+}
+
+.component-tile p {
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+    }
+
+    .filters {
+        width: auto;
+        border-radius: 5px 5px 0 0;
+        max-height: 300px;
+        overflow-y: auto;
+    }
+
+    main {
+        overflow-y: visible;
+    }
+}
