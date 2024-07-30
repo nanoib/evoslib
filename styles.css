@@ -27,51 +27,39 @@ header {
     overflow: hidden;
 }
 
-/* Filters styles */
+/*Блок Фильтры*/
 .filters {
     width: 300px;
     background-color: white;
     margin: 2rem 4rem 0;
+    margin-bottom: 2rem;
     padding: 1rem;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     overflow-y: auto;
-    max-height: calc(100vh - 4rem);
     display: flex;
     flex-direction: column;
-}
-
-.filter-section {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-
-.filter-section h2 {
-    margin-top: 0;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 0.5rem;
-}
-
-.filter-category, .filter-subcategory {
     margin-bottom: 0.5rem;
-}
-
-.filter-subcategory {
-    margin-left: 1.5rem;
     line-height: 0.8;
 }
 
+/* Категории "Воздухораспределители", "Оборудование" и тд */
+.filter-category {
+    margin-top: 0.25rem;
+}
+
+/* Подкатегории "Диффузор", "Решетка" и тд */
+.filter-subcategory {
+    margin-left: 1.5rem;
+}
+
+/* Заголовки "Категория сайта", "Производитель" и тд */
 .filter-category h3 {
+    margin-top: 1.7rem;
     margin-bottom: 0.5rem;
-    font-size: 1rem;
 }
 
-.filter-options {
-    display: flex;
-    flex-direction: column;
-}
-
+/* Названия справа от чекбоксов */
 .filter-options label {
     margin-left: 0.5rem;
     cursor: pointer;
@@ -81,31 +69,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: -0.5rem;
 }
 
-.filter-options.scrollable {
-    flex-grow: 1;
-    min-height: 200px;
-    overflow-y: auto;
-    padding-right: 10px;
-}
-
-.filter-options.scrollable::-webkit-scrollbar {
-    width: 8px;
-}
-
-.filter-options.scrollable::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-
-.filter-options.scrollable::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 4px;
-}
-
-.filter-options.scrollable::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
 
 #resetFilters {
     padding: 0.5rem 1rem;
@@ -114,7 +80,7 @@ header {
     border: none;
     border-radius: 3px;
     cursor: pointer;
-    margin-bottom: 1.3rem;
+    margin-bottom: 0.3rem;
     margin-right: 1.3rem;
     font-size: 0.9rem;
 }
@@ -186,11 +152,6 @@ main {
     line-height: 1.2;
 }
 
-/* Responsive design */
-/* Существующие стили остаются без изменений */
-
-/* Добавьте эти новые стили в конец файла */
-
 .filter-toggle {
     display: none;
     position: fixed;
@@ -214,7 +175,12 @@ main {
 
 @media (max-width: 768px) {
     header {
-        padding-left: 8rem;
+        padding-left: 3rem;
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        flex-shrink: 0;
     }
 
     .filter-title {
@@ -259,7 +225,7 @@ main {
     }
 
     .component-tile {
-        width: 90%;
+        width: 100%;
         max-width: none;
         padding: 0.5rem;
     }
@@ -270,23 +236,5 @@ main {
 
     .gray-info {
         font-size: 0.8em;
-    }
-}
-
-@media (max-width: 480px) {
-    .component-grid {
-        grid-template-columns: repeat(auto-fit, minmax(2fr, 2fr));
-    }
-
-    .component-tile {
-        padding: 0.3rem;
-    }
-
-    .component-name {
-        font-size: 0.8em;
-    }
-
-    .gray-info {
-        font-size: 0.7em;
     }
 }
