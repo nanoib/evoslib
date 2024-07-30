@@ -222,7 +222,7 @@ function renderComponents(components) {
         tile.className = 'component-tile';
 
         const img = document.createElement('img');
-        img.src = `/im/${component.imageUrl}`;
+        img.src = `./im/${component.imageUrl}`;
         img.alt = component.name;
 
         const details = document.createElement('div');
