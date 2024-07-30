@@ -10,7 +10,7 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 # Define the paths to the files and the directory
 from_file_path = os.path.join(script_dir, 'from.txt')
 to_file_path = os.path.join(script_dir, 'to.txt')
-directory_path = os.path.join(script_dir, '../../im')
+directory_path = os.path.join(script_dir, '../cropwhite/to_crop')
 
 # Read the filenames from the files
 with open(from_file_path, 'r', encoding='utf-8') as from_file:
