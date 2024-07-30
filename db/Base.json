@@ -1,0 +1,602 @@
+[
+    {
+        "id": 1,
+        "name": "ДПУ-М",
+        "siteCategory": "Воздухораспределители",
+        "technicalCategory": "Диффузор",
+        "shape": "Круглый",
+        "manufacturer": "Арктос",
+        "graphicType": "Параметрическая",
+        "imageUrl": "дпу-м.png"
+    },
+    {
+        "id": 2,
+        "name": "АМН",
+        "siteCategory": "Воздухораспределители",
+        "technicalCategory": "Решетка",
+        "shape": "Прямоугольный",
+        "manufacturer": "Арктос",
+        "graphicType": "Параметрическая",
+        "imageUrl": "амн.png"
+    },
+    {
+        "id": 3,
+        "name": "КПУ-1Н, канальный",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан противопожарный",
+        "shape": "Прямоугольный",
+        "manufacturer": "Веза",
+        "graphicType": "Статическая",
+        "imageUrl": "кпу-1н-канальный-прямоугольный.png"
+    },
+    {
+        "id": 4,
+        "name": "КПУ-1Н, стеновой",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан противопожарный",
+        "shape": "Прямоугольный",
+        "manufacturer": "Веза",
+        "graphicType": "Статическая",
+        "imageUrl": "кпу-1н-стеновой.png"
+    },
+    {
+        "id": 5,
+        "name": "КПУ-1Н, канальный",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан противопожарный",
+        "shape": "Круглый",
+        "manufacturer": "Веза",
+        "graphicType": "Статическая",
+        "imageUrl": "кпу-1н-канальный-круглый.png"
+    },
+    {
+        "id": 6,
+        "name": "КПУ-1Н, стеновой",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан противопожарный",
+        "shape": "Круглый",
+        "manufacturer": "Веза",
+        "graphicType": "Статическая",
+        "imageUrl": "кпу-1н-ниппельный-круглый.png"
+    },
+    {
+        "id": 7,
+        "name": "КПУ-2Н, канальный, дымовой",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан противопожарный",
+        "shape": "Круглый",
+        "manufacturer": "Веза",
+        "graphicType": "Статическая",
+        "imageUrl": "кпу-2н-канальный-дымовой.png"
+    },
+    {
+        "id": 8,
+        "name": "КПУ-2Н, канальный, нормально открытый",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан противопожарный",
+        "shape": "Круглый",
+        "manufacturer": "Веза",
+        "graphicType": "Статическая",
+        "imageUrl": "кпу-2н-канальный-нормально_открытый.png"
+    },
+    {
+        "id": 9,
+        "name": "КПУ-2Н, канальный, нормально закрытый",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан противопожарный",
+        "shape": "Круглый",
+        "manufacturer": "Веза",
+        "graphicType": "Статическая",
+        "imageUrl": "кпу-2н-канальный-нормально_закрытый.png"
+    },
+    {
+        "id": 10,
+        "name": "КПУ-2Н, ниппельный, дымовой",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан противопожарный",
+        "shape": "Круглый",
+        "manufacturer": "Веза",
+        "graphicType": "Статическая",
+        "imageUrl": "кпу-2н-ниппельный-дымовой.png"
+    },
+    {
+        "id": 11,
+        "name": "КПУ-2Н, ниппельный, нормально открытый",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан противопожарный",
+        "shape": "Круглый",
+        "manufacturer": "Веза",
+        "graphicType": "Статическая",
+        "imageUrl": "кпу-2н-ниппельный-нормально_открытый.png"
+    },
+    {
+        "id": 12,
+        "name": "КПУ-2Н, ниппельный, нормально закрытый",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан противопожарный",
+        "shape": "Круглый",
+        "manufacturer": "Веза",
+        "graphicType": "Статическая",
+        "imageUrl": "кпу-2н-ниппельный-нормально_закрытый.png"
+    },
+    {
+        "id": 13,
+        "name": "КПУ-2Н-ВД, канальный, нормально открытый",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан противопожарный",
+        "shape": "Прямоугольный",
+        "manufacturer": "Веза",
+        "graphicType": "Статическая",
+        "imageUrl": "кпу-2н-вд-канальный-нормально_открытый.png"
+    },
+    {
+        "id": 14,
+        "name": "КПУ-2Н-ВД, канальный, нормально закрытый",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан противопожарный",
+        "shape": "Прямоугольный",
+        "manufacturer": "Веза",
+        "graphicType": "Статическая",
+        "imageUrl": "кпу-2н-вд-канальный-нормально_закрытый.png"
+    },
+    {
+        "id": 15,
+        "name": "КПУ-ДД, канальный",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан противопожарный",
+        "shape": "Прямоугольный",
+        "manufacturer": "Веза",
+        "graphicType": "Статическая",
+        "imageUrl": "кпу-дд-канальный-прямоугольный.png"
+    },
+    {
+        "id": 16,
+        "name": "КПУ-ДД, стеновой",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан противопожарный",
+        "shape": "Прямоугольный",
+        "manufacturer": "Веза",
+        "graphicType": "Статическая",
+        "imageUrl": "кпу-дд-стеновой.png"
+    },
+    {
+        "id": 17,
+        "name": "КПУ-ДД, канальный",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан противопожарный",
+        "shape": "Круглый",
+        "manufacturer": "Веза",
+        "graphicType": "Статическая",
+        "imageUrl": "кпу-дд-канальный-круглый.png"
+    },
+    {
+        "id": 18,
+        "name": "КПУ-ДД, ниппельный",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан противопожарный",
+        "shape": "Круглый",
+        "manufacturer": "Веза",
+        "graphicType": "Статическая",
+        "imageUrl": "кпу-дд-ниппельный.png"
+    },
+    {
+        "id": 19,
+        "name": "ОКСИД, канальный",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан противопожарный",
+        "shape": "Прямоугольный",
+        "manufacturer": "Веза",
+        "graphicType": "Статическая",
+        "imageUrl": "оксид-канальный.png"
+    },
+    {
+        "id": 20,
+        "name": "ОКСИД, стеновой",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан противопожарный",
+        "shape": "Прямоугольный",
+        "manufacturer": "Веза",
+        "graphicType": "Статическая",
+        "imageUrl": "оксид-стеновой.png"
+    },
+    {
+        "id": 21,
+        "name": "ОКСИД, канальный, кассетный",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан противопожарный",
+        "shape": "Прямоугольный",
+        "manufacturer": "Веза",
+        "graphicType": "Статическая",
+        "imageUrl": "оксид-кассетный.png"
+    },
+    {
+        "id": 22,
+        "name": "ПРОК",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан противопожарный",
+        "shape": "Круглый",
+        "manufacturer": "Веза",
+        "graphicType": "Статическая",
+        "imageUrl": "прок-круглый.png"
+    },
+    {
+        "id": 23,
+        "name": "ПРОК",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан противопожарный",
+        "shape": "Прямоугольный",
+        "manufacturer": "Веза",
+        "graphicType": "Статическая",
+        "imageUrl": "прок-прямоугольный.png"
+    },
+    {
+        "id": 24,
+        "name": "ГТК",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Шумоглушитель",
+        "shape": "Круглый",
+        "manufacturer": "Ровен",
+        "graphicType": "Параметрическая",
+        "imageUrl": "гтк-ровен.png"
+    },
+    {
+        "id": 25,
+        "name": "ГТК",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Шумоглушитель",
+        "shape": "Круглый",
+        "manufacturer": "Неватом",
+        "graphicType": "Статическая",
+        "imageUrl": "гтк-неватом.png"
+    },
+    {
+        "id": 26,
+        "name": "ГТП",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Шумоглушитель",
+        "shape": "Прямоугольный",
+        "manufacturer": "Неватом",
+        "graphicType": "Статическая",
+        "imageUrl": "гтп-неватом.png"
+    },
+    {
+        "id": 27,
+        "name": "Р",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан воздушный",
+        "shape": "Круглый",
+        "manufacturer": "Неватом",
+        "graphicType": "Параметрическая",
+        "imageUrl": "р-круглый-неватом.png"
+    },
+    {
+        "id": 28,
+        "name": "Р",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан воздушный",
+        "shape": "Прямоугольный",
+        "manufacturer": "Неватом",
+        "graphicType": "Параметрическая",
+        "imageUrl": "р-прямоугольный-неватом.png"
+    },
+    {
+        "id": 29,
+        "name": "KVK",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан воздушный",
+        "shape": "Круглый",
+        "manufacturer": "Неватом",
+        "graphicType": "Статическая",
+        "imageUrl": "kvk-неватом.png"
+    },
+    {
+        "id": 30,
+        "name": "KV",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан воздушный",
+        "shape": "Прямоугольный",
+        "manufacturer": "Неватом",
+        "graphicType": "Статическая",
+        "imageUrl": "kv-неватом.png"
+    },
+    {
+        "id": 31,
+        "name": "KVU-P",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан воздушный",
+        "shape": "Прямоугольный",
+        "manufacturer": "Неватом",
+        "graphicType": "Статическая",
+        "imageUrl": "kvu-p.png"
+    },
+    {
+        "id": 32,
+        "name": "KO",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан обратный",
+        "shape": "Круглый",
+        "manufacturer": "Неватом",
+        "graphicType": "Статическая",
+        "imageUrl": "ko-неватом.png"
+    },
+    {
+        "id": 33,
+        "name": "KO типа \"бабочка\"",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан обратный",
+        "shape": "Круглый",
+        "manufacturer": "Неватом",
+        "graphicType": "Статическая",
+        "imageUrl": "ko-неватом-бабочка.png"
+    },
+    {
+        "id": 34,
+        "name": "KPNO",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан противопожарный",
+        "shape": "Прямоугольный",
+        "manufacturer": "Неватом",
+        "graphicType": "Статическая",
+        "imageUrl": "kpno-неватом.png"
+    },
+    {
+        "id": 35,
+        "name": "TDC III",
+        "siteCategory": "Элементы воздуховодов",
+        "technicalCategory": "Воздуховод",
+        "shape": "Прямоугольный",
+        "manufacturer": "Неватом",
+        "graphicType": "Статическая",
+        "imageUrl": "воздуховод-TDCIII-Воздуховод-300x500-1390-ОЦ.-0.7-т3.т3.png"
+    },
+    {
+        "id": 36,
+        "name": "TDC III",
+        "siteCategory": "Элементы воздуховодов",
+        "technicalCategory": "Заглушка",
+        "shape": "Прямоугольный",
+        "manufacturer": "Неватом",
+        "graphicType": "Статическая",
+        "imageUrl": "заглушка-300x500-75-оц-0.7-т3.png"
+    },
+    {
+        "id": 37,
+        "name": "TDC III",
+        "siteCategory": "Элементы воздуховодов",
+        "technicalCategory": "Отвод",
+        "shape": "Прямоугольный",
+        "manufacturer": "Неватом",
+        "graphicType": "Статическая",
+        "imageUrl": "отвод-2-90-300x500-100-100-оц.-0.7-т3.т3.png"
+    },
+    {
+        "id": 38,
+        "name": "ДП4",
+        "siteCategory": "Воздухораспределители",
+        "technicalCategory": "Диффузор",
+        "shape": "Прямоугольный",
+        "manufacturer": "Неватом",
+        "graphicType": "Статическая",
+        "imageUrl": "диффузор-ДП-4-450x450.png"
+    },
+    {
+        "id": 39,
+        "name": "КП (КВ)",
+        "siteCategory": "Воздухораспределители",
+        "technicalCategory": "Диффузор",
+        "shape": "Круглый",
+        "manufacturer": "Неватом",
+        "graphicType": "Статическая",
+        "imageUrl": "диффузор_КП_(КВ)-160.png"
+    },
+    {
+        "id": 40,
+        "name": "VC",
+        "siteCategory": "Оборудование",
+        "technicalCategory": "Вентилятор",
+        "shape": "Круглый",
+        "manufacturer": "Ровен",
+        "graphicType": "Параметрическая",
+        "imageUrl": "вентилятор-канальный-VC-160.png"
+    },
+    {
+        "id": 41,
+        "name": "VCN",
+        "siteCategory": "Оборудование",
+        "technicalCategory": "Вентилятор",
+        "shape": "Прямоугольный",
+        "manufacturer": "Ровен",
+        "graphicType": "Параметрическая",
+        "imageUrl": "вентилятор-VCN-60-35-31-GH-4D-0-15-1500-380.png"
+    },
+    {
+        "id": 42,
+        "name": "NWPk",
+        "siteCategory": "Оборудование",
+        "technicalCategory": "Нагреватель",
+        "shape": "Круглый",
+        "manufacturer": "Неватом",
+        "graphicType": "Статическая",
+        "imageUrl": "нагреватель-NWPk-315-2.png"
+    },
+    {
+        "id": 43,
+        "name": "NWP",
+        "siteCategory": "Оборудование",
+        "technicalCategory": "Нагреватель",
+        "shape": "Прямоугольный",
+        "manufacturer": "Неватом",
+        "graphicType": "Статическая",
+        "imageUrl": "нагреватель-водяной-NWP-600-350-1-L.png"
+    },
+    {
+        "id": 44,
+        "name": "NEK",
+        "siteCategory": "Оборудование",
+        "technicalCategory": "Нагреватель",
+        "shape": "Круглый",
+        "manufacturer": "Неватом",
+        "graphicType": "Статическая",
+        "imageUrl": "нагреватель-электрический-NEK-250-6.png"
+    },
+    {
+        "id": 45,
+        "name": "NEP",
+        "siteCategory": "Оборудование",
+        "technicalCategory": "Нагреватель",
+        "shape": "Прямоугольный",
+        "manufacturer": "Неватом",
+        "graphicType": "Статическая",
+        "imageUrl": "нагреватель-электрический-NEP-500x250-30.png"
+    },
+    {
+        "id": 46,
+        "name": "OWP",
+        "siteCategory": "Оборудование",
+        "technicalCategory": "Охладитель",
+        "shape": "Прямоугольный",
+        "manufacturer": "Неватом",
+        "graphicType": "Статическая",
+        "imageUrl": "охладитель-водяной-OWP-500x250-2-L.png"
+    },
+    {
+        "id": 47,
+        "name": "OFP",
+        "siteCategory": "Оборудование",
+        "technicalCategory": "Охладитель",
+        "shape": "Прямоугольный",
+        "manufacturer": "Неватом",
+        "graphicType": "Статическая",
+        "imageUrl": "охладитель-фреоновый-OFP-400x200-3-L.png"
+    },
+    {
+        "id": 48,
+        "name": "SUB",
+        "siteCategory": "Оборудование",
+        "technicalCategory": "Бактерицидная секция",
+        "shape": "Прямоугольный",
+        "manufacturer": "Неватом",
+        "graphicType": "Статическая",
+        "imageUrl": "секция-бактерицидной-обработки-воздуха-SUB-900x500-K-8-1.png"
+    },
+    {
+        "id": 49,
+        "name": "Размер воздуховода",
+        "siteCategory": "Аннотации",
+        "technicalCategory": "Выноска",
+        "shape": "Не применимо",
+        "manufacturer": "Нанософт разработка",
+        "graphicType": "Не применимо",
+        "imageUrl": "выноска-размер-воздуховода.png"
+    },
+    {
+        "id": 50,
+        "name": "Воздуховод",
+        "siteCategory": "Элементы воздуховодов",
+        "technicalCategory": "Воздуховод",
+        "shape": "Круглый",
+        "manufacturer": "Нанософт разработка",
+        "graphicType": "Параметрическая",
+        "imageUrl": "воздуховод-шн.-Ø200-1500-мм.png"
+    },
+    {
+        "id": 51,
+        "name": "Крестовина",
+        "siteCategory": "Элементы воздуховодов",
+        "technicalCategory": "Крестовина",
+        "shape": "Круглый",
+        "manufacturer": "Нанософт разработка",
+        "graphicType": "Параметрическая",
+        "imageUrl": "крестовина-КК-У-Ø180-Ø100,-100.png"
+    },
+    {
+        "id": 52,
+        "name": "Отвод",
+        "siteCategory": "Элементы воздуховодов",
+        "technicalCategory": "Отвод",
+        "shape": "Круглый",
+        "manufacturer": "Нанософт разработка",
+        "graphicType": "Параметрическая",
+        "imageUrl": "отвод-фл.-Ø160-90-град..png"
+    },
+    {
+        "id": 53,
+        "name": "Переход",
+        "siteCategory": "Элементы воздуховодов",
+        "technicalCategory": "Переход",
+        "shape": "Круглый",
+        "manufacturer": "Нанософт разработка",
+        "graphicType": "Параметрическая",
+        "imageUrl": "переход-(Кр)-фл.-Ø160х100-400-мм.png"
+    },
+    {
+        "id": 54,
+        "name": "Тройник",
+        "siteCategory": "Элементы воздуховодов",
+        "technicalCategory": "Тройник",
+        "shape": "Круглый",
+        "manufacturer": "Нанософт разработка",
+        "graphicType": "Параметрическая",
+        "imageUrl": "тройник-(Кр)-фл.-Ø160х100.png"
+    },
+    {
+        "id": 55,
+        "name": "Заглушка",
+        "siteCategory": "Элементы трубопроводов",
+        "technicalCategory": "Заглушка",
+        "shape": "Круглый",
+        "manufacturer": "Нанософт разработка",
+        "graphicType": "Параметрическая",
+        "imageUrl": "заглушка-Ø114х4,5.png"
+    },
+    {
+        "id": 56,
+        "name": "Крестовина",
+        "siteCategory": "Элементы трубопроводов",
+        "technicalCategory": "Крестовина",
+        "shape": "Круглый",
+        "manufacturer": "Нанософт разработка",
+        "graphicType": "Параметрическая",
+        "imageUrl": "крестовина-114х4,5.png"
+    },
+    {
+        "id": 57,
+        "name": "Отвод",
+        "siteCategory": "Элементы трубопроводов",
+        "technicalCategory": "Крестовина",
+        "shape": "Круглый",
+        "manufacturer": "Нанософт разработка",
+        "graphicType": "Параметрическая",
+        "imageUrl": "отвод-90-Ø114х4,5.png"
+    },
+    {
+        "id": 58,
+        "name": "Переход",
+        "siteCategory": "Элементы трубопроводов",
+        "technicalCategory": "Крестовина",
+        "shape": "Круглый",
+        "manufacturer": "Нанософт разработка",
+        "graphicType": "Параметрическая",
+        "imageUrl": "переход-К165х10-114х1.png"
+    },
+    {
+        "id": 59,
+        "name": "Тройник",
+        "siteCategory": "Элементы трубопроводов",
+        "technicalCategory": "Тройник",
+        "shape": "Круглый",
+        "manufacturer": "Нанософт разработка",
+        "graphicType": "Параметрическая",
+        "imageUrl": "тройник-165х4,5.png"
+    },
+    {
+        "id": 60,
+        "name": "Трубопровод",
+        "siteCategory": "Элементы трубопроводов",
+        "technicalCategory": "Трубопровод",
+        "shape": "Круглый",
+        "manufacturer": "Нанософт разработка",
+        "graphicType": "Параметрическая",
+        "imageUrl": "труба-Ø165х4,5.png"
+    }
+]
