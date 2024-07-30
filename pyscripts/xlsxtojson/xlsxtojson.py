@@ -59,8 +59,8 @@ def save_json_to_file(json_data, output_file_path):
 
 def main():
     # Параметры, которые могут изменяться пользователем
-    excel_file_path = os.path.join(os.path.dirname(__file__), '../db/Base.xlsx')
-    output_json_file_path = os.path.join(os.path.dirname(__file__), '../db/Base.json')
+    excel_file_path = os.path.join(os.path.dirname(__file__), '../../db/Base_plain.xlsx')
+    output_json_file_path = os.path.join(os.path.dirname(__file__), '../../db/Base.json')
     sheet_name = 'Компоненты'
     start_cell = (4, 2)  # Ячейка B4
 
