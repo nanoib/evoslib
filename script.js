@@ -267,3 +267,12 @@ function resetFilters() {
 
     applyFilters();
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    const filterToggle = document.getElementById('filterToggle');
+    const filters = document.querySelector('.filters');
+
+    filterToggle.addEventListener('click', function() {
+        filters.classList.toggle('active');
+    });
+});

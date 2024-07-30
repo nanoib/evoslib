@@ -3,11 +3,12 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f0;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #f0f0f0;
+    font-size: 85%;
     display: flex;
     flex-direction: column;
 }
@@ -27,16 +28,15 @@ header {
 }
 
 /* Filters styles */
-/* Filters styles */
 .filters {
-    width: 350px;
+    width: 300px;
     background-color: white;
+    margin: 2rem 4rem 0;
     padding: 1rem;
-    margin: 2rem 4rem;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    overflow-y: auto; /* This allows scrolling if content exceeds height */
-    max-height: calc(100vh - 4rem); /* Subtracting top and bottom margins */
+    overflow-y: auto;
+    max-height: calc(100vh - 4rem);
     display: flex;
     flex-direction: column;
 }
@@ -53,24 +53,13 @@ header {
     padding-bottom: 0.5rem;
 }
 
-.filter-category {
-    margin-bottom: 0.5rem;
-}
-
-.filter-category,
-.filter-subcategory,
-.filter-option {
+.filter-category, .filter-subcategory {
     margin-bottom: 0.5rem;
 }
 
 .filter-subcategory {
     margin-left: 1.5rem;
-}
-
-.filter-category label,
-.filter-subcategory label,
-.filter-option label {
-    margin-left: 0.5rem;
+    line-height: 0.8;
 }
 
 .filter-category h3 {
@@ -88,20 +77,15 @@ header {
     cursor: pointer;
 }
 
-.subcategories {
-    margin-left: 1rem;
-}
-
 .filter-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 1rem;
 }
 
 .filter-options.scrollable {
-    flex-grow: 1; /* This allows it to grow and fill available space */
-    min-height: 200px; /* Minimum height, adjust as needed */
+    flex-grow: 1;
+    min-height: 200px;
     overflow-y: auto;
     padding-right: 10px;
 }
@@ -118,6 +102,7 @@ header {
     background: #888;
     border-radius: 4px;
 }
+
 .filter-options.scrollable::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
@@ -129,7 +114,6 @@ header {
     border: none;
     border-radius: 3px;
     cursor: pointer;
-    align-content: center;
     margin-bottom: 1.3rem;
     margin-right: 1.3rem;
     font-size: 0.9rem;
@@ -148,28 +132,28 @@ main {
 
 .library {
     height: 100%;
-    margin-top: 1rem;
-    margin-right: 4rem;
+    margin: 1rem 3rem 0 0;
 }
 
 .component-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
-    gap: 3rem;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 1.5rem;
 }
 
 .component-tile {
-    max-width: 350px;
+    line-height: 1;
+    max-width: 300px;
+    width: 85%;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
     background-color: white;
     border-radius: 5px;
     padding: 1rem;
     text-align: center;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    transition: transform 0.2s;
 }
 
 .component-tile:hover {
@@ -181,7 +165,6 @@ main {
     width: 100%;
     aspect-ratio: 16 / 9;
     object-fit: cover;
-    margin-bottom: 0.5rem;
 }
 
 .component-details {
@@ -199,29 +182,111 @@ main {
 .gray-info {
     text-align: left;
     font-size: 1em;
-    margin: 2;
+    margin: 2px 0;
     line-height: 1.2;
 }
 
-.component-tile p {
-    margin: 0;
+/* Responsive design */
+/* Существующие стили остаются без изменений */
+
+/* Добавьте эти новые стили в конец файла */
+
+.filter-toggle {
+    display: none;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    z-index: 1001; /* Увеличиваем z-index, чтобы кнопка была поверх фильтров */
+    background-color: rgba(128, 128, 128, 0.8); /* Серый фон с небольшой прозрачностью */
+    color: white;
+    border: none;
+    border-radius: 50px; /* Закругленные края */
+    padding: 15px 20px;
+    font-size: 18px;
     font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-/* Responsive design */
+.filter-toggle:hover {
+    background-color: rgba(100, 100, 100, 0.9);
+}
+
 @media (max-width: 768px) {
+    header {
+        padding-left: 8rem;
+    }
+
+    .filter-title {
+        display: none;
+    }
+
+    /* Остальные стили для мобильной версии остаются без изменений */
     .content-wrapper {
         flex-direction: column;
     }
 
     .filters {
-        width: auto;
-        border-radius: 5px 5px 0 0;
-        max-height: 300px;
-        overflow-y: auto;
+        padding-top: 4rem;
+        position: fixed;
+        left: -100%;
+        top: 0;
+        bottom: 0;
+        width: 80%;
+        max-width: 300px;
+        margin: 0;
+        transition: left 0.3s ease-in-out;
+        z-index: 1000;
+        border-radius: 0;
+    }
+
+    .filters.active {
+        left: 0;
+    }
+
+    .filter-toggle {
+        display: block;
     }
 
     main {
         overflow-y: visible;
+        padding: 1rem;
+    }
+
+    .component-grid {
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 0.5rem;
+    }
+
+    .component-tile {
+        width: 90%;
+        max-width: none;
+        padding: 0.5rem;
+    }
+
+    .component-name {
+        font-size: 0.9em;
+    }
+
+    .gray-info {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 480px) {
+    .component-grid {
+        grid-template-columns: repeat(auto-fit, minmax(2fr, 2fr));
+    }
+
+    .component-tile {
+        padding: 0.3rem;
+    }
+
+    .component-name {
+        font-size: 0.8em;
+    }
+
+    .gray-info {
+        font-size: 0.7em;
     }
 }
