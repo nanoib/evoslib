@@ -10,7 +10,7 @@ let filters = {
 // Wait for the DOM to be fully loaded
 document.addEventListener('DOMContentLoaded', () => {
     // Fetch data from JSON file
-    fetch('../db/Base.json')
+    fetch('./db/Base.json')
         .then(response => response.json())
         .then(data => {
             components = data;
