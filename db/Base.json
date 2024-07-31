@@ -577,7 +577,7 @@
     },
     {
         "id": 49,
-        "name": "Размер воздуховода",
+        "name": "Воздуховод (Размер)",
         "siteCategory": "Аннотации",
         "technicalCategory": "Выноска",
         "surname": "универсальная",
@@ -585,7 +585,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Не применимо",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "49-нанософт_разработка-выноска-размер_воздуховода-не_применимо.png"
+        "imageUrl": "49-нанософт_разработка-выноска-воздуховод_(размер)-не_применимо.png"
     },
     {
         "id": 50,
@@ -958,5 +958,29 @@
         "graphicType": "Статическая",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "imageUrl": "80-нанософт_разработка-тройник-тройник-прямоугольный.png"
+    },
+    {
+        "id": 81,
+        "name": "Воздуховод (Размер, Скорость, Расход, Потеря давления)",
+        "siteCategory": "Аннотации",
+        "technicalCategory": "Выноска",
+        "surname": "",
+        "shape": "Не применимо",
+        "manufacturer": "Нанософт разработка",
+        "graphicType": "Не применимо",
+        "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
+        "imageUrl": "81-нанософт_разработка-выноска-воздуховод_(размер_скорость_расход_потеря_давления)-не_применимо.png"
+    },
+    {
+        "id": 82,
+        "name": "Вход в систему (Полная потеря давления)",
+        "siteCategory": "Аннотации",
+        "technicalCategory": "Выноска",
+        "surname": "",
+        "shape": "Не применимо",
+        "manufacturer": "Нанософт разработка",
+        "graphicType": "Не применимо",
+        "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
+        "imageUrl": "82-нанософт_разработка-выноска-вход_в_систему_(полная_потеря_давления)-не_применимо.png"
     }
 ]
