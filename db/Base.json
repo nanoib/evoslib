@@ -576,16 +576,16 @@
         "imageUrl": "48-неватом-бактерицидная_секция-sub-прямоугольный.png"
     },
     {
-        "id": 49,
-        "name": "Воздуховод (Размер)",
-        "siteCategory": "Аннотации",
-        "technicalCategory": "Выноска",
-        "surname": "универсальная",
-        "shape": "Не применимо",
-        "manufacturer": "Нанософт разработка",
-        "graphicType": "Не применимо",
-        "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "49-нанософт_разработка-выноска-воздуховод_(размер)-не_применимо.png"
+        "id": "",
+        "name": "",
+        "siteCategory": "",
+        "technicalCategory": "",
+        "surname": "",
+        "shape": "",
+        "manufacturer": "",
+        "graphicType": "",
+        "manufUrl": "",
+        "imageUrl": ""
     },
     {
         "id": 50,
@@ -982,5 +982,125 @@
         "graphicType": "Не применимо",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "imageUrl": "82-нанософт_разработка-выноска-вход_в_систему_(полная_потеря_давления)-не_применимо.png"
+    },
+    {
+        "id": 83,
+        "name": "Универсальная (Потеря давления)",
+        "siteCategory": "Аннотации",
+        "technicalCategory": "Выноска",
+        "surname": "",
+        "shape": "Не применимо",
+        "manufacturer": "Нанософт разработка",
+        "graphicType": "Не применимо",
+        "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
+        "imageUrl": "83-нанософт_разработка-выноска-универсальная_(потеря_давления)-не_применимо.png"
+    },
+    {
+        "id": 84,
+        "name": "Универсальная (Наименование)",
+        "siteCategory": "Аннотации",
+        "technicalCategory": "Выноска",
+        "surname": "",
+        "shape": "Не применимо",
+        "manufacturer": "Нанософт разработка",
+        "graphicType": "Не применимо",
+        "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
+        "imageUrl": "84-нанософт_разработка-выноска-универсальная_(наименование)-не_применимо.png"
+    },
+    {
+        "id": "",
+        "name": "",
+        "siteCategory": "",
+        "technicalCategory": "",
+        "surname": "",
+        "shape": "",
+        "manufacturer": "",
+        "graphicType": "",
+        "manufUrl": "",
+        "imageUrl": ""
+    },
+    {
+        "id": "",
+        "name": "",
+        "siteCategory": "",
+        "technicalCategory": "",
+        "surname": "",
+        "shape": "",
+        "manufacturer": "",
+        "graphicType": "",
+        "manufUrl": "",
+        "imageUrl": ""
+    },
+    {
+        "id": "",
+        "name": "",
+        "siteCategory": "",
+        "technicalCategory": "",
+        "surname": "",
+        "shape": "",
+        "manufacturer": "",
+        "graphicType": "",
+        "manufUrl": "",
+        "imageUrl": ""
+    },
+    {
+        "id": "",
+        "name": "",
+        "siteCategory": "",
+        "technicalCategory": "",
+        "surname": "",
+        "shape": "",
+        "manufacturer": "",
+        "graphicType": "",
+        "manufUrl": "",
+        "imageUrl": ""
+    },
+    {
+        "id": "",
+        "name": "",
+        "siteCategory": "",
+        "technicalCategory": "",
+        "surname": "",
+        "shape": "",
+        "manufacturer": "",
+        "graphicType": "",
+        "manufUrl": "",
+        "imageUrl": ""
+    },
+    {
+        "id": "",
+        "name": "",
+        "siteCategory": "",
+        "technicalCategory": "",
+        "surname": "",
+        "shape": "",
+        "manufacturer": "",
+        "graphicType": "",
+        "manufUrl": "",
+        "imageUrl": ""
+    },
+    {
+        "id": "",
+        "name": "",
+        "siteCategory": "",
+        "technicalCategory": "",
+        "surname": "",
+        "shape": "",
+        "manufacturer": "",
+        "graphicType": "",
+        "manufUrl": "",
+        "imageUrl": ""
+    },
+    {
+        "id": "",
+        "name": "",
+        "siteCategory": "",
+        "technicalCategory": "",
+        "surname": "",
+        "shape": "",
+        "manufacturer": "",
+        "graphicType": "",
+        "manufUrl": "",
+        "imageUrl": "84-нанософт_разработка-выноска-универсальная_(наименование)-не_применимо.png"
     }
 ]
