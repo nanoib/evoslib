@@ -89,7 +89,7 @@ def main():
     output_json_file_path = os.path.join(os.path.dirname(__file__), '../../db/Base.json')
     sheet_name = 'Экспорт'
     start_cell = (4, 2)  # Ячейка B4
-    end_col = 'K'  # Последний столбец для чтения
+    end_col = 'M'  # Последний столбец для чтения
 
     # Чтение данных из Excel файла
     df = read_excel_to_dataframe(excel_file_path, sheet_name, start_cell, end_col)
