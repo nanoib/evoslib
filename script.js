@@ -22,7 +22,77 @@ document.addEventListener('DOMContentLoaded', () => {
     // Add event listener for reset button
     document.getElementById('resetFilters').addEventListener('click', resetFilters);
     document.getElementById('resetFilters').style.display = 'none';
+
+    initializeModal();
 });
+
+function initializeModal() {
+    const modal = document.getElementById('modal');
+    if (modal) {
+        modal.style.display = 'none';
+    }
+}
+
+function openModal(component) {
+    const modal = document.getElementById('modal');
+    const modalImage = document.getElementById('modal-image');
+    const modalText = document.getElementById('modal-text');
+    const modalLink = document.getElementById('modal-link');
+
+    modalImage.src = `./im/${component.imageUrl}`;
+    modalImage.alt = component.name;
+
+    let modalContent = '';
+
+    if (component.name) {
+        modalContent += `<p><strong>Название:</strong> <span>${component.name}</span></p>`;
+    }
+    if (component.manufacturer) {
+        modalContent += `<p><strong>Производитель:</strong> <span>${component.manufacturer}</span></p>`;
+    }
+    if (component.siteCategory) {
+        modalContent += `<p><strong>Категория:</strong> <span>${component.siteCategory}</span></p>`;
+    }
+    if (component.technicalCategory) {
+        modalContent += `<p><strong>Подкатегория:</strong> <span>${component.technicalCategory}</span></p>`;
+    }
+    if (component.surname) {
+        modalContent += `<p><strong>Дополнительная характеристика:</strong> <span>${component.surname}</span></p>`;
+    }
+    if (component.note) {
+        modalContent += `<p><strong>Описание:</strong> <span>${component.note}</span></p>`;
+    }
+
+    if (component.graphicType && component.graphicType !== "Не применимо") {
+        modalContent += `<p><strong>Тип графики:</strong> <span>${component.graphicType}</span></p>`;
+    }
+
+    if (component.shape && component.shape !== "Не применимо") {
+        modalContent += `<p><strong>Форма:</strong> <span>${component.shape}</span></p>`;
+    }
+    
+    if (component.typesizes) {
+        const typesizesArray = component.typesizes.split(';').map(size => size.trim());
+        const formattedTypesizes = typesizesArray.join(';<br>');
+        modalContent += `<p><strong>Доступные типоразмеры:</strong><br><span>${formattedTypesizes}</span></p>`;
+    }
+
+    if (component.manufUrl) {
+        modalContent += `<p id="modal-link"><strong>Ссылка на сайт производителя:</strong> <span><a href="${component.manufUrl}" target="_blank">${component.manufUrl}</a></span></p>`;
+    }
+
+    modalText.innerHTML = `<hr>${modalContent}`;
+
+    modal.style.display = 'flex';
+    modalImage.addEventListener('click', closeModal);
+}
+
+function closeModal() {
+    const modal = document.getElementById('modal');
+    modal.style.display = 'none';
+    const modalImage = document.getElementById('modal-image');
+    modalImage.removeEventListener('click', closeModal);
+}
 
 function initializeFilters() {
     const siteCategoryMapping = {};
@@ -213,6 +283,8 @@ function applyFilters() {
     resetButton.style.display = anyFilterSelected ? 'inline-block' : 'none';
 }
 
+
+
 function renderComponents(components) {
     const grid = document.getElementById('componentGrid');
     grid.innerHTML = '';
@@ -230,7 +302,7 @@ function renderComponents(components) {
 
         const grayInfo = document.createElement('p');
         grayInfo.className = 'gray-info';
-        grayInfo.textContent = `${component.technicalCategory || ''}: ${component.manufacturer || ''}`.trim();
+        grayInfo.textContent = `${component.technicalCategory || ''}${component.surname ? ' ' + component.surname : ''}: ${component.manufacturer || ''}`.trim();
         grayInfo.style.color = 'gray';
         grayInfo.style.fontSize = '0.9em';
 
@@ -243,6 +315,8 @@ function renderComponents(components) {
 
         tile.appendChild(img);
         tile.appendChild(details);
+        tile.addEventListener('click', () => openModal(component));
+
         grid.appendChild(tile);
     });
 }
@@ -274,5 +348,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
     filterToggle.addEventListener('click', function() {
         filters.classList.toggle('active');
+    });
+
+    const modal = document.getElementById('modal');
+    
+    window.addEventListener('click', function(event) {
+        if (event.target === modal) {
+            closeModal();
+        }
+    });
+    
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape' && modal.style.display === 'flex') {
+            closeModal();
+        }
     });
 });
