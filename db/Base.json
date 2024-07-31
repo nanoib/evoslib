@@ -8,8 +8,10 @@
         "shape": "Круглый",
         "manufacturer": "Арктос",
         "graphicType": "Параметрическая",
+        "note": "",
         "manufUrl": "http://www.arktika.ru/html/dpum.htm",
-        "imageUrl": "1-арктос-диффузор-дпу-м-круглый.png"
+        "imageUrl": "1-арктос-диффузор-дпу-м-круглый.png",
+        "typesizes": "100, 125, 160, 200, 250"
     },
     {
         "id": 2,
@@ -20,8 +22,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Арктос",
         "graphicType": "Параметрическая",
+        "note": "",
         "manufUrl": "http://www.arktika.ru/html/amn-amrm-adn-adrm.htm",
-        "imageUrl": "2-арктос-решетка-амн-прямоугольный.png"
+        "imageUrl": "2-арктос-решетка-амн-прямоугольный.png",
+        "typesizes": "200x200"
     },
     {
         "id": 3,
@@ -32,8 +36,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Веза",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/kpu-1n-pryamougolnye",
-        "imageUrl": "3-веза-клапан_противопожарный-кпу-1н_канальный-прямоугольный.png"
+        "imageUrl": "3-веза-клапан_противопожарный-кпу-1н_канальный-прямоугольный.png",
+        "typesizes": "1хЭМП: 100x100...1400x2000;\n\n1xЭП: 100x100...1400x2000;\n\n1xЭПВ: 100x100...1400x2000;\n\n2xЭМП: 500x1900...1400x2000"
     },
     {
         "id": 4,
@@ -44,8 +50,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Веза",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/kpu-1n-pryamougolnye",
-        "imageUrl": "4-веза-клапан_противопожарный-кпу-1н_стеновой-прямоугольный.png"
+        "imageUrl": "4-веза-клапан_противопожарный-кпу-1н_стеновой-прямоугольный.png",
+        "typesizes": "1хЭМП: 270x300...2000x1400;\n\n1xЭП: 250x300...2000x1400;\n\n2xЭМП: 1150x300...2000x1400"
     },
     {
         "id": 5,
@@ -56,8 +64,10 @@
         "shape": "Круглый",
         "manufacturer": "Веза",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-1n-kruglye",
-        "imageUrl": "5-веза-клапан_противопожарный-кпу-1н_канальный-круглый.png"
+        "imageUrl": "5-веза-клапан_противопожарный-кпу-1н_канальный-круглый.png",
+        "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
     {
         "id": 6,
@@ -68,8 +78,10 @@
         "shape": "Круглый",
         "manufacturer": "Веза",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-1n-kruglye",
-        "imageUrl": "6-веза-клапан_противопожарный-кпу-1н_стеновой-круглый.png"
+        "imageUrl": "6-веза-клапан_противопожарный-кпу-1н_стеновой-круглый.png",
+        "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
     {
         "id": 7,
@@ -80,8 +92,10 @@
         "shape": "Круглый",
         "manufacturer": "Веза",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-2n-kruglye",
-        "imageUrl": "7-веза-клапан_противопожарный-кпу-2н_канальный_дымовой-круглый.png"
+        "imageUrl": "7-веза-клапан_противопожарный-кпу-2н_канальный_дымовой-круглый.png",
+        "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
     {
         "id": 8,
@@ -92,8 +106,10 @@
         "shape": "Круглый",
         "manufacturer": "Веза",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-2n-kruglye",
-        "imageUrl": "8-веза-клапан_противопожарный-кпу-2н_канальный_нормально_открытый-круглый.png"
+        "imageUrl": "8-веза-клапан_противопожарный-кпу-2н_канальный_нормально_открытый-круглый.png",
+        "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
     {
         "id": 9,
@@ -104,8 +120,10 @@
         "shape": "Круглый",
         "manufacturer": "Веза",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-2n-kruglye",
-        "imageUrl": "9-веза-клапан_противопожарный-кпу-2н_канальный_нормально_закрытый-круглый.png"
+        "imageUrl": "9-веза-клапан_противопожарный-кпу-2н_канальный_нормально_закрытый-круглый.png",
+        "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
     {
         "id": 10,
@@ -116,8 +134,10 @@
         "shape": "Круглый",
         "manufacturer": "Веза",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-2n-kruglye",
-        "imageUrl": "10-веза-клапан_противопожарный-кпу-2н_ниппельный_дымовой-круглый.png"
+        "imageUrl": "10-веза-клапан_противопожарный-кпу-2н_ниппельный_дымовой-круглый.png",
+        "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
     {
         "id": 11,
@@ -128,8 +148,10 @@
         "shape": "Круглый",
         "manufacturer": "Веза",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-2n-kruglye",
-        "imageUrl": "11-веза-клапан_противопожарный-кпу-2н_ниппельный_нормально_открытый-круглый.png"
+        "imageUrl": "11-веза-клапан_противопожарный-кпу-2н_ниппельный_нормально_открытый-круглый.png",
+        "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
     {
         "id": 12,
@@ -140,8 +162,10 @@
         "shape": "Круглый",
         "manufacturer": "Веза",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-2n-kruglye",
-        "imageUrl": "12-веза-клапан_противопожарный-кпу-2н_ниппельный_нормально_закрытый-круглый.png"
+        "imageUrl": "12-веза-клапан_противопожарный-кпу-2н_ниппельный_нормально_закрытый-круглый.png",
+        "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
     {
         "id": 13,
@@ -152,8 +176,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Веза",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/kpu-2n-pryamougolnye",
-        "imageUrl": "13-веза-клапан_противопожарный-кпу-2н-вд_канальный_нормально_открытый-прямоугольный.png"
+        "imageUrl": "13-веза-клапан_противопожарный-кпу-2н-вд_канальный_нормально_открытый-прямоугольный.png",
+        "typesizes": "1xЭП: 100x100...1000x900;\n1xЭПВ: 100x100...1000x1500;\n2xЭП: 100x1000...1000x1500"
     },
     {
         "id": 14,
@@ -164,8 +190,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Веза",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/kpu-2n-pryamougolnye",
-        "imageUrl": "14-веза-клапан_противопожарный-кпу-2н-вд_канальный_нормально_закрытый-прямоугольный.png"
+        "imageUrl": "14-веза-клапан_противопожарный-кпу-2н-вд_канальный_нормально_закрытый-прямоугольный.png",
+        "typesizes": "1xЭП: 100x100...1000x1500;\n1xЭПВ: 100x100...1000x1500;\n2xЭП: 100x1000...1000x1500"
     },
     {
         "id": 15,
@@ -176,8 +204,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Веза",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/kpu-dd-pryamougolnye",
-        "imageUrl": "15-веза-клапан_противопожарный-кпу-дд_канальный-прямоугольный.png"
+        "imageUrl": "15-веза-клапан_противопожарный-кпу-дд_канальный-прямоугольный.png",
+        "typesizes": "1xЭП: 100x100...1200x1000;\n\n1xЭПВ: 100x100...1200x1000"
     },
     {
         "id": 16,
@@ -188,8 +218,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Веза",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/kpu-dd-pryamougolnye",
-        "imageUrl": "16-веза-клапан_противопожарный-кпу-дд_стеновой-прямоугольный.png"
+        "imageUrl": "16-веза-клапан_противопожарный-кпу-дд_стеновой-прямоугольный.png",
+        "typesizes": "1xЭП: 250x300...1000x1200"
     },
     {
         "id": 17,
@@ -200,8 +232,10 @@
         "shape": "Круглый",
         "manufacturer": "Веза",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-dd-kruglye",
-        "imageUrl": "17-веза-клапан_противопожарный-кпу-дд_канальный-круглый.png"
+        "imageUrl": "17-веза-клапан_противопожарный-кпу-дд_канальный-круглый.png",
+        "typesizes": "1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
     {
         "id": 18,
@@ -212,8 +246,10 @@
         "shape": "Круглый",
         "manufacturer": "Веза",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-dd-kruglye",
-        "imageUrl": "18-веза-клапан_противопожарный-кпу-дд_ниппельный-круглый.png"
+        "imageUrl": "18-веза-клапан_противопожарный-кпу-дд_ниппельный-круглый.png",
+        "typesizes": "1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
     {
         "id": 19,
@@ -224,8 +260,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Веза",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/oksid",
-        "imageUrl": "19-веза-клапан_противопожарный-оксид_канальный-прямоугольный.png"
+        "imageUrl": "19-веза-клапан_противопожарный-оксид_канальный-прямоугольный.png",
+        "typesizes": "200x200...1200x1200"
     },
     {
         "id": 20,
@@ -236,8 +274,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Веза",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/oksid",
-        "imageUrl": "20-веза-клапан_противопожарный-оксид_стеновой-прямоугольный.png"
+        "imageUrl": "20-веза-клапан_противопожарный-оксид_стеновой-прямоугольный.png",
+        "typesizes": "200x230...1200x1200"
     },
     {
         "id": 21,
@@ -248,8 +288,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Веза",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/oksid",
-        "imageUrl": "21-веза-клапан_противопожарный-оксид_канальный_кассетный-прямоугольный.png"
+        "imageUrl": "21-веза-клапан_противопожарный-оксид_канальный_кассетный-прямоугольный.png",
+        "typesizes": "2-х секционные: 1210x200...2460x1200;\n3-х секционные: 250x1200...1200x2460;\n4-х секционные:\n1210x1201...2460x2460"
     },
     {
         "id": 22,
@@ -260,8 +302,10 @@
         "shape": "Круглый",
         "manufacturer": "Веза",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/prok-kruglye",
-        "imageUrl": "22-веза-клапан_противопожарный-прок-круглый.png"
+        "imageUrl": "22-веза-клапан_противопожарный-прок-круглый.png",
+        "typesizes": "355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250;"
     },
     {
         "id": 23,
@@ -272,8 +316,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Веза",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/prok-pryamougolnye",
-        "imageUrl": "23-веза-клапан_противопожарный-прок-прямоугольный.png"
+        "imageUrl": "23-веза-клапан_противопожарный-прок-прямоугольный.png",
+        "typesizes": "300x300...1250x1250"
     },
     {
         "id": 24,
@@ -284,8 +330,10 @@
         "shape": "Круглый",
         "manufacturer": "Ровен",
         "graphicType": "Параметрическая",
+        "note": "",
         "manufUrl": "https://rowen.ru/catalog/shumoglushiteli/shumoglushiteli_trubchatye_kruglye_gtk/",
-        "imageUrl": "24-ровен-шумоглушитель-гтк-круглый.png"
+        "imageUrl": "24-ровен-шумоглушитель-гтк-круглый.png",
+        "typesizes": "Длина 600: 100, 125, 160, 200, 250, 315, 355, 400, 500;\n\nДлина 900: 100, 125, 160, 200, 250, 315, 355, 400, 500"
     },
     {
         "id": 25,
@@ -296,8 +344,10 @@
         "shape": "Круглый",
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/shumoglushiteli_trubchatye_kruglye_gtk/",
-        "imageUrl": "25-неватом-шумоглушитель-гтк-круглый.png"
+        "imageUrl": "25-неватом-шумоглушитель-гтк-круглый.png",
+        "typesizes": "Длина 600: 100, 125, 160, 200, 250, 315, 355, 400;\n\nДлина 900: 100, 125, 160, 200, 250, 315, 355, 400, 500, 630"
     },
     {
         "id": 26,
@@ -308,8 +358,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/shumoglushiteli_trubchatye_pryamougolnye_gtp/",
-        "imageUrl": "26-неватом-шумоглушитель-гтп-прямоугольный.png"
+        "imageUrl": "26-неватом-шумоглушитель-гтп-прямоугольный.png",
+        "typesizes": "Длина 600: 300x150...1000x500;\n\nДлина 900: 300x150...1000x500"
     },
     {
         "id": 27,
@@ -320,8 +372,10 @@
         "shape": "Круглый",
         "manufacturer": "Неватом",
         "graphicType": "Параметрическая",
+        "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/zaslonki_ruchnye_r/",
-        "imageUrl": "27-неватом-клапан_воздушный-р-круглый.png"
+        "imageUrl": "27-неватом-клапан_воздушный-р-круглый.png",
+        "typesizes": "225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250"
     },
     {
         "id": 28,
@@ -332,8 +386,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Неватом",
         "graphicType": "Параметрическая",
+        "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/zaslonki_ruchnye_r/",
-        "imageUrl": "28-неватом-клапан_воздушный-р-прямоугольный.png"
+        "imageUrl": "28-неватом-клапан_воздушный-р-прямоугольный.png",
+        "typesizes": "100х100...500х1000"
     },
     {
         "id": 29,
@@ -344,8 +400,10 @@
         "shape": "Круглый",
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/klapany_vozdushnye_kruglye_kvk/",
-        "imageUrl": "29-неватом-клапан_воздушный-kvk-круглый.png"
+        "imageUrl": "29-неватом-клапан_воздушный-kvk-круглый.png",
+        "typesizes": "100, 125, 160, 200, 250, 315, 400, 500, 630"
     },
     {
         "id": 30,
@@ -356,8 +414,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/klapany_vozdushnye_alyuminievye_kv/",
-        "imageUrl": "30-неватом-клапан_воздушный-kv-прямоугольный.png"
+        "imageUrl": "30-неватом-клапан_воздушный-kv-прямоугольный.png",
+        "typesizes": "100x100...1000x1000"
     },
     {
         "id": 31,
@@ -368,8 +428,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/klapany_vozdushnye_uteplennye_kvu/",
-        "imageUrl": "31-неватом-клапан_воздушный-kvu-p-прямоугольный.png"
+        "imageUrl": "31-неватом-клапан_воздушный-kvu-p-прямоугольный.png",
+        "typesizes": "200x300...1200x1200"
     },
     {
         "id": 32,
@@ -380,8 +442,10 @@
         "shape": "Круглый",
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/klapany_obratnye_ko/",
-        "imageUrl": "32-неватом-клапан_обратный-ko-круглый.png"
+        "imageUrl": "32-неватом-клапан_обратный-ko-круглый.png",
+        "typesizes": "160, 200, 250, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250;"
     },
     {
         "id": 33,
@@ -392,8 +456,10 @@
         "shape": "Круглый",
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/klapany_obratnye_ko_babochka/",
-        "imageUrl": "33-неватом-клапан_обратный-ko_типа_бабочка-круглый.png"
+        "imageUrl": "33-неватом-клапан_обратный-ko_типа_бабочка-круглый.png",
+        "typesizes": "100, 125, 160, 200, 250, 315"
     },
     {
         "id": 34,
@@ -404,8 +470,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/klapany_protivopozharnye_normalno_otkrytye_kpno/",
-        "imageUrl": "34-неватом-клапан_противопожарный-kpno-прямоугольный.png"
+        "imageUrl": "34-неватом-клапан_противопожарный-kpno-прямоугольный.png",
+        "typesizes": "150x150...1000x500"
     },
     {
         "id": 35,
@@ -416,8 +484,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/vozdukhovody_pryamougolnye/",
-        "imageUrl": "35-неватом-воздуховод-tdc_iii-прямоугольный.png"
+        "imageUrl": "35-неватом-воздуховод-tdc_iii-прямоугольный.png",
+        "typesizes": "150x150...1200x2000"
     },
     {
         "id": 36,
@@ -428,8 +498,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/zaglushki/",
-        "imageUrl": "36-неватом-заглушка-tdc_iii-прямоугольный.png"
+        "imageUrl": "36-неватом-заглушка-tdc_iii-прямоугольный.png",
+        "typesizes": "150x150...1000x1000"
     },
     {
         "id": 37,
@@ -440,8 +512,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/otvody/",
-        "imageUrl": "37-неватом-отвод-tdc_iii-прямоугольный.png"
+        "imageUrl": "37-неватом-отвод-tdc_iii-прямоугольный.png",
+        "typesizes": "150x150...2000x1200"
     },
     {
         "id": 38,
@@ -452,8 +526,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/diffuzory_dp/",
-        "imageUrl": "38-неватом-диффузор-дп4-прямоугольный.png"
+        "imageUrl": "38-неватом-диффузор-дп4-прямоугольный.png",
+        "typesizes": "300x300, 450x450, 600x600"
     },
     {
         "id": 39,
@@ -464,8 +540,10 @@
         "shape": "Круглый",
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/klapany_vytyazhnye_pritochnye_kv_kp/",
-        "imageUrl": "39-неватом-диффузор-кп_(кв)-круглый.png"
+        "imageUrl": "39-неватом-диффузор-кп_(кв)-круглый.png",
+        "typesizes": "100, 125, 160, 200"
     },
     {
         "id": 40,
@@ -476,8 +554,10 @@
         "shape": "Круглый",
         "manufacturer": "Ровен",
         "graphicType": "Параметрическая",
+        "note": "В компоненте реализована возможность опциального выбора шумоизолирующего короба и крепежного кронштейна",
         "manufUrl": "https://rowen.ru/catalog/kanalnye_ventilyatory/ventilyatory_kanalnye_kruglye_vc/",
-        "imageUrl": "40-ровен-вентилятор-vc-круглый.png"
+        "imageUrl": "40-ровен-вентилятор-vc-круглый.png",
+        "typesizes": "100, 125, 160, 200, 250, 315, 355"
     },
     {
         "id": 41,
@@ -488,8 +568,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Ровен",
         "graphicType": "Параметрическая",
+        "note": "В компоненте реализована возможность опциального выбора шумоизолирующего короба, гибких вставок и различных вариантов электрического исполнения",
         "manufUrl": "https://rowen.ru/catalog/kanalnye_ventilyatory/ventilyatory_kanalnye_pryamougolnye_vcn/",
-        "imageUrl": "41-ровен-вентилятор-vcn-прямоугольный.png"
+        "imageUrl": "41-ровен-вентилятор-vcn-прямоугольный.png",
+        "typesizes": "400x200...1000x500"
     },
     {
         "id": 42,
@@ -500,8 +582,10 @@
         "shape": "Круглый",
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/nagrevateli_vodyanye_nwpk_nwp/",
-        "imageUrl": "42-неватом-нагреватель-nwpk-круглый.png"
+        "imageUrl": "42-неватом-нагреватель-nwpk-круглый.png",
+        "typesizes": "2-х рядные: 160, 200, 250, 315;\n\n3-х рядные: 160, 200, 250, 315"
     },
     {
         "id": 43,
@@ -512,8 +596,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/nagrevateli_vodyanye_nwpk_nwp/",
-        "imageUrl": "43-неватом-нагреватель-nwp-прямоугольный.png"
+        "imageUrl": "43-неватом-нагреватель-nwp-прямоугольный.png",
+        "typesizes": "1-рядные, L и R: 400x200...900x500;\n\n2-х рядные, L и R: 300x150...900x500;\n\n3-х рядные, L и R: 300x150...900x500;\n\n4-х рядные, L и R: 400x200...900x500"
     },
     {
         "id": 44,
@@ -524,8 +610,10 @@
         "shape": "Круглый",
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
+        "note": "Также присутствуют различные типоразмеры по тепловой мощности",
         "manufUrl": "https://www.nevatom.ru/catalog/nagrevateli_elektricheskie_nek_nep/",
-        "imageUrl": "44-неватом-нагреватель-nek-круглый.png"
+        "imageUrl": "44-неватом-нагреватель-nek-круглый.png",
+        "typesizes": "100, 125, 160, 200, 250, 315"
     },
     {
         "id": 45,
@@ -536,8 +624,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
+        "note": "Также присутствуют различные типоразмеры по тепловой мощности",
         "manufUrl": "https://www.nevatom.ru/catalog/nagrevateli_elektricheskie_nek_nep/",
-        "imageUrl": "45-неватом-нагреватель-nep-прямоугольный.png"
+        "imageUrl": "45-неватом-нагреватель-nep-прямоугольный.png",
+        "typesizes": "300x150...1000x500"
     },
     {
         "id": 46,
@@ -548,8 +638,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/okhladiteli_vodyanye_owp/",
-        "imageUrl": "46-неватом-охладитель-owp-прямоугольный.png"
+        "imageUrl": "46-неватом-охладитель-owp-прямоугольный.png",
+        "typesizes": "L и R: 400x200...1000x500"
     },
     {
         "id": 47,
@@ -560,8 +652,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/okhladiteli_freonovye_ofp/",
-        "imageUrl": "47-неватом-охладитель-ofp-прямоугольный.png"
+        "imageUrl": "47-неватом-охладитель-ofp-прямоугольный.png",
+        "typesizes": "L и R: 400x200...1000x500"
     },
     {
         "id": 48,
@@ -572,20 +666,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/sektsii_ultrafioletovoy_bakteritsidnoy_obrabotki_sub/",
-        "imageUrl": "48-неватом-бактерицидная_секция-sub-прямоугольный.png"
-    },
-    {
-        "id": "",
-        "name": "",
-        "siteCategory": "",
-        "technicalCategory": "",
-        "surname": "",
-        "shape": "",
-        "manufacturer": "",
-        "graphicType": "",
-        "manufUrl": "",
-        "imageUrl": ""
+        "imageUrl": "48-неватом-бактерицидная_секция-sub-прямоугольный.png",
+        "typesizes": "400x200...1000x500"
     },
     {
         "id": 50,
@@ -596,8 +680,10 @@
         "shape": "Круглый",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Параметрическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "50-нанософт_разработка-воздуховод-воздуховод-круглый.png"
+        "imageUrl": "50-нанософт_разработка-воздуховод-воздуховод-круглый.png",
+        "typesizes": "100, 125, 200"
     },
     {
         "id": 51,
@@ -608,8 +694,10 @@
         "shape": "Круглый",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Параметрическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "51-нанософт_разработка-крестовина-крестовина-круглый.png"
+        "imageUrl": "51-нанософт_разработка-крестовина-крестовина-круглый.png",
+        "typesizes": "180x(100, 100)"
     },
     {
         "id": 52,
@@ -620,8 +708,10 @@
         "shape": "Круглый",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Параметрическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "52-нанософт_разработка-отвод-отвод-круглый.png"
+        "imageUrl": "52-нанософт_разработка-отвод-отвод-круглый.png",
+        "typesizes": "100, 125, 160"
     },
     {
         "id": 53,
@@ -632,8 +722,10 @@
         "shape": "Круглый",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Параметрическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "53-нанософт_разработка-переход-переход-круглый.png"
+        "imageUrl": "53-нанософт_разработка-переход-переход-круглый.png",
+        "typesizes": "125x100, 160x100, 160x125"
     },
     {
         "id": 54,
@@ -644,8 +736,10 @@
         "shape": "Круглый",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Параметрическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "54-нанософт_разработка-тройник-тройник-круглый.png"
+        "imageUrl": "54-нанософт_разработка-тройник-тройник-круглый.png",
+        "typesizes": "100x100, 125x100, 160x100"
     },
     {
         "id": 55,
@@ -656,8 +750,10 @@
         "shape": "Круглый",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Параметрическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "55-нанософт_разработка-заглушка-заглушка-круглый.png"
+        "imageUrl": "55-нанософт_разработка-заглушка-заглушка-круглый.png",
+        "typesizes": 100
     },
     {
         "id": 56,
@@ -668,8 +764,10 @@
         "shape": "Круглый",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Параметрическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "56-нанософт_разработка-крестовина-крестовина-круглый.png"
+        "imageUrl": "56-нанософт_разработка-крестовина-крестовина-круглый.png",
+        "typesizes": "100x(100, 100)"
     },
     {
         "id": 57,
@@ -680,8 +778,10 @@
         "shape": "Круглый",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Параметрическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "57-нанософт_разработка-отвод-отвод-круглый.png"
+        "imageUrl": "57-нанософт_разработка-отвод-отвод-круглый.png",
+        "typesizes": 100
     },
     {
         "id": 58,
@@ -692,8 +792,10 @@
         "shape": "Круглый",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Параметрическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "58-нанософт_разработка-переход-переход-круглый.png"
+        "imageUrl": "58-нанософт_разработка-переход-переход-круглый.png",
+        "typesizes": "150x100"
     },
     {
         "id": 59,
@@ -704,8 +806,10 @@
         "shape": "Круглый",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Параметрическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "59-нанософт_разработка-тройник-тройник-круглый.png"
+        "imageUrl": "59-нанософт_разработка-тройник-тройник-круглый.png",
+        "typesizes": "150x150"
     },
     {
         "id": 60,
@@ -716,8 +820,10 @@
         "shape": "Круглый",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Параметрическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "60-нанософт_разработка-трубопровод-трубопровод-круглый.png"
+        "imageUrl": "60-нанософт_разработка-трубопровод-трубопровод-круглый.png",
+        "typesizes": 150
     },
     {
         "id": 61,
@@ -728,8 +834,10 @@
         "shape": "Круглый",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "61-нанософт_разработка-воздуховод-воздуховод-круглый.png"
+        "imageUrl": "61-нанософт_разработка-воздуховод-воздуховод-круглый.png",
+        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400, 1600, 1800, 2000"
     },
     {
         "id": 62,
@@ -740,8 +848,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "62-нанософт_разработка-воздуховод-воздуховод-прямоугольный.png"
+        "imageUrl": "62-нанософт_разработка-воздуховод-воздуховод-прямоугольный.png",
+        "typesizes": "100x100...2000x2000"
     },
     {
         "id": 63,
@@ -752,8 +862,10 @@
         "shape": "Круглый",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "63-нанософт_разработка-заглушка-заглушка-круглый.png"
+        "imageUrl": "63-нанософт_разработка-заглушка-заглушка-круглый.png",
+        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250"
     },
     {
         "id": 64,
@@ -764,8 +876,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "64-нанософт_разработка-заглушка-заглушка-прямоугольный.png"
+        "imageUrl": "64-нанософт_разработка-заглушка-заглушка-прямоугольный.png",
+        "typesizes": "100x100...1000x2000"
     },
     {
         "id": 65,
@@ -776,8 +890,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "65-нанософт_разработка-крестовина-крестовина-прямоугольный.png"
+        "imageUrl": "65-нанософт_разработка-крестовина-крестовина-прямоугольный.png",
+        "typesizes": "100x100...2000x2000"
     },
     {
         "id": 66,
@@ -788,8 +904,10 @@
         "shape": "Круглый",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "66-нанософт_разработка-крестовина-крестовина-круглый.png"
+        "imageUrl": "66-нанософт_разработка-крестовина-крестовина-круглый.png",
+        "typesizes": "100x(100, 100)...800x(800, 800)"
     },
     {
         "id": 67,
@@ -800,8 +918,10 @@
         "shape": "Круглый",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "67-нанософт_разработка-муфта-муфта-круглый.png"
+        "imageUrl": "67-нанософт_разработка-муфта-муфта-круглый.png",
+        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400"
     },
     {
         "id": 68,
@@ -812,8 +932,10 @@
         "shape": "Круглый",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "68-нанософт_разработка-муфта-ниппель-круглый.png"
+        "imageUrl": "68-нанософт_разработка-муфта-ниппель-круглый.png",
+        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400"
     },
     {
         "id": 69,
@@ -824,8 +946,10 @@
         "shape": "Круглый",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "69-нанософт_разработка-отвод-отвод-круглый.png"
+        "imageUrl": "69-нанософт_разработка-отвод-отвод-круглый.png",
+        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400"
     },
     {
         "id": 70,
@@ -836,8 +960,10 @@
         "shape": "Круглый",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "70-нанософт_разработка-отвод-отвод-круглый.png"
+        "imageUrl": "70-нанософт_разработка-отвод-отвод-круглый.png",
+        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400"
     },
     {
         "id": 71,
@@ -848,8 +974,10 @@
         "shape": "Круглый",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "71-нанософт_разработка-отвод-отвод-круглый.png"
+        "imageUrl": "71-нанософт_разработка-отвод-отвод-круглый.png",
+        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400"
     },
     {
         "id": 72,
@@ -860,8 +988,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "72-нанософт_разработка-отвод-отвод-прямоугольный.png"
+        "imageUrl": "72-нанософт_разработка-отвод-отвод-прямоугольный.png",
+        "typesizes": "100x100...1400x900"
     },
     {
         "id": 73,
@@ -872,8 +1002,10 @@
         "shape": "Круглый",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "73-нанософт_разработка-отвод-отвод-круглый.png"
+        "imageUrl": "73-нанософт_разработка-отвод-отвод-круглый.png",
+        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900"
     },
     {
         "id": 74,
@@ -884,8 +1016,10 @@
         "shape": "Круглый",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "74-нанософт_разработка-отвод-отвод-круглый.png"
+        "imageUrl": "74-нанософт_разработка-отвод-отвод-круглый.png",
+        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900"
     },
     {
         "id": 75,
@@ -896,8 +1030,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "75-нанософт_разработка-отвод-отвод-прямоугольный.png"
+        "imageUrl": "75-нанософт_разработка-отвод-отвод-прямоугольный.png",
+        "typesizes": "100x100...1400x900"
     },
     {
         "id": 76,
@@ -908,8 +1044,10 @@
         "shape": "Круглый",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "76-нанософт_разработка-переход-переход-круглый.png"
+        "imageUrl": "76-нанософт_разработка-переход-переход-круглый.png",
+        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900"
     },
     {
         "id": 77,
@@ -920,8 +1058,10 @@
         "shape": "Различные",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "77-нанософт_разработка-переход-переход-различные.png"
+        "imageUrl": "77-нанософт_разработка-переход-переход-различные.png",
+        "typesizes": "100x(100x100)...1250x(1200x800)"
     },
     {
         "id": 78,
@@ -932,8 +1072,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "78-нанософт_разработка-переход-переход-прямоугольный.png"
+        "imageUrl": "78-нанософт_разработка-переход-переход-прямоугольный.png",
+        "typesizes": "(150x100)x(100x100)...(2000x1400)x(1800x500)"
     },
     {
         "id": 79,
@@ -944,8 +1086,10 @@
         "shape": "Круглый",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "79-нанософт_разработка-тройник-тройник-круглый.png"
+        "imageUrl": "79-нанософт_разработка-тройник-тройник-круглый.png",
+        "typesizes": "100x100...1250x1250"
     },
     {
         "id": 80,
@@ -956,8 +1100,10 @@
         "shape": "Прямоугольный",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
+        "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "80-нанософт_разработка-тройник-тройник-прямоугольный.png"
+        "imageUrl": "80-нанософт_разработка-тройник-тройник-прямоугольный.png",
+        "typesizes": "(150x150)x(100x100)...(2000x1400)x(1400x1400)"
     },
     {
         "id": 81,
@@ -968,8 +1114,10 @@
         "shape": "Не применимо",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Не применимо",
+        "note": "Выноска автоматически определяет форму воздуховода и делает выбор между обозначением круглого и прямоугольного воздуховодов",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "81-нанософт_разработка-выноска-воздуховод_(размер_скорость_расход_потеря_давления)-не_применимо.png"
+        "imageUrl": "81-нанософт_разработка-выноска-воздуховод_(размер_скорость_расход_потеря_давления)-не_применимо.png",
+        "typesizes": ""
     },
     {
         "id": 82,
@@ -980,8 +1128,10 @@
         "shape": "Не применимо",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Не применимо",
+        "note": "Выноска показывает суммарные значения потерь давления в системе. Предназначена для компонента Вход в систему",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "82-нанософт_разработка-выноска-вход_в_систему_(полная_потеря_давления)-не_применимо.png"
+        "imageUrl": "82-нанософт_разработка-выноска-вход_в_систему_(полная_потеря_давления)-не_применимо.png",
+        "typesizes": ""
     },
     {
         "id": 83,
@@ -992,8 +1142,10 @@
         "shape": "Не применимо",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Не применимо",
+        "note": "Выноска может быть применена к любому элементу со свойством Потеря давления. Внутри компонента добавлно два варианта выноски: с именем компонента под выноской и без имени",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "83-нанософт_разработка-выноска-универсальная_(потеря_давления)-не_применимо.png"
+        "imageUrl": "83-нанософт_разработка-выноска-универсальная_(потеря_давления)-не_применимо.png",
+        "typesizes": ""
     },
     {
         "id": 84,
@@ -1004,103 +1156,65 @@
         "shape": "Не применимо",
         "manufacturer": "Нанософт разработка",
         "graphicType": "Не применимо",
+        "note": "Выноска может быть применена к любому элементу",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "84-нанософт_разработка-выноска-универсальная_(наименование)-не_применимо.png"
+        "imageUrl": "84-нанософт_разработка-выноска-универсальная_(наименование)-не_применимо.png",
+        "typesizes": ""
     },
     {
-        "id": "",
-        "name": "",
-        "siteCategory": "",
-        "technicalCategory": "",
+        "id": 85,
+        "name": "Универсальная (Свободный текст)",
+        "siteCategory": "Аннотации",
+        "technicalCategory": "Выноска",
         "surname": "",
-        "shape": "",
-        "manufacturer": "",
-        "graphicType": "",
-        "manufUrl": "",
-        "imageUrl": ""
+        "shape": "Не применимо",
+        "manufacturer": "Нанософт разработка",
+        "graphicType": "Не применимо",
+        "note": "",
+        "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
+        "imageUrl": "85-нанософт_разработка-выноска-универсальная_(свободный_текст)-не_применимо.png",
+        "typesizes": ""
     },
     {
-        "id": "",
-        "name": "",
-        "siteCategory": "",
-        "technicalCategory": "",
-        "surname": "",
-        "shape": "",
-        "manufacturer": "",
-        "graphicType": "",
-        "manufUrl": "",
-        "imageUrl": ""
+        "id": 86,
+        "name": "KVR",
+        "siteCategory": "Оборудование",
+        "technicalCategory": "Вентилятор",
+        "surname": "канальный с кронштейном",
+        "shape": "Круглый",
+        "manufacturer": "NED",
+        "graphicType": "Параметрическая",
+        "note": "",
+        "manufUrl": "https://air-ned.com/tovar-5.html",
+        "imageUrl": "86-ned-вентилятор-kvr-круглый.png",
+        "typesizes": "100, 125, 160, 200, 250, 315"
     },
     {
-        "id": "",
-        "name": "",
-        "siteCategory": "",
-        "technicalCategory": "",
-        "surname": "",
-        "shape": "",
-        "manufacturer": "",
-        "graphicType": "",
-        "manufUrl": "",
-        "imageUrl": ""
+        "id": 87,
+        "name": "IRE",
+        "siteCategory": "Оборудование",
+        "technicalCategory": "Вентилятор",
+        "surname": "канальный",
+        "shape": "Прямоугольный",
+        "manufacturer": "Ostberg",
+        "graphicType": "Статическая",
+        "note": "",
+        "manufUrl": "http://www.arktika.ru/html/ire500.htm",
+        "imageUrl": "87-ostberg-вентилятор-ire-прямоугольный.png",
+        "typesizes": "160, 250"
     },
     {
-        "id": "",
-        "name": "",
-        "siteCategory": "",
-        "technicalCategory": "",
-        "surname": "",
-        "shape": "",
-        "manufacturer": "",
-        "graphicType": "",
-        "manufUrl": "",
-        "imageUrl": ""
-    },
-    {
-        "id": "",
-        "name": "",
-        "siteCategory": "",
-        "technicalCategory": "",
-        "surname": "",
-        "shape": "",
-        "manufacturer": "",
-        "graphicType": "",
-        "manufUrl": "",
-        "imageUrl": ""
-    },
-    {
-        "id": "",
-        "name": "",
-        "siteCategory": "",
-        "technicalCategory": "",
-        "surname": "",
-        "shape": "",
-        "manufacturer": "",
-        "graphicType": "",
-        "manufUrl": "",
-        "imageUrl": ""
-    },
-    {
-        "id": "",
-        "name": "",
-        "siteCategory": "",
-        "technicalCategory": "",
-        "surname": "",
-        "shape": "",
-        "manufacturer": "",
-        "graphicType": "",
-        "manufUrl": "",
-        "imageUrl": ""
-    },
-    {
-        "id": "",
-        "name": "",
-        "siteCategory": "",
-        "technicalCategory": "",
-        "surname": "",
-        "shape": "",
-        "manufacturer": "",
-        "graphicType": "",
-        "manufUrl": "",
-        "imageUrl": "84-нанософт_разработка-выноска-универсальная_(наименование)-не_применимо.png"
+        "id": 88,
+        "name": "RSK",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан воздушный",
+        "surname": "обратный",
+        "shape": "Круглый",
+        "manufacturer": "Арктос",
+        "graphicType": "Статическая",
+        "note": "",
+        "manufUrl": "http://www.arktika.ru/html/rsk.htm",
+        "imageUrl": "88-арктос-клапан_воздушный-rsk-круглый.png",
+        "typesizes": "160, 250"
     }
 ]
