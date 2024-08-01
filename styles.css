@@ -131,6 +131,7 @@ main {
     width: 100%;
     aspect-ratio: 16 / 9;
     object-fit: cover;
+    filter: grayscale(100%);
 }
 
 .component-details {
@@ -216,8 +217,7 @@ main {
 }
 
 #modal-image {
-    max-width: 100%; /* Изображение не будет шире контейнера */
-    max-height: 50vh; /* Максимальная высота изображения */
+    max-height: 45vh; /* Максимальная высота изображения */
     width: auto; /* Автоматическая ширина для сохранения пропорций */
     height: auto; /* Автоматическая высота для сохранения пропорций */
     display: block;
