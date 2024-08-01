@@ -50,43 +50,47 @@
     function renderCategoryFilters(filterType) {
         const container = document.getElementById(filterType);
         container.innerHTML = '';
-
-        Object.entries(filters[filterType]).forEach(([category, data]) => {
+    
+        const sortedCategories = Object.entries(filters[filterType]).sort(([a], [b]) => a.localeCompare(b));
+    
+        sortedCategories.forEach(([category, data]) => {
             const categoryDiv = document.createElement('div');
             categoryDiv.className = 'filter-category';
-
+    
             const categoryCheckbox = document.createElement('input');
             categoryCheckbox.type = 'checkbox';
             categoryCheckbox.id = `${filterType}-${category}`;
             categoryCheckbox.checked = data.checked;
             categoryCheckbox.addEventListener('change', () => handleCategoryChange(filterType, category));
-
+    
             const categoryLabel = document.createElement('label');
             categoryLabel.htmlFor = categoryCheckbox.id;
             categoryLabel.textContent = category;
-
+    
             categoryDiv.appendChild(categoryCheckbox);
             categoryDiv.appendChild(categoryLabel);
-
+    
             container.appendChild(categoryDiv);
-
-            Object.entries(data.subcategories).forEach(([subcategory, checked]) => {
+    
+            const sortedSubcategories = Object.entries(data.subcategories).sort(([a], [b]) => a.localeCompare(b));
+    
+            sortedSubcategories.forEach(([subcategory, checked]) => {
                 const subcategoryDiv = document.createElement('div');
                 subcategoryDiv.className = 'filter-subcategory';
-
+    
                 const subCheckbox = document.createElement('input');
                 subCheckbox.type = 'checkbox';
                 subCheckbox.id = `${filterType}-${category}-${subcategory}`;
                 subCheckbox.checked = checked;
                 subCheckbox.addEventListener('change', () => handleSubcategoryChange(filterType, category, subcategory));
-
+    
                 const subLabel = document.createElement('label');
                 subLabel.htmlFor = subCheckbox.id;
                 subLabel.textContent = subcategory;
-
+    
                 subcategoryDiv.appendChild(subCheckbox);
                 subcategoryDiv.appendChild(subLabel);
-
+    
                 container.appendChild(subcategoryDiv);
             });
         });
