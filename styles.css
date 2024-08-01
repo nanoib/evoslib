@@ -153,6 +153,14 @@ main {
     line-height: 1.2;
 }
 
+.filter-divider {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px 0;
+    margin-right: 15%;
+}
+
 .filter-toggle {
     display: none;
     position: fixed;
@@ -237,8 +245,8 @@ main {
     background: #ccc;
     margin-left: 7%;
     margin-right: 7%;
-    margin-top: 30px;
-    margin-bottom: 5%;
+    margin-top: 25px;
+    margin-bottom: 30px;
 }
 
 #modal-link a {
