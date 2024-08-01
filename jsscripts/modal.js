@@ -9,6 +9,10 @@
 
         let modalContent = '';
 
+        if (component.siteCategory) {
+            modalContent += `<p><strong>Категория:</strong> <span>${component.siteCategory}</span></p>`;
+        }
+
         if (component.technicalCategory) {
             modalContent += `<p><strong>Подкатегория:</strong> <span>${component.technicalCategory}</span></p>`;
         }
