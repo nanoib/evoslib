@@ -16,5 +16,9 @@
             })
             .catch(error => console.error('Error loading JSON data:', error));
     });
+    
+    // Add event listener for reset button
+    document.getElementById('resetFilters').addEventListener('click', resetFilters);
+    document.getElementById('resetFilters').style.display = 'none';
 
 })();
