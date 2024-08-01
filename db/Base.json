@@ -1108,7 +1108,7 @@
     {
         "id": 81,
         "name": "Воздуховод (Размер, Скорость, Расход, Потеря давления)",
-        "siteCategory": "Аннотации",
+        "siteCategory": "Оформление",
         "technicalCategory": "Выноска",
         "surname": "",
         "shape": "Не применимо",
@@ -1122,7 +1122,7 @@
     {
         "id": 82,
         "name": "Вход в систему (Полная потеря давления)",
-        "siteCategory": "Аннотации",
+        "siteCategory": "Оформление",
         "technicalCategory": "Выноска",
         "surname": "",
         "shape": "Не применимо",
@@ -1136,7 +1136,7 @@
     {
         "id": 83,
         "name": "Универсальная (Потеря давления)",
-        "siteCategory": "Аннотации",
+        "siteCategory": "Оформление",
         "technicalCategory": "Выноска",
         "surname": "",
         "shape": "Не применимо",
@@ -1150,7 +1150,7 @@
     {
         "id": 84,
         "name": "Универсальная (Наименование)",
-        "siteCategory": "Аннотации",
+        "siteCategory": "Оформление",
         "technicalCategory": "Выноска",
         "surname": "",
         "shape": "Не применимо",
@@ -1164,7 +1164,7 @@
     {
         "id": 85,
         "name": "Универсальная (Свободный текст)",
-        "siteCategory": "Аннотации",
+        "siteCategory": "Оформление",
         "technicalCategory": "Выноска",
         "surname": "",
         "shape": "Не применимо",
