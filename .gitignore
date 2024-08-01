@@ -1,3 +1,4 @@
 /pyscripts/cropwhite/to_crop/*.png
 /pyscripts/cropwhite/to_crop_cropped/*.png
 ~$*
+/components
