@@ -2,4 +2,5 @@
 /pyscripts/cropwhite/to_crop_cropped/*.png
 ~$*
 /components
+!/components/components.7z
 /prom
