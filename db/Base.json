@@ -3,6 +3,7 @@
         "id": 1,
         "name": "ДПУ-М",
         "version": 1,
+        "md5": "ab025eae4c300876f39be86ae03c1d51",
         "siteCategory": "Воздухораспределители",
         "technicalCategory": "Диффузор",
         "surname": "универсальный",
@@ -11,13 +12,13 @@
         "graphicType": "Параметрическая",
         "note": "",
         "manufUrl": "http://www.arktika.ru/html/dpum.htm",
-        "imageUrl": "1.png",
         "typesizes": "100, 125, 160, 200, 250"
     },
     {
         "id": 2,
         "name": "АМН",
         "version": 1,
+        "md5": "7b96d59a3df69f37ef05ae92088786c8",
         "siteCategory": "Воздухораспределители",
         "technicalCategory": "Решетка",
         "surname": "жалюзийная",
@@ -26,13 +27,13 @@
         "graphicType": "Параметрическая",
         "note": "В параметрической dwg-графике реализована возможность поворота угла ламелей по параметру. Этот параметр при необходимости может быть вынесен в параметры nanoCAD BIM Вентиляция",
         "manufUrl": "http://www.arktika.ru/html/amn-amrm-adn-adrm.htm",
-        "imageUrl": "2.png",
         "typesizes": "200x200"
     },
     {
         "id": 3,
         "name": "КПУ-1Н, канальный, прямоугольный",
         "version": 1,
+        "md5": "841acf9013a692a87f590b360f37a937",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан противопожарный",
         "surname": "",
@@ -41,13 +42,13 @@
         "graphicType": "Статическая",
         "note": "К компоненту приложена справка производителя: файл Прочтите меня КПУ-1Н-2ф.doc",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/kpu-1n-pryamougolnye",
-        "imageUrl": "3.png",
         "typesizes": "1хЭМП: 100x100...1400x2000;\n\n1xЭП: 100x100...1400x2000;\n\n1xЭПВ: 100x100...1400x2000;\n\n2xЭМП: 500x1900...1400x2000"
     },
     {
         "id": 4,
         "name": "КПУ-1Н, стеновой",
         "version": 1,
+        "md5": "8f521200e342061ad3f1136ca14d7693",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан противопожарный",
         "surname": "",
@@ -56,13 +57,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/kpu-1n-pryamougolnye",
-        "imageUrl": "4.png",
         "typesizes": "1хЭМП: 270x300...2000x1400;\n\n1xЭП: 250x300...2000x1400;\n\n2xЭМП: 1150x300...2000x1400"
     },
     {
         "id": 5,
         "name": "КПУ-1Н, канальный, круглый",
         "version": 1,
+        "md5": "df345f0829a77741e6787f28e60004ba",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан противопожарный",
         "surname": "",
@@ -71,13 +72,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-1n-kruglye",
-        "imageUrl": "5.png",
         "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
     {
         "id": 6,
         "name": "КПУ-1Н, ниппельный",
         "version": 1,
+        "md5": "196f80b500eb91830424ce5ce612397f",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан противопожарный",
         "surname": "",
@@ -86,13 +87,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-1n-kruglye",
-        "imageUrl": "6.png",
         "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
     {
         "id": 7,
         "name": "КПУ-2Н, канальный, дымовой",
         "version": 1,
+        "md5": "cda7b627bcf44ae1916f6b98eadc5243",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан противопожарный",
         "surname": "",
@@ -101,13 +102,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-2n-kruglye",
-        "imageUrl": "7.png",
         "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
     {
         "id": 8,
         "name": "КПУ-2Н, канальный, нормально открытый",
         "version": 1,
+        "md5": "bfe39e4bc63bee02208e11e8da3128df",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан противопожарный",
         "surname": "",
@@ -116,13 +117,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-2n-kruglye",
-        "imageUrl": "8.png",
         "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
     {
         "id": 9,
         "name": "КПУ-2Н, канальный, нормально закрытый",
         "version": 1,
+        "md5": "a350f25b01d5d3a1f12131ea65a1bd8a",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан противопожарный",
         "surname": "",
@@ -131,13 +132,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-2n-kruglye",
-        "imageUrl": "9.png",
         "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
     {
         "id": 10,
         "name": "КПУ-2Н, ниппельный, дымовой",
         "version": 1,
+        "md5": "7cb3186ba06a817bcf50a61721f19991",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан противопожарный",
         "surname": "",
@@ -146,13 +147,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-2n-kruglye",
-        "imageUrl": "10.png",
         "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
     {
         "id": 11,
         "name": "КПУ-2Н, ниппельный, нормально открытый",
         "version": 1,
+        "md5": "59d08e254fd856a3999347fc9decaebd",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан противопожарный",
         "surname": "",
@@ -161,13 +162,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-2n-kruglye",
-        "imageUrl": "11.png",
         "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
     {
         "id": 12,
         "name": "КПУ-2Н, ниппельный, нормально закрытый",
         "version": 1,
+        "md5": "5026141d680ec7389cc9ff1a436253a0",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан противопожарный",
         "surname": "",
@@ -176,13 +177,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-2n-kruglye",
-        "imageUrl": "12.png",
         "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
     {
         "id": 13,
         "name": "КПУ-2Н-ВД, канальный, нормально открытый",
         "version": 1,
+        "md5": "0b5a927f5ca0871e8381865e10b43177",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан противопожарный",
         "surname": "",
@@ -191,13 +192,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/kpu-2n-pryamougolnye",
-        "imageUrl": "13.png",
         "typesizes": "1xЭП: 100x100...1000x900;\n1xЭПВ: 100x100...1000x1500;\n2xЭП: 100x1000...1000x1500"
     },
     {
         "id": 14,
         "name": "КПУ-2Н-ВД, канальный, нормально закрытый",
         "version": 1,
+        "md5": "95552d5b1b1c47a3531781219083398c",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан противопожарный",
         "surname": "",
@@ -206,13 +207,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/kpu-2n-pryamougolnye",
-        "imageUrl": "14.png",
         "typesizes": "1xЭП: 100x100...1000x1500;\n1xЭПВ: 100x100...1000x1500;\n2xЭП: 100x1000...1000x1500"
     },
     {
         "id": 15,
         "name": "КПУ-ДД, канальный",
         "version": 1,
+        "md5": "259733e60ec8e6e72a275070cbc9d2ec",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан противопожарный",
         "surname": "двойного действия",
@@ -221,13 +222,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/kpu-dd-pryamougolnye",
-        "imageUrl": "15.png",
         "typesizes": "1xЭП: 100x100...1200x1000;\n\n1xЭПВ: 100x100...1200x1000"
     },
     {
         "id": 16,
         "name": "КПУ-ДД, стеновой",
         "version": 1,
+        "md5": "5507803f8ae0598ada316d8697e4aa50",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан противопожарный",
         "surname": "двойного действия",
@@ -236,13 +237,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/kpu-dd-pryamougolnye",
-        "imageUrl": "16.png",
         "typesizes": "1xЭП: 250x300...1000x1200"
     },
     {
         "id": 17,
         "name": "КПУ-ДД, канальный",
         "version": 1,
+        "md5": "a77830bb9c6e9a8bff63db52208d4a50",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан противопожарный",
         "surname": "двойного действия",
@@ -251,13 +252,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-dd-kruglye",
-        "imageUrl": "17.png",
         "typesizes": "1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
     {
         "id": 18,
         "name": "КПУ-ДД, ниппельный",
         "version": 1,
+        "md5": "e25572a78753ed063699bfbf23a50cb1",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан противопожарный",
         "surname": "двойного действия",
@@ -266,13 +267,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-dd-kruglye",
-        "imageUrl": "18.png",
         "typesizes": "1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
     {
         "id": 19,
         "name": "ОКСИД, канальный",
         "version": 1,
+        "md5": "1e8da8202a20a093c6023b35caa96241",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан противопожарный",
         "surname": "избыточного давления",
@@ -281,13 +282,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/oksid",
-        "imageUrl": "19.png",
         "typesizes": "200x200...1200x1200"
     },
     {
         "id": 20,
         "name": "ОКСИД, стеновой",
         "version": 1,
+        "md5": "559871551bc4f18ca67c9d80f16ccf23",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан противопожарный",
         "surname": "избыточного давления",
@@ -296,13 +297,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/oksid",
-        "imageUrl": "20.png",
         "typesizes": "200x230...1200x1200"
     },
     {
         "id": 21,
         "name": "ОКСИД, канальный, кассетный",
         "version": 1,
+        "md5": "db6315cfe675bf5f568474737033e259",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан противопожарный",
         "surname": "избыточного давления",
@@ -311,13 +312,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/oksid",
-        "imageUrl": "21.png",
         "typesizes": "2-х секционные: 1210x200...2460x1200;\n3-х секционные: 250x1200...1200x2460;\n4-х секционные:\n1210x1201...2460x2460"
     },
     {
         "id": 22,
         "name": "ПРОК, круглый",
         "version": 1,
+        "md5": "e91c7ecb51762ce3915ead00b1f99628",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан противопожарный",
         "surname": "обратный",
@@ -326,13 +327,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/prok-kruglye",
-        "imageUrl": "22.png",
         "typesizes": "355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250;"
     },
     {
         "id": 23,
         "name": "ПРОК, прямоугольный",
         "version": 1,
+        "md5": "535809c2c21e05b32333aae16d638962",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан противопожарный",
         "surname": "обратный",
@@ -341,13 +342,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/prok-pryamougolnye",
-        "imageUrl": "23.png",
         "typesizes": "300x300...1250x1250"
     },
     {
         "id": 24,
         "name": "ГТК",
         "version": 1,
+        "md5": "c5d3cd77d93e61c742a234f11d1b8d3e",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Шумоглушитель",
         "surname": "трубчатый",
@@ -356,13 +357,13 @@
         "graphicType": "Параметрическая",
         "note": "",
         "manufUrl": "https://rowen.ru/catalog/shumoglushiteli/shumoglushiteli_trubchatye_kruglye_gtk/",
-        "imageUrl": "24.png",
         "typesizes": "Длина 600: 100, 125, 160, 200, 250, 315, 355, 400, 500;\n\nДлина 900: 100, 125, 160, 200, 250, 315, 355, 400, 500"
     },
     {
         "id": 25,
         "name": "ГТК",
         "version": 1,
+        "md5": "fde8437cc6c76c0761f36351db855dd2",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Шумоглушитель",
         "surname": "трубчатый",
@@ -371,13 +372,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/shumoglushiteli_trubchatye_kruglye_gtk/",
-        "imageUrl": "25.png",
         "typesizes": "Длина 600: 100, 125, 160, 200, 250, 315, 355, 400;\n\nДлина 900: 100, 125, 160, 200, 250, 315, 355, 400, 500, 630"
     },
     {
         "id": 26,
         "name": "ГТП",
         "version": 1,
+        "md5": "5ec0c1da4d151b773f5f61255bd73458",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Шумоглушитель",
         "surname": "трубчатый",
@@ -386,13 +387,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/shumoglushiteli_trubchatye_pryamougolnye_gtp/",
-        "imageUrl": "26.png",
         "typesizes": "Длина 600: 300x150...1000x500;\n\nДлина 900: 300x150...1000x500"
     },
     {
         "id": 27,
         "name": "Р, круглая",
         "version": 1,
+        "md5": "e12d5ce3fea23e9d2676297a116d8bd7",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан воздушный",
         "surname": "ручной",
@@ -401,13 +402,13 @@
         "graphicType": "Параметрическая",
         "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/zaslonki_ruchnye_r/",
-        "imageUrl": "27.png",
         "typesizes": "225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250"
     },
     {
         "id": 28,
         "name": "Р, прямоугольная",
         "version": 1,
+        "md5": "74000cfae7eee018bfc735f940bf47eb",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан воздушный",
         "surname": "ручной",
@@ -416,13 +417,13 @@
         "graphicType": "Параметрическая",
         "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/zaslonki_ruchnye_r/",
-        "imageUrl": "28.png",
         "typesizes": "100х100...500х1000"
     },
     {
         "id": 29,
         "name": "KVK",
         "version": 1,
+        "md5": "608842b69dfb225e63ec2450e78ab67a",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан воздушный",
         "surname": "",
@@ -431,13 +432,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/klapany_vozdushnye_kruglye_kvk/",
-        "imageUrl": "29.png",
         "typesizes": "100, 125, 160, 200, 250, 315, 400, 500, 630"
     },
     {
         "id": 30,
         "name": "KV",
         "version": 1,
+        "md5": "f1d5f166f9b043a855be5e41c9e36ccd",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан воздушный",
         "surname": "",
@@ -446,13 +447,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/klapany_vozdushnye_alyuminievye_kv/",
-        "imageUrl": "30.png",
         "typesizes": "100x100...1000x1000"
     },
     {
         "id": 31,
         "name": "KVU-P",
         "version": 1,
+        "md5": "26f9097501e6dd15c5527ad4145e3981",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан воздушный",
         "surname": "утепленный",
@@ -461,13 +462,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/klapany_vozdushnye_uteplennye_kvu/",
-        "imageUrl": "31.png",
         "typesizes": "200x300...1200x1200"
     },
     {
         "id": 32,
         "name": "KO",
         "version": 1,
+        "md5": "2148736d701a5728fa45fbfcb953a86c",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан обратный",
         "surname": "",
@@ -476,13 +477,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/klapany_obratnye_ko/",
-        "imageUrl": "32.png",
         "typesizes": "160, 200, 250, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250;"
     },
     {
         "id": 33,
         "name": "KO типа _бабочка_",
         "version": 1,
+        "md5": "0c93303d538895ccde1119fb2bdc6e83",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан обратный",
         "surname": "",
@@ -491,13 +492,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/klapany_obratnye_ko_babochka/",
-        "imageUrl": "33.png",
         "typesizes": "100, 125, 160, 200, 250, 315"
     },
     {
         "id": 34,
         "name": "KPNO",
         "version": 1,
+        "md5": "a11d61adc131c9229b55f26a0ebc922a",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан противопожарный",
         "surname": "нормально открытый",
@@ -506,13 +507,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/klapany_protivopozharnye_normalno_otkrytye_kpno/",
-        "imageUrl": "34.png",
         "typesizes": "150x150...1000x500"
     },
     {
         "id": 35,
         "name": "TDC III, воздуховод",
         "version": 1,
+        "md5": "20f9ac1377860caf9224bcffd25c91e0",
         "siteCategory": "Элементы воздуховодов",
         "technicalCategory": "Воздуховод",
         "surname": "",
@@ -521,13 +522,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/vozdukhovody_pryamougolnye/",
-        "imageUrl": "35.png",
         "typesizes": "150x150...1200x2000"
     },
     {
         "id": 36,
         "name": "TDC III, заглушка",
         "version": 1,
+        "md5": "b1d8991615c4ec44d1875e81ce45cb47",
         "siteCategory": "Элементы воздуховодов",
         "technicalCategory": "Заглушка",
         "surname": "",
@@ -536,13 +537,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/zaglushki/",
-        "imageUrl": "36.png",
         "typesizes": "150x150...1000x1000"
     },
     {
         "id": 37,
         "name": "TDC III, отвод",
         "version": 1,
+        "md5": "8a70ff2b2cf167bf0a088b7b0ecf348e",
         "siteCategory": "Элементы воздуховодов",
         "technicalCategory": "Отвод",
         "surname": "с полкой",
@@ -551,13 +552,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/otvody/",
-        "imageUrl": "37.png",
         "typesizes": "150x150...2000x1200"
     },
     {
         "id": 38,
         "name": "ДП4",
         "version": 1,
+        "md5": "851bbb07c7fb8389a97d8912dd382ba0",
         "siteCategory": "Воздухораспределители",
         "technicalCategory": "Диффузор",
         "surname": "квадратный",
@@ -566,13 +567,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/diffuzory_dp/",
-        "imageUrl": "38.png",
         "typesizes": "300x300, 450x450, 600x600"
     },
     {
         "id": 39,
         "name": "КП (КВ)",
         "version": 1,
+        "md5": "05a15492b05120241c69d81f53fcb897",
         "siteCategory": "Воздухораспределители",
         "technicalCategory": "Диффузор",
         "surname": "регулируемый дискового типа",
@@ -581,13 +582,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/klapany_vytyazhnye_pritochnye_kv_kp/",
-        "imageUrl": "39.png",
         "typesizes": "100, 125, 160, 200"
     },
     {
         "id": 40,
         "name": "VC",
         "version": 1,
+        "md5": "ef2f12c96d0681a1f5d45a929a36e476",
         "siteCategory": "Оборудование",
         "technicalCategory": "Вентилятор",
         "surname": "канальный с шумоизолирующим коробом и кронштейном",
@@ -596,13 +597,13 @@
         "graphicType": "Параметрическая",
         "note": "В компоненте реализована возможность опциального выбора шумоизолирующего короба и крепежного кронштейна",
         "manufUrl": "https://rowen.ru/catalog/kanalnye_ventilyatory/ventilyatory_kanalnye_kruglye_vc/",
-        "imageUrl": "40.png",
         "typesizes": "100, 125, 160, 200, 250, 315, 355"
     },
     {
         "id": 41,
         "name": "VCN",
         "version": 1,
+        "md5": "5c409b8c5e9113792d020881fa143552",
         "siteCategory": "Оборудование",
         "technicalCategory": "Вентилятор",
         "surname": "канальный с гибкой вставкой ВГ",
@@ -611,13 +612,13 @@
         "graphicType": "Параметрическая",
         "note": "В компоненте реализована возможность опциального выбора шумоизолирующего короба, гибких вставок и различных вариантов электрического исполнения",
         "manufUrl": "https://rowen.ru/catalog/kanalnye_ventilyatory/ventilyatory_kanalnye_pryamougolnye_vcn/",
-        "imageUrl": "41.png",
         "typesizes": "400x200...1000x500"
     },
     {
         "id": 42,
         "name": "NWPk",
         "version": 1,
+        "md5": "01c9adbea0e4956a7f9d28126b80b4dc",
         "siteCategory": "Оборудование",
         "technicalCategory": "Нагреватель",
         "surname": "водяной",
@@ -626,13 +627,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/nagrevateli_vodyanye_nwpk_nwp/",
-        "imageUrl": "42.png",
         "typesizes": "2-х рядные: 160, 200, 250, 315;\n\n3-х рядные: 160, 200, 250, 315"
     },
     {
         "id": 43,
         "name": "NWP",
         "version": 1,
+        "md5": "0842626a215e6a25eb4c83b125a5e5a7",
         "siteCategory": "Оборудование",
         "technicalCategory": "Нагреватель",
         "surname": "водяной",
@@ -641,13 +642,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/nagrevateli_vodyanye_nwpk_nwp/",
-        "imageUrl": "43.png",
         "typesizes": "1-рядные, L и R: 400x200...900x500;\n\n2-х рядные, L и R: 300x150...900x500;\n\n3-х рядные, L и R: 300x150...900x500;\n\n4-х рядные, L и R: 400x200...900x500"
     },
     {
         "id": 44,
         "name": "NEK",
         "version": 1,
+        "md5": "be6f1dedda701c313b5fe65a40ec1255",
         "siteCategory": "Оборудование",
         "technicalCategory": "Нагреватель",
         "surname": "электрический",
@@ -656,13 +657,13 @@
         "graphicType": "Статическая",
         "note": "Также присутствуют различные типоразмеры по тепловой мощности",
         "manufUrl": "https://www.nevatom.ru/catalog/nagrevateli_elektricheskie_nek_nep/",
-        "imageUrl": "44.png",
         "typesizes": "100, 125, 160, 200, 250, 315"
     },
     {
         "id": 45,
         "name": "NEP",
         "version": 1,
+        "md5": "6cc27476f19588c5783170f4dd97be87",
         "siteCategory": "Оборудование",
         "technicalCategory": "Нагреватель",
         "surname": "электрический",
@@ -671,13 +672,13 @@
         "graphicType": "Статическая",
         "note": "Также присутствуют различные типоразмеры по тепловой мощности",
         "manufUrl": "https://www.nevatom.ru/catalog/nagrevateli_elektricheskie_nek_nep/",
-        "imageUrl": "45.png",
         "typesizes": "300x150...1000x500"
     },
     {
         "id": 46,
         "name": "OWP",
         "version": 1,
+        "md5": "9d243ab8dcd95cad1a13c8cc8f5a0f41",
         "siteCategory": "Оборудование",
         "technicalCategory": "Охладитель",
         "surname": "водяной",
@@ -686,13 +687,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/okhladiteli_vodyanye_owp/",
-        "imageUrl": "46.png",
         "typesizes": "L и R: 400x200...1000x500"
     },
     {
         "id": 47,
         "name": "OFP",
         "version": 1,
+        "md5": "06657e1586e12e6df958b244b3c3a523",
         "siteCategory": "Оборудование",
         "technicalCategory": "Охладитель",
         "surname": "фреоновый",
@@ -701,13 +702,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/okhladiteli_freonovye_ofp/",
-        "imageUrl": "47.png",
         "typesizes": "L и R: 400x200...1000x500"
     },
     {
         "id": 48,
         "name": "SUB",
         "version": 1,
+        "md5": "d02b1e0d385582d7a9988650e2d6647e",
         "siteCategory": "Оборудование",
         "technicalCategory": "Бактерицидная секция",
         "surname": "",
@@ -716,13 +717,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nevatom.ru/catalog/sektsii_ultrafioletovoy_bakteritsidnoy_obrabotki_sub/",
-        "imageUrl": "48.png",
         "typesizes": "400x200...1000x500"
     },
     {
         "id": 50,
         "name": "Воздуховод",
         "version": 1,
+        "md5": "7e2c7f119e1e5c48d7052a492df1df0a",
         "siteCategory": "Элементы воздуховодов",
         "technicalCategory": "Воздуховод",
         "surname": "параметрический",
@@ -731,13 +732,13 @@
         "graphicType": "Параметрическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "50.png",
         "typesizes": "100, 125, 200"
     },
     {
         "id": 51,
         "name": "Крестовина",
         "version": 1,
+        "md5": "877729ea8b2df4949b9f173ef166dad1",
         "siteCategory": "Элементы воздуховодов",
         "technicalCategory": "Крестовина",
         "surname": "параметрическая",
@@ -746,13 +747,13 @@
         "graphicType": "Параметрическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "51.png",
         "typesizes": "180x(100, 100)"
     },
     {
         "id": 52,
         "name": "Отвод",
         "version": 1,
+        "md5": "cd37aa69939200256b5b6716bb22362c",
         "siteCategory": "Элементы воздуховодов",
         "technicalCategory": "Отвод",
         "surname": "параметрический",
@@ -761,13 +762,13 @@
         "graphicType": "Параметрическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "52.png",
         "typesizes": "100, 125, 160"
     },
     {
         "id": 53,
         "name": "Переход",
         "version": 1,
+        "md5": "79c1c374d82a11e4c46b9eafffbde9a1",
         "siteCategory": "Элементы воздуховодов",
         "technicalCategory": "Переход",
         "surname": "параметрический",
@@ -776,13 +777,13 @@
         "graphicType": "Параметрическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "53.png",
         "typesizes": "125x100, 160x100, 160x125"
     },
     {
         "id": 54,
         "name": "Тройник",
         "version": 1,
+        "md5": "acb7bdc41f035930b071be6dc6f144d7",
         "siteCategory": "Элементы воздуховодов",
         "technicalCategory": "Тройник",
         "surname": "параметрический",
@@ -791,13 +792,13 @@
         "graphicType": "Параметрическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "54.png",
         "typesizes": "100x100, 125x100, 160x100"
     },
     {
         "id": 55,
         "name": "Заглушка",
         "version": 1,
+        "md5": "37e309a42d9a6166127c4efee053b539",
         "siteCategory": "Элементы трубопроводов",
         "technicalCategory": "Заглушка",
         "surname": "параметрическая",
@@ -806,13 +807,13 @@
         "graphicType": "Параметрическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "55.png",
         "typesizes": 100
     },
     {
         "id": 56,
         "name": "Крестовина",
         "version": 1,
+        "md5": "efea2614a26a5dee52621563826198f3",
         "siteCategory": "Элементы трубопроводов",
         "technicalCategory": "Крестовина",
         "surname": "параметрическая",
@@ -821,13 +822,13 @@
         "graphicType": "Параметрическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "56.png",
         "typesizes": "100x(100, 100)"
     },
     {
         "id": 57,
         "name": "Отвод",
         "version": 1,
+        "md5": "760a03237e117c839b86d2ce8f87f65e",
         "siteCategory": "Элементы трубопроводов",
         "technicalCategory": "Отвод",
         "surname": "параметрическая",
@@ -836,13 +837,13 @@
         "graphicType": "Параметрическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "57.png",
         "typesizes": 100
     },
     {
         "id": 58,
         "name": "Переход",
         "version": 1,
+        "md5": "ee0149ff386fc6546834692e05f6dc7e",
         "siteCategory": "Элементы трубопроводов",
         "technicalCategory": "Переход",
         "surname": "параметрический",
@@ -851,13 +852,13 @@
         "graphicType": "Параметрическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "58.png",
         "typesizes": "150x100"
     },
     {
         "id": 59,
         "name": "Тройник",
         "version": 1,
+        "md5": "3d7b65dd603b14eb984865cf92bb8074",
         "siteCategory": "Элементы трубопроводов",
         "technicalCategory": "Тройник",
         "surname": "параметрический",
@@ -866,13 +867,13 @@
         "graphicType": "Параметрическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "59.png",
         "typesizes": "150x150"
     },
     {
         "id": 60,
         "name": "Трубопровод",
         "version": 1,
+        "md5": "978100b273aad8ca85ba3f1e2572317b",
         "siteCategory": "Элементы трубопроводов",
         "technicalCategory": "Трубопровод",
         "surname": "параметрический",
@@ -881,13 +882,13 @@
         "graphicType": "Параметрическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "60.png",
         "typesizes": 150
     },
     {
         "id": 61,
         "name": "Воздуховод",
         "version": 1,
+        "md5": "a902a0a04a3b7e6be7ae13fc3a75d529",
         "siteCategory": "Элементы воздуховодов",
         "technicalCategory": "Воздуховод",
         "surname": "",
@@ -896,13 +897,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "61.png",
         "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400, 1600, 1800, 2000"
     },
     {
         "id": 62,
         "name": "Воздуховод",
         "version": 1,
+        "md5": "3267b9ff172337acf7262b6d577b4c18",
         "siteCategory": "Элементы воздуховодов",
         "technicalCategory": "Воздуховод",
         "surname": "",
@@ -911,13 +912,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "62.png",
         "typesizes": "100x100...2000x2000"
     },
     {
         "id": 63,
         "name": "Заглушка",
         "version": 1,
+        "md5": "73bf9939851bb4793f5f5ee2f7d91176",
         "siteCategory": "Элементы воздуховодов",
         "technicalCategory": "Заглушка",
         "surname": "",
@@ -926,13 +927,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "63.png",
         "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250"
     },
     {
         "id": 64,
         "name": "Заглушка",
         "version": 1,
+        "md5": "6f40dfd25fe7139dd7a8b7d1e1708568",
         "siteCategory": "Элементы воздуховодов",
         "technicalCategory": "Заглушка",
         "surname": "",
@@ -941,13 +942,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "64.png",
         "typesizes": "100x100...1000x2000"
     },
     {
         "id": 65,
         "name": "Крестовина",
         "version": 1,
+        "md5": "1b985a7d924672d122455ff032ebfb07",
         "siteCategory": "Элементы воздуховодов",
         "technicalCategory": "Крестовина",
         "surname": "",
@@ -956,13 +957,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "65.png",
         "typesizes": "100x100...2000x2000"
     },
     {
         "id": 66,
         "name": "Крестовина",
         "version": 1,
+        "md5": "be4f4a98aac8b11683e3ca524748817b",
         "siteCategory": "Элементы воздуховодов",
         "technicalCategory": "Крестовина",
         "surname": "",
@@ -971,13 +972,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "66.png",
         "typesizes": "100x(100, 100)...800x(800, 800)"
     },
     {
         "id": 67,
         "name": "Муфта",
         "version": 1,
+        "md5": "a2d38f30c45f407f9459bcac0bedcdee",
         "siteCategory": "Элементы воздуховодов",
         "technicalCategory": "Муфта",
         "surname": "",
@@ -986,13 +987,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "67.png",
         "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400"
     },
     {
         "id": 68,
         "name": "Ниппель",
         "version": 1,
+        "md5": "84faf93a4eba884d65ccf7d8b16d184b",
         "siteCategory": "Элементы воздуховодов",
         "technicalCategory": "Муфта",
         "surname": "",
@@ -1001,13 +1002,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "68.png",
         "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400"
     },
     {
         "id": 69,
         "name": "Отвод",
         "version": 1,
+        "md5": "ace01da0b1ef61e24f0b3a59158089bd",
         "siteCategory": "Элементы воздуховодов",
         "technicalCategory": "Отвод",
         "surname": "15°",
@@ -1016,13 +1017,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "69.png",
         "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400"
     },
     {
         "id": 70,
         "name": "Отвод",
         "version": 1,
+        "md5": "447b5bc3d424cd6a6d510fbc25886001",
         "siteCategory": "Элементы воздуховодов",
         "technicalCategory": "Отвод",
         "surname": "30°",
@@ -1031,13 +1032,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "70.png",
         "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400"
     },
     {
         "id": 71,
         "name": "Отвод",
         "version": 1,
+        "md5": "b841a431d7680ef0050729b69dffa849",
         "siteCategory": "Элементы воздуховодов",
         "technicalCategory": "Отвод",
         "surname": "45°",
@@ -1046,13 +1047,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "71.png",
         "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400"
     },
     {
         "id": 72,
         "name": "Отвод",
         "version": 1,
+        "md5": "e5420939daf1687ce379cf407f8c3c11",
         "siteCategory": "Элементы воздуховодов",
         "technicalCategory": "Отвод",
         "surname": "45°",
@@ -1061,13 +1062,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "72.png",
         "typesizes": "100x100...1400x900"
     },
     {
         "id": 73,
         "name": "Отвод",
         "version": 1,
+        "md5": "83045e88280180f8315b00748586f977",
         "siteCategory": "Элементы воздуховодов",
         "technicalCategory": "Отвод",
         "surname": "60°",
@@ -1076,13 +1077,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "73.png",
         "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900"
     },
     {
         "id": 74,
         "name": "Отвод",
         "version": 1,
+        "md5": "a09c82b89ac7aeeb5683354edfd310e2",
         "siteCategory": "Элементы воздуховодов",
         "technicalCategory": "Отвод",
         "surname": "90°",
@@ -1091,13 +1092,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "74.png",
         "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900"
     },
     {
         "id": 75,
         "name": "Отвод",
         "version": 1,
+        "md5": "5eefc3a0b450318967511623603d36b8",
         "siteCategory": "Элементы воздуховодов",
         "technicalCategory": "Отвод",
         "surname": "90°",
@@ -1106,13 +1107,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "75.png",
         "typesizes": "100x100...1400x900"
     },
     {
         "id": 76,
         "name": "Переход",
         "version": 1,
+        "md5": "2a44a4c72ef3a18ae207b1ca77272211",
         "siteCategory": "Элементы воздуховодов",
         "technicalCategory": "Переход",
         "surname": "концентрический",
@@ -1121,13 +1122,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "76.png",
         "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900"
     },
     {
         "id": 77,
         "name": "Переход",
         "version": 1,
+        "md5": "c41219195f1575b75378aa02b0cd8424",
         "siteCategory": "Элементы воздуховодов",
         "technicalCategory": "Переход",
         "surname": "с прямоугольного сечения на круглое",
@@ -1136,13 +1137,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "77.png",
         "typesizes": "100x(100x100)...1250x(1200x800)"
     },
     {
         "id": 78,
         "name": "Переход",
         "version": 1,
+        "md5": "5dfed25097dff1229f9481f36b24279d",
         "siteCategory": "Элементы воздуховодов",
         "technicalCategory": "Переход",
         "surname": "концентрический",
@@ -1151,13 +1152,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "78.png",
         "typesizes": "(150x100)x(100x100)...(2000x1400)x(1800x500)"
     },
     {
         "id": 79,
         "name": "Тройник",
         "version": 1,
+        "md5": "7980f3efab3014af570e9153b60dd3ba",
         "siteCategory": "Элементы воздуховодов",
         "technicalCategory": "Тройник",
         "surname": "",
@@ -1166,13 +1167,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "79.png",
         "typesizes": "100x100...1250x1250"
     },
     {
         "id": 80,
         "name": "Тройник",
         "version": 1,
+        "md5": "ac5a3de120be68f5c007bc395d934bc2",
         "siteCategory": "Элементы воздуховодов",
         "technicalCategory": "Тройник",
         "surname": "",
@@ -1181,13 +1182,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "80.png",
         "typesizes": "(150x150)x(100x100)...(2000x1400)x(1400x1400)"
     },
     {
         "id": 81,
         "name": "Воздуховод (Размер, Скорость, Расход, Потеря давления)",
         "version": 1,
+        "md5": "7f5d79c664692bc497ba2e990b66e08d",
         "siteCategory": "Оформление",
         "technicalCategory": "Выноска",
         "surname": "",
@@ -1196,13 +1197,13 @@
         "graphicType": "Не применимо",
         "note": "Выноска автоматически определяет форму воздуховода и делает выбор между обозначением круглого и прямоугольного воздуховодов",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "81.png",
         "typesizes": ""
     },
     {
         "id": 82,
         "name": "Вход в систему (Полная потеря давления)",
         "version": 1,
+        "md5": "4332032987882bc7d8f8b6446de2295c",
         "siteCategory": "Оформление",
         "technicalCategory": "Выноска",
         "surname": "",
@@ -1211,13 +1212,13 @@
         "graphicType": "Не применимо",
         "note": "Выноска показывает суммарные значения потерь давления в системе. Предназначена для компонента Вход в систему",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "82.png",
         "typesizes": ""
     },
     {
         "id": 83,
         "name": "Универсальная (Потеря давления)",
         "version": 1,
+        "md5": "a162b8ed992c2853b26f50cc0c2171c5",
         "siteCategory": "Оформление",
         "technicalCategory": "Выноска",
         "surname": "",
@@ -1226,13 +1227,13 @@
         "graphicType": "Не применимо",
         "note": "Выноска может быть применена к любому элементу со свойством Потеря давления. Внутри компонента добавлно два варианта выноски: с именем компонента под выноской и без имени",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "83.png",
         "typesizes": ""
     },
     {
         "id": 84,
         "name": "Универсальная (Наименование)",
         "version": 1,
+        "md5": "9989f12e72f2083d0e9993554c1b487f",
         "siteCategory": "Оформление",
         "technicalCategory": "Выноска",
         "surname": "",
@@ -1241,13 +1242,13 @@
         "graphicType": "Не применимо",
         "note": "Выноска может быть применена к любому элементу",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "84.png",
         "typesizes": ""
     },
     {
         "id": 85,
         "name": "Универсальная (Свободный текст)",
         "version": 1,
+        "md5": "8df81ddf1fa35eddfc4361a416ce53aa",
         "siteCategory": "Оформление",
         "technicalCategory": "Выноска",
         "surname": "",
@@ -1256,13 +1257,13 @@
         "graphicType": "Не применимо",
         "note": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "imageUrl": "85.png",
         "typesizes": ""
     },
     {
         "id": 86,
         "name": "KVR",
         "version": 1,
+        "md5": "80b25a11c886d0d54cd098704b7a134e",
         "siteCategory": "Оборудование",
         "technicalCategory": "Вентилятор",
         "surname": "канальный с кронштейном",
@@ -1271,13 +1272,13 @@
         "graphicType": "Параметрическая",
         "note": "",
         "manufUrl": "https://air-ned.com/tovar-5.html",
-        "imageUrl": "86.png",
         "typesizes": "100, 125, 160, 200, 250, 315"
     },
     {
         "id": 87,
         "name": "IRE",
         "version": 1,
+        "md5": "aec18f854211390e519c35c95bc8c53a",
         "siteCategory": "Оборудование",
         "technicalCategory": "Вентилятор",
         "surname": "канальный",
@@ -1286,13 +1287,13 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "http://www.arktika.ru/html/ire500.htm",
-        "imageUrl": "87.png",
         "typesizes": "160, 250"
     },
     {
         "id": 88,
         "name": "RSK",
         "version": 1,
+        "md5": "5f5f870b60426820cf090e8c7f64cb27",
         "siteCategory": "Арматура воздуховодов",
         "technicalCategory": "Клапан воздушный",
         "surname": "обратный",
@@ -1301,7 +1302,6 @@
         "graphicType": "Статическая",
         "note": "",
         "manufUrl": "http://www.arktika.ru/html/rsk.htm",
-        "imageUrl": "88.png",
         "typesizes": "160, 250"
     }
 ]
