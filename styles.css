@@ -254,6 +254,25 @@ main {
     text-decoration: underline;
 }
 
+.download-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 3px;
+    text-decoration: none; /* Remove underline from links */
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    margin-right: 2%;
+}
+
+.download-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
 @media (max-width: 768px) {
     header {
         padding-left: 3rem;

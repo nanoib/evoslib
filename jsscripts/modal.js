@@ -9,10 +9,15 @@
 
         let modalContent = '';
 
-        if (component.siteCategory) {
-            modalContent += `<p><strong>Категория:</strong> <span>${component.siteCategory}</span></p>`;
-        }
+        // Generate the download link
+        const downloadLink = `./components/${component.siteCategory}/${component.technicalCategory}/id${component.id}_v${component.version}_${component.name}/id${component.id}_v${component.version}_${component.name}.zip`;
 
+        if (component.siteCategory) {
+            modalContent += `<p style="display: flex; justify-content: space-between; align-items: center;">
+                                <strong>Категория:</strong> <span>${component.siteCategory}</span>
+                                <a href="${downloadLink}" class="download-button" download style="margin-left: auto;">Скачать</a>
+                             </p>`;
+        }
         if (component.technicalCategory) {
             modalContent += `<p><strong>Подкатегория:</strong> <span>${component.technicalCategory}</span></p>`;
         }
