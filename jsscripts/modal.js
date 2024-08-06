@@ -4,7 +4,7 @@
         const modalImage = document.getElementById('modal-image');
         const modalText = document.getElementById('modal-text');
 
-        modalImage.src = `./im/${component.imageUrl}`;
+        modalImage.src = `./im/${component.id}.png`;
         modalImage.alt = component.name;
 
         let modalContent = '';
