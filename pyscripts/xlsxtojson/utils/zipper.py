@@ -13,6 +13,9 @@ def create_zip_archives(data):
     """Создание ZIP архивов для каждого компонента"""
     root_path = CONFIG['root_folder_path']
     force_create_zip = CONFIG.get('force_create_zip', False)
+    exclusions = CONFIG.get('exclusions', {})
+    exclude_files = exclusions.get('exclude_files', [])
+    exclude_extensions = exclusions.get('exclude_extensions', [])
 
     # Инициализация счетчиков
     total_components = len(data)
@@ -48,8 +51,10 @@ def create_zip_archives(data):
                     skipped_archives += 1
                 else:
                     with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED) as zipf:
-                        for root, _, files in os.walk(os.path.join(component_path, name)):
+                        for root, _, files in os.walk(component_path):
                             for file in files:
+                                if file in exclude_files or any(file.endswith(ext) for ext in exclude_extensions):
+                                    continue
                                 arcname = os.path.relpath(os.path.join(root, file), component_path)
                                 zipf.write(f"\\\\?\\{os.path.abspath(os.path.join(root, file))}", arcname)
                     
@@ -68,14 +73,13 @@ def create_zip_archives(data):
 def main():
     # Получаем пути из конфигурации
     json_file_path = CONFIG['input_json_file_path']
-    root_folder_path = CONFIG['components_root_path']
 
     print("Чтение данных JSON...")
     data = read_json(json_file_path)
     print(f"Найдено {len(data)} компонентов в JSON файле.")
 
     print("Начало создания ZIP архивов...")
-    created, skipped, errors = create_zip_archives(data, root_folder_path)
+    created, skipped, errors = create_zip_archives(data)
     
     print("\nПроцесс завершен.")
     print(f"Всего компонентов: {len(data)}")

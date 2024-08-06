@@ -12,6 +12,12 @@ CONFIG = {
     # создавать zip-файл при его наличии?
     'force_create_zip': False,
 
+    # исключения для zip-архивации...
+    'exclusions': {
+        'exclude_files': ['md5'],
+        'exclude_extensions': ['.zip']
+    },
+
     # параметры экспорта Excel
     'excel_file_path': os.path.join(BASE_DIR, '../../db/Base.xlsx'),
     'sheet_name': 'Экспорт',
