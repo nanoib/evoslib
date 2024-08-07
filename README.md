@@ -123,11 +123,11 @@ GitHub Pages — это сервис, предоставляемый GitHub дл
     Имена компонентов должны составляться по формуле: *`{id}`.png*.
 
 - **pyscripts**  
-Папка `pyscripts` содержит  Python-скрипты, помогающие администрировать базу данных. Каждый скрипт со вспомогательными файлами находится в своей папке: `cropwhite`, `rename`, `folders` и `xlsxtojson`. `xlsxtojson` также использует вспомогательные скрипты из папки `pyscripts/xlsxtojson/utils`: они подробно описаны в отдельном Readme: **[Скрипт xlsxtojson](/git/readme/xlsxtojson.md)**.
+Папка `pyscripts` содержит  Python-скрипты, помогающие администрировать базу данных. Каждый скрипт со вспомогательными файлами находится в своей папке: `cropwhite`, `rename`, `folders` и `xlsxtojson`. `xlsxtojson` также использует вспомогательные скрипты из папки `pyscripts/xlsxtojson/utils`: они подробно описаны в отдельном Readme: **[Скрипт xlsxtojson](/git/xlsxtojsonreadme/xlsxtojsonreadme.md)**.
 
-При необходимости разобраться с python-скриптами помогут комментарии в коде:
+    При необходимости разобраться с python-скриптами помогут комментарии в коде:
 
-<img src="./git/readme/zipper_comments.png" alt="Библиотека компонентов" style="border: 1px solid gray"></img>
+    <img src="./git/readme/zipper_comments.png" alt="Библиотека компонентов" style="border: 1px solid gray"></img>
 
 
 
@@ -153,14 +153,14 @@ GitHub Pages — это сервис, предоставляемый GitHub дл
     - Проверка на наличие изображений для каждого компонента в папке `im`
     - Наличие всех необходимых папок с компонентами (сейчас это избыточная проверка)
 
-    Подробнее о работе `xlsxtojson.py` см. в отдельном README: **[Скрипт xlsxtojson](/git/readme/xlsxtojson.md)**
+    Подробнее о работе `xlsxtojson.py` см. в отдельном README: **[Скрипт xlsxtojson](/git/xlsxtojsonreadme/xlsxtojsonreadme.md)**
 
     Пример отчета об успешной работе `xlsxtojson.py`:
 
 
-<img src="./git/readme/xlsxtojson_nicework.png" alt="Библиотека компонентов" style="border: 1px solid gray"></img>
+    <img src="./git/xlsxtojsonreadme/xlsxtojson_nicework.png" alt="Библиотека компонентов" style="border: 1px solid gray"></img>
 
-Все скрипты можно запускать двойным кликом левой кнопке мыши из Проводника Windows.
+    Все скрипты можно запускать двойным кликом левой кнопке мыши из Проводника Windows.
 
 ## Файлы веб-страницы библиотеки
 
