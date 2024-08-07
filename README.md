@@ -10,7 +10,7 @@
 
 Веб-интерфейс библиотеки:
 
-<img src="./git/readme/base.png" alt="Библиотека компонентов" style="width: 80%;"></img>
+<img src="./git/readme/base.png" alt="Библиотека компонентов" style="width: 100%;"></img>
 
 
 ## Содержание
@@ -42,7 +42,7 @@ https://www.nanocad.ru/products/bim/ventilation/database/
 <p>Подобно тому, как библиотека бумажных книг хранит не только книги, но и другую полезную информацию о них, такую как год издания, номер в каталоге и проч., библиотека BIM-компонентов хранит дополнительную информацию о BIM-компоненте:
 </p>
 </div>
-<div style="max-width: 70%;">
+<div style="max-width: 100%;">
 
 
 | Понятное описание                                                  | Тип данных                                                                                  | Пример                                                                                   | Имя переменной в XLSX/JSON/JavaScript/Python    |
@@ -91,7 +91,7 @@ GitHub Pages — это сервис, предоставляемый GitHub дл
 где последняя папка, `{name}`, — непосредственно директория BIM-компонента, т.е. папка, содержащая файл *\*.repository*, папки *Dwg* и другие, определяемые логикой  программного комплекса **nanoCAD BIM Вентиляция**.
 
 Пример дерева директорий в *components*:
-<div style="max-width: 70%;">
+<div style="max-width: 100%;">
 <img src="./git/readme/db_structure.png" alt="Библиотека компонентов" style="width: 80%;border: 1px solid gray"></img>
 </div>
 
@@ -101,7 +101,7 @@ GitHub Pages — это сервис, предоставляемый GitHub дл
 
 Поскольку BIM-компоненты скачиваются в виде архива, эти архивы должны быть подготовлены заранее (on-demand реализуем, но GitHub Pages поддерживает только статические страницы, без серверных технологий типа *php* или *node.js*). Поэтому архивы подготавливаются заранее: размещаются в папке *id`{id}`\_v`{version}`\_`{name}`* и имеют такое же имя с расширением *\*.zip*:
 
-<div style="max-width: 70%;">
+<div style="max-width: 100%;">
 <img src="./git/readme/db_structure_name.png" alt="Библиотека компонентов" style="width: 80%;border: 1px solid gray"></img>
 </div>
 
