@@ -23,6 +23,9 @@ def create_zip_archives(data):
     skipped_archives = 0
     error_archives = 0
 
+    # Флаг для перезаписи всех архивов
+    overwrite_all = False
+
     # Создаем прогресс-бар
     with tqdm(total=total_components, desc="Создание ZIP архивов") as pbar:
         for item in data:
@@ -47,9 +50,21 @@ def create_zip_archives(data):
             zip_print_path = os.path.join(print_path, zip_filename)
             try:
                 # Если ZIP файл уже существует и force_create_zip не установлен, пропускаем его создание
-                if os.path.exists(zip_path) and not force_create_zip:
-                    skipped_archives += 1
-                else:
+                if os.path.exists(zip_path):
+                    if not force_create_zip:
+                        skipped_archives += 1
+                    else:
+                        if not overwrite_all:
+                            user_input = input("Zip-файл уже существует. Перезаписывать архивы? Нажмите 1, чтобы перезаписать все существующие архивы, иначе нажмите 0: ")
+                            if user_input == '1':
+                                overwrite_all = True
+                            elif user_input == '0':
+                                force_create_zip = False
+                                skipped_archives += 1
+                                pbar.update(1)
+                                continue
+
+                if force_create_zip or not os.path.exists(zip_path):
                     with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED) as zipf:
                         for root, _, files in os.walk(component_path):
                             for file in files:
