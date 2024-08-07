@@ -11,14 +11,15 @@
         "manufacturer": "Арктос",
         "graphicType": "Параметрическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "http://www.arktika.ru/html/dpum.htm",
         "typesizes": "100, 125, 160, 200, 250"
     },
     {
         "id": 2,
         "name": "АМН",
-        "version": 1,
-        "md5": "7b96d59a3df69f37ef05ae92088786c8",
+        "version": 2,
+        "md5": "f6aa636a735baf77feb3c1f1df96980f",
         "siteCategory": "Воздухораспределители",
         "technicalCategory": "Решетка",
         "surname": "жалюзийная",
@@ -26,8 +27,9 @@
         "manufacturer": "Арктос",
         "graphicType": "Параметрическая",
         "note": "В параметрической dwg-графике реализована возможность поворота угла ламелей по параметру. Этот параметр при необходимости может быть вынесен в параметры nanoCAD BIM Вентиляция",
+        "versionHistory": "v2: добавлены  новые типоразмеры",
         "manufUrl": "http://www.arktika.ru/html/amn-amrm-adn-adrm.htm",
-        "typesizes": "200x200"
+        "typesizes": "200x200, 300x300, 600x300, 1000x300"
     },
     {
         "id": 3,
@@ -41,6 +43,7 @@
         "manufacturer": "Веза",
         "graphicType": "Статическая",
         "note": "К компоненту приложена справка производителя: файл Прочтите меня КПУ-1Н-2ф.doc",
+        "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/kpu-1n-pryamougolnye",
         "typesizes": "1хЭМП: 100x100...1400x2000;\n\n1xЭП: 100x100...1400x2000;\n\n1xЭПВ: 100x100...1400x2000;\n\n2xЭМП: 500x1900...1400x2000"
     },
@@ -56,6 +59,7 @@
         "manufacturer": "Веза",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/kpu-1n-pryamougolnye",
         "typesizes": "1хЭМП: 270x300...2000x1400;\n\n1xЭП: 250x300...2000x1400;\n\n2xЭМП: 1150x300...2000x1400"
     },
@@ -71,6 +75,7 @@
         "manufacturer": "Веза",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-1n-kruglye",
         "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
@@ -86,6 +91,7 @@
         "manufacturer": "Веза",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-1n-kruglye",
         "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
@@ -101,6 +107,7 @@
         "manufacturer": "Веза",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-2n-kruglye",
         "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
@@ -116,6 +123,7 @@
         "manufacturer": "Веза",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-2n-kruglye",
         "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
@@ -131,6 +139,7 @@
         "manufacturer": "Веза",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-2n-kruglye",
         "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
@@ -146,6 +155,7 @@
         "manufacturer": "Веза",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-2n-kruglye",
         "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
@@ -161,6 +171,7 @@
         "manufacturer": "Веза",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-2n-kruglye",
         "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
@@ -176,6 +187,7 @@
         "manufacturer": "Веза",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-2n-kruglye",
         "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
@@ -191,6 +203,7 @@
         "manufacturer": "Веза",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/kpu-2n-pryamougolnye",
         "typesizes": "1xЭП: 100x100...1000x900;\n1xЭПВ: 100x100...1000x1500;\n2xЭП: 100x1000...1000x1500"
     },
@@ -206,6 +219,7 @@
         "manufacturer": "Веза",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/kpu-2n-pryamougolnye",
         "typesizes": "1xЭП: 100x100...1000x1500;\n1xЭПВ: 100x100...1000x1500;\n2xЭП: 100x1000...1000x1500"
     },
@@ -221,6 +235,7 @@
         "manufacturer": "Веза",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/kpu-dd-pryamougolnye",
         "typesizes": "1xЭП: 100x100...1200x1000;\n\n1xЭПВ: 100x100...1200x1000"
     },
@@ -236,6 +251,7 @@
         "manufacturer": "Веза",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/kpu-dd-pryamougolnye",
         "typesizes": "1xЭП: 250x300...1000x1200"
     },
@@ -251,6 +267,7 @@
         "manufacturer": "Веза",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-dd-kruglye",
         "typesizes": "1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
@@ -266,6 +283,7 @@
         "manufacturer": "Веза",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-dd-kruglye",
         "typesizes": "1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
     },
@@ -281,6 +299,7 @@
         "manufacturer": "Веза",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/oksid",
         "typesizes": "200x200...1200x1200"
     },
@@ -296,6 +315,7 @@
         "manufacturer": "Веза",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/oksid",
         "typesizes": "200x230...1200x1200"
     },
@@ -311,6 +331,7 @@
         "manufacturer": "Веза",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/oksid",
         "typesizes": "2-х секционные: 1210x200...2460x1200;\n3-х секционные: 250x1200...1200x2460;\n4-х секционные:\n1210x1201...2460x2460"
     },
@@ -326,6 +347,7 @@
         "manufacturer": "Веза",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/prok-kruglye",
         "typesizes": "355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250;"
     },
@@ -341,6 +363,7 @@
         "manufacturer": "Веза",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/prok-pryamougolnye",
         "typesizes": "300x300...1250x1250"
     },
@@ -356,6 +379,7 @@
         "manufacturer": "Ровен",
         "graphicType": "Параметрическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://rowen.ru/catalog/shumoglushiteli/shumoglushiteli_trubchatye_kruglye_gtk/",
         "typesizes": "Длина 600: 100, 125, 160, 200, 250, 315, 355, 400, 500;\n\nДлина 900: 100, 125, 160, 200, 250, 315, 355, 400, 500"
     },
@@ -371,6 +395,7 @@
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/shumoglushiteli_trubchatye_kruglye_gtk/",
         "typesizes": "Длина 600: 100, 125, 160, 200, 250, 315, 355, 400;\n\nДлина 900: 100, 125, 160, 200, 250, 315, 355, 400, 500, 630"
     },
@@ -386,6 +411,7 @@
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/shumoglushiteli_trubchatye_pryamougolnye_gtp/",
         "typesizes": "Длина 600: 300x150...1000x500;\n\nДлина 900: 300x150...1000x500"
     },
@@ -401,6 +427,7 @@
         "manufacturer": "Неватом",
         "graphicType": "Параметрическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/zaslonki_ruchnye_r/",
         "typesizes": "225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250"
     },
@@ -416,6 +443,7 @@
         "manufacturer": "Неватом",
         "graphicType": "Параметрическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/zaslonki_ruchnye_r/",
         "typesizes": "100х100...500х1000"
     },
@@ -431,6 +459,7 @@
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/klapany_vozdushnye_kruglye_kvk/",
         "typesizes": "100, 125, 160, 200, 250, 315, 400, 500, 630"
     },
@@ -446,6 +475,7 @@
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/klapany_vozdushnye_alyuminievye_kv/",
         "typesizes": "100x100...1000x1000"
     },
@@ -461,6 +491,7 @@
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/klapany_vozdushnye_uteplennye_kvu/",
         "typesizes": "200x300...1200x1200"
     },
@@ -476,6 +507,7 @@
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/klapany_obratnye_ko/",
         "typesizes": "160, 200, 250, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250;"
     },
@@ -491,6 +523,7 @@
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/klapany_obratnye_ko_babochka/",
         "typesizes": "100, 125, 160, 200, 250, 315"
     },
@@ -506,6 +539,7 @@
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/klapany_protivopozharnye_normalno_otkrytye_kpno/",
         "typesizes": "150x150...1000x500"
     },
@@ -521,6 +555,7 @@
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/vozdukhovody_pryamougolnye/",
         "typesizes": "150x150...1200x2000"
     },
@@ -536,6 +571,7 @@
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/zaglushki/",
         "typesizes": "150x150...1000x1000"
     },
@@ -551,6 +587,7 @@
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/otvody/",
         "typesizes": "150x150...2000x1200"
     },
@@ -566,6 +603,7 @@
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/diffuzory_dp/",
         "typesizes": "300x300, 450x450, 600x600"
     },
@@ -581,6 +619,7 @@
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/klapany_vytyazhnye_pritochnye_kv_kp/",
         "typesizes": "100, 125, 160, 200"
     },
@@ -596,6 +635,7 @@
         "manufacturer": "Ровен",
         "graphicType": "Параметрическая",
         "note": "В компоненте реализована возможность опциального выбора шумоизолирующего короба и крепежного кронштейна",
+        "versionHistory": "",
         "manufUrl": "https://rowen.ru/catalog/kanalnye_ventilyatory/ventilyatory_kanalnye_kruglye_vc/",
         "typesizes": "100, 125, 160, 200, 250, 315, 355"
     },
@@ -611,6 +651,7 @@
         "manufacturer": "Ровен",
         "graphicType": "Параметрическая",
         "note": "В компоненте реализована возможность опциального выбора шумоизолирующего короба, гибких вставок и различных вариантов электрического исполнения",
+        "versionHistory": "",
         "manufUrl": "https://rowen.ru/catalog/kanalnye_ventilyatory/ventilyatory_kanalnye_pryamougolnye_vcn/",
         "typesizes": "400x200...1000x500"
     },
@@ -626,6 +667,7 @@
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/nagrevateli_vodyanye_nwpk_nwp/",
         "typesizes": "2-х рядные: 160, 200, 250, 315;\n\n3-х рядные: 160, 200, 250, 315"
     },
@@ -641,6 +683,7 @@
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/nagrevateli_vodyanye_nwpk_nwp/",
         "typesizes": "1-рядные, L и R: 400x200...900x500;\n\n2-х рядные, L и R: 300x150...900x500;\n\n3-х рядные, L и R: 300x150...900x500;\n\n4-х рядные, L и R: 400x200...900x500"
     },
@@ -656,6 +699,7 @@
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
         "note": "Также присутствуют различные типоразмеры по тепловой мощности",
+        "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/nagrevateli_elektricheskie_nek_nep/",
         "typesizes": "100, 125, 160, 200, 250, 315"
     },
@@ -671,6 +715,7 @@
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
         "note": "Также присутствуют различные типоразмеры по тепловой мощности",
+        "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/nagrevateli_elektricheskie_nek_nep/",
         "typesizes": "300x150...1000x500"
     },
@@ -686,6 +731,7 @@
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/okhladiteli_vodyanye_owp/",
         "typesizes": "L и R: 400x200...1000x500"
     },
@@ -701,6 +747,7 @@
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/okhladiteli_freonovye_ofp/",
         "typesizes": "L и R: 400x200...1000x500"
     },
@@ -716,6 +763,7 @@
         "manufacturer": "Неватом",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/sektsii_ultrafioletovoy_bakteritsidnoy_obrabotki_sub/",
         "typesizes": "400x200...1000x500"
     },
@@ -731,6 +779,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Параметрическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "100, 125, 200"
     },
@@ -746,6 +795,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Параметрическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "180x(100, 100)"
     },
@@ -761,6 +811,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Параметрическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "100, 125, 160"
     },
@@ -776,6 +827,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Параметрическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "125x100, 160x100, 160x125"
     },
@@ -791,6 +843,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Параметрическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "100x100, 125x100, 160x100"
     },
@@ -806,6 +859,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Параметрическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": 100
     },
@@ -821,6 +875,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Параметрическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "100x(100, 100)"
     },
@@ -836,6 +891,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Параметрическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": 100
     },
@@ -851,6 +907,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Параметрическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "150x100"
     },
@@ -866,6 +923,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Параметрическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "150x150"
     },
@@ -881,6 +939,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Параметрическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": 150
     },
@@ -896,6 +955,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400, 1600, 1800, 2000"
     },
@@ -911,6 +971,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "100x100...2000x2000"
     },
@@ -926,6 +987,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250"
     },
@@ -941,6 +1003,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "100x100...1000x2000"
     },
@@ -956,6 +1019,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "100x100...2000x2000"
     },
@@ -971,6 +1035,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "100x(100, 100)...800x(800, 800)"
     },
@@ -986,6 +1051,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400"
     },
@@ -1001,6 +1067,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400"
     },
@@ -1016,6 +1083,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400"
     },
@@ -1031,6 +1099,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400"
     },
@@ -1046,6 +1115,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400"
     },
@@ -1061,6 +1131,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "100x100...1400x900"
     },
@@ -1076,6 +1147,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900"
     },
@@ -1091,6 +1163,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900"
     },
@@ -1106,6 +1179,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "100x100...1400x900"
     },
@@ -1121,6 +1195,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900"
     },
@@ -1136,6 +1211,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "100x(100x100)...1250x(1200x800)"
     },
@@ -1151,6 +1227,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "(150x100)x(100x100)...(2000x1400)x(1800x500)"
     },
@@ -1166,6 +1243,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "100x100...1250x1250"
     },
@@ -1181,6 +1259,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "(150x150)x(100x100)...(2000x1400)x(1400x1400)"
     },
@@ -1196,6 +1275,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Не применимо",
         "note": "Выноска автоматически определяет форму воздуховода и делает выбор между обозначением круглого и прямоугольного воздуховодов",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": ""
     },
@@ -1211,6 +1291,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Не применимо",
         "note": "Выноска показывает суммарные значения потерь давления в системе. Предназначена для компонента Вход в систему",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": ""
     },
@@ -1226,6 +1307,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Не применимо",
         "note": "Выноска может быть применена к любому элементу со свойством Потеря давления. Внутри компонента добавлно два варианта выноски: с именем компонента под выноской и без имени",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": ""
     },
@@ -1241,6 +1323,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Не применимо",
         "note": "Выноска может быть применена к любому элементу",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": ""
     },
@@ -1256,6 +1339,7 @@
         "manufacturer": "Нанософт разработка",
         "graphicType": "Не применимо",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": ""
     },
@@ -1271,6 +1355,7 @@
         "manufacturer": "NED",
         "graphicType": "Параметрическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "https://air-ned.com/tovar-5.html",
         "typesizes": "100, 125, 160, 200, 250, 315"
     },
@@ -1286,6 +1371,7 @@
         "manufacturer": "Ostberg",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "http://www.arktika.ru/html/ire500.htm",
         "typesizes": "160, 250"
     },
@@ -1301,6 +1387,7 @@
         "manufacturer": "Арктос",
         "graphicType": "Статическая",
         "note": "",
+        "versionHistory": "",
         "manufUrl": "http://www.arktika.ru/html/rsk.htm",
         "typesizes": "160, 250"
     }

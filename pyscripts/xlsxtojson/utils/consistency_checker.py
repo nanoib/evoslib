@@ -74,6 +74,8 @@ def check_consistency(json_data):
                 for item in os.listdir(site_category_path):
                     item_path = os.path.join(site_category_path, item)
                     if os.path.isdir(item_path):
+                        if item.endswith('_old'):
+                            continue  # Skip folders with '_old' suffix
                         if item not in expected_folders[site_category]:
                             print("\n", "+" * 25)
                             print(f"ВНИМАНИЕ! Неожиданная техническая категория: {os.path.join(site_category, item)}")
@@ -81,6 +83,8 @@ def check_consistency(json_data):
                             unexpected_files_or_folders += 1
                         else:
                             for sub_item in os.listdir(item_path):
+                                if sub_item.endswith('_old'):
+                                    continue  # Skip folders with '_old' suffix
                                 if sub_item not in expected_folders[site_category][item]:
                                     print("\n", "+" * 25)
                                     print(f"ВНИМАНИЕ! Неожиданная папка или файл: {os.path.join(site_category, item, sub_item)}")

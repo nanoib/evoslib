@@ -46,6 +46,14 @@
             modalContent += `<p id="modal-link"><strong>Ссылка на сайт производителя:</strong> <span><a href="${component.manufUrl}" target="_blank">${component.manufUrl}</a></span></p>`;
         }
 
+        if (component.versionHistory) {
+            const versionHistoryArray = component.versionHistory.split(';').map(version => {
+                return version.replace(/(v\d+)/g, '<strong>$1</strong>').trim();
+            });
+            const formattedVersionHistory = versionHistoryArray.join(';<br>');
+            modalContent += `<p><strong>История версий:</strong><br><span>${formattedVersionHistory}</span></p>`;
+        }
+
         modalText.innerHTML = `<hr>${modalContent}`;
 
         modal.style.display = 'flex';
