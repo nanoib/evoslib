@@ -1,10 +1,7 @@
+import pandas as pd
 import os
 import json
-import pandas as pd
 import warnings
-from configuration.config import CONFIG
-
-
 
 # Отключение FutureWarning
 warnings.simplefilter(action='ignore', category=FutureWarning)
@@ -68,14 +65,14 @@ def save_json_to_file(json_data, output_file_path):
 
 def excel_to_json():
     """
-    Основная функция для чтения данных из Excel файла, 
-    преобразования их в JSON формат и сохранения в файл.
+    Основная функция для чтения данных из Excel файла и преобразования их в JSON формат.
 
     :return: Список словарей с данными компонентов.
     """
+    from configuration.config import CONFIG
+
     # Получаем параметры из конфигурации
     excel_file_path = CONFIG['excel_file_path']
-    output_json_file_path = CONFIG['output_json_file_path']
     sheet_name = CONFIG['sheet_name']
     start_cell = CONFIG['start_cell']
     end_col = CONFIG['end_col']
@@ -85,10 +82,6 @@ def excel_to_json():
 
     # Преобразование данных в JSON формат
     json_data = dataframe_to_json(df)
-
-    # Сохранение JSON данных в файл
-    save_json_to_file(json_data, output_json_file_path)
-    print(f"Данные успешно экспортированы: {os.path.abspath(output_json_file_path)}")
 
     # Возвращаем список словарей с данными компонентов
     return json.loads(json_data)

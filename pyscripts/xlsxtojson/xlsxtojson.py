@@ -2,7 +2,7 @@ import json
 import os
 
 from configuration.config import CONFIG
-from utils.excel_to_json import excel_to_json
+from utils.excel_to_json import excel_to_json, save_json_to_file
 from utils.consistency_checker import check_consistency
 from utils.md5_checker import check_md5_sums
 from utils.zipper import create_zip_archives  # Импортируем функцию создания архивов
@@ -51,10 +51,19 @@ def main():
     force_create_json = CONFIG.get('force_create_json', False)
 
     if not (missing_folders or missing_internal_structure or missing_images or unexpected_files_or_folders or total_not_equal or zip_errors) or force_create_json:
-        # Сохраняем обновленные данные в JSON файл
+        # Проверяем, изменился ли JSON файл
         output_path = CONFIG['output_json_file_path']
-        with open(output_path, 'w', encoding='utf-8') as f:
-            json.dump(json_data_list, f, ensure_ascii=False, indent=4)
+        if os.path.exists(output_path):
+            with open(output_path, 'r', encoding='utf-8') as f:
+                existing_json_data = json.load(f)
+            if existing_json_data == json_data_list:
+                print("База в порядке. Ничего не изменилось, поэтому JSON файл не был перезаписан.")
+                print("OK")
+                input("\nНажмите Enter для завершения...")
+                return
+
+        # Сохраняем обновленные данные в JSON файл
+        save_json_to_file(json.dumps(json_data_list, ensure_ascii=False, indent=4), output_path)
         print(f"Обновленная база данных сохранена в файл: {os.path.abspath(output_path)}")
         print("-" * 50)
         print("OK")
