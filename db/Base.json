@@ -13,7 +13,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "http://www.arktika.ru/html/dpum.htm",
-        "typesizes": "100, 125, 160, 200, 250"
+        "typesizes": "100, 125, 160, 200, 250",
+        "updDate": "2024.08.02"
     },
     {
         "id": 2,
@@ -29,7 +30,8 @@
         "note": "В параметрической dwg-графике реализована возможность поворота угла ламелей по параметру. Этот параметр при необходимости может быть вынесен в параметры nanoCAD BIM Вентиляция",
         "versionHistory": "v2: добавлены  новые типоразмеры",
         "manufUrl": "http://www.arktika.ru/html/amn-amrm-adn-adrm.htm",
-        "typesizes": "200x200, 300x300, 600x300, 1000x300"
+        "typesizes": "200x200, 300x300, 600x300, 1000x300",
+        "updDate": "2024.08.02"
     },
     {
         "id": 3,
@@ -45,7 +47,8 @@
         "note": "К компоненту приложена справка производителя: файл Прочтите меня КПУ-1Н-2ф.doc",
         "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/kpu-1n-pryamougolnye",
-        "typesizes": "1хЭМП: 100x100...1400x2000;\n\n1xЭП: 100x100...1400x2000;\n\n1xЭПВ: 100x100...1400x2000;\n\n2xЭМП: 500x1900...1400x2000"
+        "typesizes": "1хЭМП: 100x100...1400x2000;\n\n1xЭП: 100x100...1400x2000;\n\n1xЭПВ: 100x100...1400x2000;\n\n2xЭМП: 500x1900...1400x2000",
+        "updDate": "2024.08.02"
     },
     {
         "id": 4,
@@ -61,7 +64,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/kpu-1n-pryamougolnye",
-        "typesizes": "1хЭМП: 270x300...2000x1400;\n\n1xЭП: 250x300...2000x1400;\n\n2xЭМП: 1150x300...2000x1400"
+        "typesizes": "1хЭМП: 270x300...2000x1400;\n\n1xЭП: 250x300...2000x1400;\n\n2xЭМП: 1150x300...2000x1400",
+        "updDate": "2024.08.02"
     },
     {
         "id": 5,
@@ -77,7 +81,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-1n-kruglye",
-        "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
+        "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000",
+        "updDate": "2024.08.02"
     },
     {
         "id": 6,
@@ -93,7 +98,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-1n-kruglye",
-        "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
+        "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000",
+        "updDate": "2024.08.02"
     },
     {
         "id": 7,
@@ -109,7 +115,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-2n-kruglye",
-        "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
+        "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000",
+        "updDate": "2024.08.02"
     },
     {
         "id": 8,
@@ -125,7 +132,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-2n-kruglye",
-        "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
+        "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000",
+        "updDate": "2024.08.02"
     },
     {
         "id": 9,
@@ -141,7 +149,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-2n-kruglye",
-        "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
+        "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000",
+        "updDate": "2024.08.02"
     },
     {
         "id": 10,
@@ -157,7 +166,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-2n-kruglye",
-        "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
+        "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000",
+        "updDate": "2024.08.02"
     },
     {
         "id": 11,
@@ -173,7 +183,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-2n-kruglye",
-        "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
+        "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000",
+        "updDate": "2024.08.02"
     },
     {
         "id": 12,
@@ -189,7 +200,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-2n-kruglye",
-        "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
+        "typesizes": "1xЭМП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000",
+        "updDate": "2024.08.02"
     },
     {
         "id": 13,
@@ -205,7 +217,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/kpu-2n-pryamougolnye",
-        "typesizes": "1xЭП: 100x100...1000x900;\n1xЭПВ: 100x100...1000x1500;\n2xЭП: 100x1000...1000x1500"
+        "typesizes": "1xЭП: 100x100...1000x900;\n1xЭПВ: 100x100...1000x1500;\n2xЭП: 100x1000...1000x1500",
+        "updDate": "2024.08.02"
     },
     {
         "id": 14,
@@ -221,7 +234,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/kpu-2n-pryamougolnye",
-        "typesizes": "1xЭП: 100x100...1000x1500;\n1xЭПВ: 100x100...1000x1500;\n2xЭП: 100x1000...1000x1500"
+        "typesizes": "1xЭП: 100x100...1000x1500;\n1xЭПВ: 100x100...1000x1500;\n2xЭП: 100x1000...1000x1500",
+        "updDate": "2024.08.02"
     },
     {
         "id": 15,
@@ -237,7 +251,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/kpu-dd-pryamougolnye",
-        "typesizes": "1xЭП: 100x100...1200x1000;\n\n1xЭПВ: 100x100...1200x1000"
+        "typesizes": "1xЭП: 100x100...1200x1000;\n\n1xЭПВ: 100x100...1200x1000",
+        "updDate": "2024.08.02"
     },
     {
         "id": 16,
@@ -253,7 +268,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/kpu-dd-pryamougolnye",
-        "typesizes": "1xЭП: 250x300...1000x1200"
+        "typesizes": "1xЭП: 250x300...1000x1200",
+        "updDate": "2024.08.02"
     },
     {
         "id": 17,
@@ -269,7 +285,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-dd-kruglye",
-        "typesizes": "1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
+        "typesizes": "1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000",
+        "updDate": "2024.08.02"
     },
     {
         "id": 18,
@@ -285,7 +302,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/kpu-dd-kruglye",
-        "typesizes": "1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000"
+        "typesizes": "1xЭП: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000;\n\n1xЭПВ: 100, 125, 140, 150, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000",
+        "updDate": "2024.08.02"
     },
     {
         "id": 19,
@@ -301,7 +319,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/oksid",
-        "typesizes": "200x200...1200x1200"
+        "typesizes": "200x200...1200x1200",
+        "updDate": "2024.08.02"
     },
     {
         "id": 20,
@@ -317,7 +336,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/oksid",
-        "typesizes": "200x230...1200x1200"
+        "typesizes": "200x230...1200x1200",
+        "updDate": "2024.08.02"
     },
     {
         "id": 21,
@@ -333,7 +353,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/oksid",
-        "typesizes": "2-х секционные: 1210x200...2460x1200;\n3-х секционные: 250x1200...1200x2460;\n4-х секционные:\n1210x1201...2460x2460"
+        "typesizes": "2-х секционные: 1210x200...2460x1200;\n3-х секционные: 250x1200...1200x2460;\n4-х секционные:\n1210x1201...2460x2460",
+        "updDate": "2024.08.02"
     },
     {
         "id": 22,
@@ -349,7 +370,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/kruglye-protivopozharnye-klapany/prok-kruglye",
-        "typesizes": "355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250;"
+        "typesizes": "355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250;",
+        "updDate": "2024.08.02"
     },
     {
         "id": 23,
@@ -365,7 +387,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/protivopozharnye-klapany/pryamougolnye-protivopozharnye-klapany/prok-pryamougolnye",
-        "typesizes": "300x300...1250x1250"
+        "typesizes": "300x300...1250x1250",
+        "updDate": "2024.08.02"
     },
     {
         "id": 24,
@@ -381,7 +404,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://rowen.ru/catalog/shumoglushiteli/shumoglushiteli_trubchatye_kruglye_gtk/",
-        "typesizes": "Длина 600: 100, 125, 160, 200, 250, 315, 355, 400, 500;\n\nДлина 900: 100, 125, 160, 200, 250, 315, 355, 400, 500"
+        "typesizes": "Длина 600: 100, 125, 160, 200, 250, 315, 355, 400, 500;\n\nДлина 900: 100, 125, 160, 200, 250, 315, 355, 400, 500",
+        "updDate": "2024.08.02"
     },
     {
         "id": 25,
@@ -397,7 +421,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/shumoglushiteli_trubchatye_kruglye_gtk/",
-        "typesizes": "Длина 600: 100, 125, 160, 200, 250, 315, 355, 400;\n\nДлина 900: 100, 125, 160, 200, 250, 315, 355, 400, 500, 630"
+        "typesizes": "Длина 600: 100, 125, 160, 200, 250, 315, 355, 400;\n\nДлина 900: 100, 125, 160, 200, 250, 315, 355, 400, 500, 630",
+        "updDate": "2024.08.02"
     },
     {
         "id": 26,
@@ -413,7 +438,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/shumoglushiteli_trubchatye_pryamougolnye_gtp/",
-        "typesizes": "Длина 600: 300x150...1000x500;\n\nДлина 900: 300x150...1000x500"
+        "typesizes": "Длина 600: 300x150...1000x500;\n\nДлина 900: 300x150...1000x500",
+        "updDate": "2024.08.02"
     },
     {
         "id": 27,
@@ -429,7 +455,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/zaslonki_ruchnye_r/",
-        "typesizes": "225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250"
+        "typesizes": "225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250",
+        "updDate": "2024.08.02"
     },
     {
         "id": 28,
@@ -445,7 +472,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/zaslonki_ruchnye_r/",
-        "typesizes": "100х100...500х1000"
+        "typesizes": "100х100...500х1000",
+        "updDate": "2024.08.02"
     },
     {
         "id": 29,
@@ -461,7 +489,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/klapany_vozdushnye_kruglye_kvk/",
-        "typesizes": "100, 125, 160, 200, 250, 315, 400, 500, 630"
+        "typesizes": "100, 125, 160, 200, 250, 315, 400, 500, 630",
+        "updDate": "2024.08.02"
     },
     {
         "id": 30,
@@ -477,7 +506,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/klapany_vozdushnye_alyuminievye_kv/",
-        "typesizes": "100x100...1000x1000"
+        "typesizes": "100x100...1000x1000",
+        "updDate": "2024.08.02"
     },
     {
         "id": 31,
@@ -493,7 +523,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/klapany_vozdushnye_uteplennye_kvu/",
-        "typesizes": "200x300...1200x1200"
+        "typesizes": "200x300...1200x1200",
+        "updDate": "2024.08.02"
     },
     {
         "id": 32,
@@ -509,7 +540,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/klapany_obratnye_ko/",
-        "typesizes": "160, 200, 250, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250;"
+        "typesizes": "160, 200, 250, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250;",
+        "updDate": "2024.08.02"
     },
     {
         "id": 33,
@@ -525,7 +557,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/klapany_obratnye_ko_babochka/",
-        "typesizes": "100, 125, 160, 200, 250, 315"
+        "typesizes": "100, 125, 160, 200, 250, 315",
+        "updDate": "2024.08.02"
     },
     {
         "id": 34,
@@ -541,7 +574,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/klapany_protivopozharnye_normalno_otkrytye_kpno/",
-        "typesizes": "150x150...1000x500"
+        "typesizes": "150x150...1000x500",
+        "updDate": "2024.08.02"
     },
     {
         "id": 35,
@@ -557,7 +591,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/vozdukhovody_pryamougolnye/",
-        "typesizes": "150x150...1200x2000"
+        "typesizes": "150x150...1200x2000",
+        "updDate": "2024.08.02"
     },
     {
         "id": 36,
@@ -573,7 +608,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/zaglushki/",
-        "typesizes": "150x150...1000x1000"
+        "typesizes": "150x150...1000x1000",
+        "updDate": "2024.08.02"
     },
     {
         "id": 37,
@@ -589,7 +625,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/otvody/",
-        "typesizes": "150x150...2000x1200"
+        "typesizes": "150x150...2000x1200",
+        "updDate": "2024.08.02"
     },
     {
         "id": 38,
@@ -605,7 +642,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/diffuzory_dp/",
-        "typesizes": "300x300, 450x450, 600x600"
+        "typesizes": "300x300, 450x450, 600x600",
+        "updDate": "2024.08.02"
     },
     {
         "id": 39,
@@ -621,7 +659,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/klapany_vytyazhnye_pritochnye_kv_kp/",
-        "typesizes": "100, 125, 160, 200"
+        "typesizes": "100, 125, 160, 200",
+        "updDate": "2024.08.02"
     },
     {
         "id": 40,
@@ -637,7 +676,8 @@
         "note": "В компоненте реализована возможность опциального выбора шумоизолирующего короба и крепежного кронштейна",
         "versionHistory": "",
         "manufUrl": "https://rowen.ru/catalog/kanalnye_ventilyatory/ventilyatory_kanalnye_kruglye_vc/",
-        "typesizes": "100, 125, 160, 200, 250, 315, 355"
+        "typesizes": "100, 125, 160, 200, 250, 315, 355",
+        "updDate": "2024.08.02"
     },
     {
         "id": 41,
@@ -653,7 +693,8 @@
         "note": "В компоненте реализована возможность опциального выбора шумоизолирующего короба, гибких вставок и различных вариантов электрического исполнения",
         "versionHistory": "",
         "manufUrl": "https://rowen.ru/catalog/kanalnye_ventilyatory/ventilyatory_kanalnye_pryamougolnye_vcn/",
-        "typesizes": "400x200...1000x500"
+        "typesizes": "400x200...1000x500",
+        "updDate": "2024.08.02"
     },
     {
         "id": 42,
@@ -669,7 +710,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/nagrevateli_vodyanye_nwpk_nwp/",
-        "typesizes": "2-х рядные: 160, 200, 250, 315;\n\n3-х рядные: 160, 200, 250, 315"
+        "typesizes": "2-х рядные: 160, 200, 250, 315;\n\n3-х рядные: 160, 200, 250, 315",
+        "updDate": "2024.08.02"
     },
     {
         "id": 43,
@@ -685,7 +727,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/nagrevateli_vodyanye_nwpk_nwp/",
-        "typesizes": "1-рядные, L и R: 400x200...900x500;\n\n2-х рядные, L и R: 300x150...900x500;\n\n3-х рядные, L и R: 300x150...900x500;\n\n4-х рядные, L и R: 400x200...900x500"
+        "typesizes": "1-рядные, L и R: 400x200...900x500;\n\n2-х рядные, L и R: 300x150...900x500;\n\n3-х рядные, L и R: 300x150...900x500;\n\n4-х рядные, L и R: 400x200...900x500",
+        "updDate": "2024.08.02"
     },
     {
         "id": 44,
@@ -701,7 +744,8 @@
         "note": "Также присутствуют различные типоразмеры по тепловой мощности",
         "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/nagrevateli_elektricheskie_nek_nep/",
-        "typesizes": "100, 125, 160, 200, 250, 315"
+        "typesizes": "100, 125, 160, 200, 250, 315",
+        "updDate": "2024.08.02"
     },
     {
         "id": 45,
@@ -717,7 +761,8 @@
         "note": "Также присутствуют различные типоразмеры по тепловой мощности",
         "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/nagrevateli_elektricheskie_nek_nep/",
-        "typesizes": "300x150...1000x500"
+        "typesizes": "300x150...1000x500",
+        "updDate": "2024.08.02"
     },
     {
         "id": 46,
@@ -733,7 +778,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/okhladiteli_vodyanye_owp/",
-        "typesizes": "L и R: 400x200...1000x500"
+        "typesizes": "L и R: 400x200...1000x500",
+        "updDate": "2024.08.02"
     },
     {
         "id": 47,
@@ -749,7 +795,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/okhladiteli_freonovye_ofp/",
-        "typesizes": "L и R: 400x200...1000x500"
+        "typesizes": "L и R: 400x200...1000x500",
+        "updDate": "2024.08.02"
     },
     {
         "id": 48,
@@ -765,7 +812,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nevatom.ru/catalog/sektsii_ultrafioletovoy_bakteritsidnoy_obrabotki_sub/",
-        "typesizes": "400x200...1000x500"
+        "typesizes": "400x200...1000x500",
+        "updDate": "2024.08.02"
     },
     {
         "id": 50,
@@ -781,7 +829,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "100, 125, 200"
+        "typesizes": "100, 125, 200",
+        "updDate": "2024.08.02"
     },
     {
         "id": 51,
@@ -797,7 +846,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "180x(100, 100)"
+        "typesizes": "180x(100, 100)",
+        "updDate": "2024.08.02"
     },
     {
         "id": 52,
@@ -813,7 +863,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "100, 125, 160"
+        "typesizes": "100, 125, 160",
+        "updDate": "2024.08.02"
     },
     {
         "id": 53,
@@ -829,7 +880,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "125x100, 160x100, 160x125"
+        "typesizes": "125x100, 160x100, 160x125",
+        "updDate": "2024.08.02"
     },
     {
         "id": 54,
@@ -845,7 +897,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "100x100, 125x100, 160x100"
+        "typesizes": "100x100, 125x100, 160x100",
+        "updDate": "2024.08.02"
     },
     {
         "id": 55,
@@ -861,7 +914,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": 100
+        "typesizes": 100,
+        "updDate": "2024.08.02"
     },
     {
         "id": 56,
@@ -877,7 +931,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "100x(100, 100)"
+        "typesizes": "100x(100, 100)",
+        "updDate": "2024.08.02"
     },
     {
         "id": 57,
@@ -893,7 +948,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": 100
+        "typesizes": 100,
+        "updDate": "2024.08.02"
     },
     {
         "id": 58,
@@ -909,7 +965,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "150x100"
+        "typesizes": "150x100",
+        "updDate": "2024.08.02"
     },
     {
         "id": 59,
@@ -925,7 +982,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "150x150"
+        "typesizes": "150x150",
+        "updDate": "2024.08.02"
     },
     {
         "id": 60,
@@ -941,7 +999,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": 150
+        "typesizes": 150,
+        "updDate": "2024.08.02"
     },
     {
         "id": 61,
@@ -957,7 +1016,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400, 1600, 1800, 2000"
+        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400, 1600, 1800, 2000",
+        "updDate": "2024.08.02"
     },
     {
         "id": 62,
@@ -973,7 +1033,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "100x100...2000x2000"
+        "typesizes": "100x100...2000x2000",
+        "updDate": "2024.08.02"
     },
     {
         "id": 63,
@@ -989,7 +1050,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250"
+        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250",
+        "updDate": "2024.08.02"
     },
     {
         "id": 64,
@@ -1005,7 +1067,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "100x100...1000x2000"
+        "typesizes": "100x100...1000x2000",
+        "updDate": "2024.08.02"
     },
     {
         "id": 65,
@@ -1021,7 +1084,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "100x100...2000x2000"
+        "typesizes": "100x100...2000x2000",
+        "updDate": "2024.08.02"
     },
     {
         "id": 66,
@@ -1037,7 +1101,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "100x(100, 100)...800x(800, 800)"
+        "typesizes": "100x(100, 100)...800x(800, 800)",
+        "updDate": "2024.08.02"
     },
     {
         "id": 67,
@@ -1053,7 +1118,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400"
+        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400",
+        "updDate": "2024.08.02"
     },
     {
         "id": 68,
@@ -1069,7 +1135,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400"
+        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400",
+        "updDate": "2024.08.02"
     },
     {
         "id": 69,
@@ -1085,7 +1152,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400"
+        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400",
+        "updDate": "2024.08.02"
     },
     {
         "id": 70,
@@ -1101,7 +1169,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400"
+        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400",
+        "updDate": "2024.08.02"
     },
     {
         "id": 71,
@@ -1117,7 +1186,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400"
+        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900, 1000, 1120, 1250, 1400",
+        "updDate": "2024.08.02"
     },
     {
         "id": 72,
@@ -1133,7 +1203,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "100x100...1400x900"
+        "typesizes": "100x100...1400x900",
+        "updDate": "2024.08.02"
     },
     {
         "id": 73,
@@ -1149,7 +1220,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900"
+        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900",
+        "updDate": "2024.08.02"
     },
     {
         "id": 74,
@@ -1165,7 +1237,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900"
+        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900",
+        "updDate": "2024.08.02"
     },
     {
         "id": 75,
@@ -1181,7 +1254,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "100x100...1400x900"
+        "typesizes": "100x100...1400x900",
+        "updDate": "2024.08.02"
     },
     {
         "id": 76,
@@ -1197,7 +1271,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900"
+        "typesizes": "100, 125, 140, 160, 180, 200, 225, 250, 280, 315, 355, 400, 450, 500, 560, 630, 710, 800, 900",
+        "updDate": "2024.08.02"
     },
     {
         "id": 77,
@@ -1213,7 +1288,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "100x(100x100)...1250x(1200x800)"
+        "typesizes": "100x(100x100)...1250x(1200x800)",
+        "updDate": "2024.08.02"
     },
     {
         "id": 78,
@@ -1229,7 +1305,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "(150x100)x(100x100)...(2000x1400)x(1800x500)"
+        "typesizes": "(150x100)x(100x100)...(2000x1400)x(1800x500)",
+        "updDate": "2024.08.02"
     },
     {
         "id": 79,
@@ -1245,7 +1322,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "100x100...1250x1250"
+        "typesizes": "100x100...1250x1250",
+        "updDate": "2024.08.02"
     },
     {
         "id": 80,
@@ -1261,7 +1339,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "(150x150)x(100x100)...(2000x1400)x(1400x1400)"
+        "typesizes": "(150x150)x(100x100)...(2000x1400)x(1400x1400)",
+        "updDate": "2024.08.02"
     },
     {
         "id": 81,
@@ -1277,7 +1356,8 @@
         "note": "Выноска автоматически определяет форму воздуховода и делает выбор между обозначением круглого и прямоугольного воздуховодов",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": ""
+        "typesizes": "",
+        "updDate": "2024.08.02"
     },
     {
         "id": 82,
@@ -1293,7 +1373,8 @@
         "note": "Выноска показывает суммарные значения потерь давления в системе. Предназначена для компонента Вход в систему",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": ""
+        "typesizes": "",
+        "updDate": "2024.08.02"
     },
     {
         "id": 83,
@@ -1309,7 +1390,8 @@
         "note": "Выноска может быть применена к любому элементу со свойством Потеря давления. Внутри компонента добавлно два варианта выноски: с именем компонента под выноской и без имени",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": ""
+        "typesizes": "",
+        "updDate": "2024.08.02"
     },
     {
         "id": 84,
@@ -1325,7 +1407,8 @@
         "note": "Выноска может быть применена к любому элементу",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": ""
+        "typesizes": "",
+        "updDate": "2024.08.02"
     },
     {
         "id": 85,
@@ -1341,7 +1424,8 @@
         "note": "Выноска может быть применена к любому элементу. Не содержит параметров (пустая).",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": ""
+        "typesizes": "",
+        "updDate": "2024.08.02"
     },
     {
         "id": 86,
@@ -1357,7 +1441,8 @@
         "note": "",
         "versionHistory": "",
         "manufUrl": "https://air-ned.com/tovar-5.html",
-        "typesizes": "100, 125, 160, 200, 250, 315"
+        "typesizes": "100, 125, 160, 200, 250, 315",
+        "updDate": "2024.08.10"
     },
     {
         "id": 87,
@@ -1373,7 +1458,8 @@
         "note": "Компонент из тест-драйва. В списке замены на параметрику.",
         "versionHistory": "",
         "manufUrl": "http://www.arktika.ru/html/ire500.htm",
-        "typesizes": "160, 250"
+        "typesizes": "160, 250",
+        "updDate": "2024.08.10"
     },
     {
         "id": 88,
@@ -1389,7 +1475,8 @@
         "note": "Компонент из тест-драйва. В списке замены на параметрику.",
         "versionHistory": "",
         "manufUrl": "http://www.arktika.ru/html/rsk.htm",
-        "typesizes": "160, 250"
+        "typesizes": "160, 250",
+        "updDate": "2024.08.10"
     },
     {
         "id": 89,
@@ -1405,7 +1492,8 @@
         "note": "Изначально производителем созданы отдельные *.repository-компоненты для различных модификаций вентилятора, отличающиеся значениями параметров и 3D-графикой. Здесь эти компоненты объединены в один *.repository.",
         "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/ventilyatory/obshchepromyshlennye/osevye-obshchepromyshlennye/osa300",
-        "typesizes": "400...1250"
+        "typesizes": "400...1250",
+        "updDate": "2024.08.10"
     },
     {
         "id": 90,
@@ -1421,7 +1509,8 @@
         "note": "Изначально производителем созданы отдельные *.repository-компоненты для различных модификаций вентилятора, отличающиеся значениями параметров и 3D-графикой. Здесь эти компоненты объединены в один *.repository.",
         "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/ventilyatory/obshchepromyshlennye/osevye-obshchepromyshlennye/osa301",
-        "typesizes": "400...1250"
+        "typesizes": "400...1250",
+        "updDate": "2024.08.10"
     },
     {
         "id": 91,
@@ -1437,7 +1526,8 @@
         "note": "Компонент из тест-драйва \"Проектирование насосной станции\". В списке замены на параметрику.",
         "versionHistory": "",
         "manufUrl": "http://www.arktos.ru/detailitem.phtml?item_id=31",
-        "typesizes": "900x900"
+        "typesizes": "900x900",
+        "updDate": "2024.08.10"
     },
     {
         "id": 92,
@@ -1453,7 +1543,8 @@
         "note": "Компонент из тест-драйва \"Проектирование насосной станции\". В списке замены на параметрику.",
         "versionHistory": "",
         "manufUrl": "https://www.veza.ru/produktsiya/ventilyatory/obshchepromyshlennye/radialnye-obshchepromyshlennye/vran",
-        "typesizes": "ВРАН6-4.5, ВРАН 9-6.3"
+        "typesizes": "ВРАН6-4.5, ВРАН 9-6.3",
+        "updDate": "2024.08.10"
     },
     {
         "id": 93,
@@ -1469,7 +1560,8 @@
         "note": "",
         "versionHistory": "v1: Компонент из тест-драйва \"Проектирование насосной станции\" на основе оборудования Неватом. В списке замены на параметрику;\nv2: Создан Параметрический компонент на основе оборудования Ровен",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "100, 200, 400"
+        "typesizes": "100, 200, 400",
+        "updDate": "2024.08.15"
     },
     {
         "id": 94,
@@ -1485,7 +1577,8 @@
         "note": "Параметрические компоненты дают возможность создать любые новые типоразмеры компонента в несколько кликов - простой заменой параметров.\nВ тройнике также параметризуются вылеты (прямые участки) для отвода и для магистрали. В данном тройнике параметризованы вылеты (прямые участки) магистрали относительно отвода и отвода относительно магистрали.",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "(100x100)x(100x100)...(200x200)x(200x200), (800x200)x(100x100)...(800x200)x(200x200)"
+        "typesizes": "(100x100)x(100x100)...(200x200)x(200x200), (800x200)x(100x100)...(800x200)x(200x200)",
+        "updDate": "2024.08.14"
     },
     {
         "id": 95,
@@ -1501,7 +1594,8 @@
         "note": "Параметрические компоненты дают возможность создать любые новые типоразмеры компонента в несколько кликов - простой заменой параметров. \nВ данном отводе в dwg-графике задан радиус отвода 1.5 ширины воздуховода (если смотреть на отвод как поворот в горизонтальной плоскости).\nВ списке на усовершенствование (добавление угла как параметра, добавление радиуса отвода как параметра).",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "100x100, 200x100, 200x200, 800x200"
+        "typesizes": "100x100, 200x100, 200x200, 800x200",
+        "updDate": "2024.08.14"
     },
     {
         "id": 96,
@@ -1517,7 +1611,8 @@
         "note": "Параметрические компоненты дают возможность создать любые новые типоразмеры компонента в несколько кликов - простой заменой параметров. ",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "100x100, 200x100, 200x200, 800x200"
+        "typesizes": "100x100, 200x100, 200x200, 800x200",
+        "updDate": "2024.08.14"
     },
     {
         "id": 97,
@@ -1533,7 +1628,8 @@
         "note": "Параметрические компоненты дают возможность создать любые новые типоразмеры компонента в несколько кликов - простой заменой параметров. \nВ данном переходе также параметризуется длина патрубков (прямых участков) и длина непосредственно перехода. По умолчанию длина всего перехода равна полутора средним эквивалентным диаметрам перехода; эквивалентый диаметр равен 4xA/P, где A - площадь сечения, P - периметр сечения. Если параметр \"Заданная длина перехода\" не равен 0, то длина перехода примет указанное значение.\nВ списке на усовершенствование (добавление сдвига как параметра).",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "(100x100)x(100x100)...(200x200)x(200x200), (800x200)x(100x100)...(800x200)x(200x200)"
+        "typesizes": "(100x100)x(100x100)...(200x200)x(200x200), (800x200)x(100x100)...(800x200)x(200x200)",
+        "updDate": "2024.08.14"
     },
     {
         "id": 98,
@@ -1549,7 +1645,8 @@
         "note": "Параметрические компоненты дают возможность создать любые новые типоразмеры компонента в несколько кликов - простой заменой параметров. \nВ данном переходе также параметризуется длина патрубков (прямых участков) и длина непосредственно перехода. По умолчанию длина всего перехода равна полутора средним эквивалентным диаметрам перехода; эквивалентый диаметр равен 4xA/P, где A - площадь сечения, P - периметр сечения. Если параметр \"Заданная длина перехода\" не равен 0, то длина перехода примет указанное значение.\nВ списке на усовершенствование (добавление сдвига как параметра).",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": ""
+        "typesizes": "",
+        "updDate": "2024.08.14"
     },
     {
         "id": 99,
@@ -1565,7 +1662,8 @@
         "note": "Параметрические компоненты дают возможность создать любые новые типоразмеры компонента в несколько кликов - простой заменой параметров. ",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "100x100, 200x100, 200x200, 800x200"
+        "typesizes": "100x100, 200x100, 200x200, 800x200",
+        "updDate": "2024.08.14"
     },
     {
         "id": 100,
@@ -1581,7 +1679,8 @@
         "note": "Параметрические компоненты дают возможность создать любые новые типоразмеры компонента в несколько кликов - простой заменой параметров.\nВ тройнике также параметризуются вылеты (прямые участки) для отвода и для магистрали. В данной крестовине параметризованы вылеты (прямые участки) магистрали относительно отводов и вылеты отводов относительно магистрали.",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "(100x100)x(100x100)...(200x200)x(200x200), (800x200)x(100x100)...(800x200)x(200x200)"
+        "typesizes": "(100x100)x(100x100)...(200x200)x(200x200), (800x200)x(100x100)...(800x200)x(200x200)",
+        "updDate": "2024.08.14"
     },
     {
         "id": 101,
@@ -1597,6 +1696,7 @@
         "note": "Параметрические компоненты дают возможность создать любые новые типоразмеры компонента в несколько кликов - простой заменой параметров.\nВ тройнике также параметризуются вылеты (прямые участки) для отвода и для магистрали. В данной утке параметризованы сечения коннекторов, а так же длина утки и перепад высот между коннекторами. Горизонтальное смещение не регулируется,в списке на модернизацию.",
         "versionHistory": "",
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
-        "typesizes": "100x100-100x100, 100x100-200x100, 200x200-800x200"
+        "typesizes": "100x100-100x100, 100x100-200x100, 200x200-800x200",
+        "updDate": "2024.08.15"
     }
 ]

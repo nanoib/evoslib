@@ -22,7 +22,7 @@ CONFIG = {
     'excel_file_path': os.path.join(BASE_DIR, '../../db/Base.xlsx'),
     'sheet_name': 'Экспорт',
     'start_cell': (4, 2),
-    'end_col': 'O',
+    'end_col': 'P',
 
     # где размещается корневая папка с компонентами
     'root_folder_path': os.path.join(BASE_DIR, '../../components'),

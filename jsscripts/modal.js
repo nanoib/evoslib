@@ -54,6 +54,17 @@
             modalContent += `<p><strong>История версий:</strong><br><span>${formattedVersionHistory}</span></p>`;
         }
 
+        if (component.id) {
+            modalContent += `<p><strong>ID в библиотеке:</strong> <span>${component.id}</span></p>`;
+        }
+        
+        if (component.updDate) {
+            const date = new Date(component.updDate);
+            const formattedDate = date.toLocaleDateString('ru-RU', { day: 'numeric', month: 'long', year: 'numeric' });
+            modalContent += `<p><strong>Дата последнего обновления:</strong> <span>${formattedDate}</span></p>`;
+        }
+    
+
         modalText.innerHTML = `<hr>${modalContent}`;
 
         modal.style.display = 'flex';
