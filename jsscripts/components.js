@@ -35,5 +35,29 @@
         });
     }
 
+    function sortComponents(components, sortBy) {
+        return components.sort((a, b) => {
+            if (sortBy === 'name') {
+                return a.name.localeCompare(b.name);
+            } else if (sortBy === 'manufacturer') {
+                return a.manufacturer.localeCompare(b.manufacturer);
+            } else if (sortBy === 'updDate') {
+                return new Date(b.updDate) - new Date(a.updDate);
+            } else if (sortBy === 'technicalCategory') {
+                if (a.siteCategory === b.siteCategory) {
+                    return a.technicalCategory.localeCompare(b.technicalCategory);
+                }
+                return a.siteCategory.localeCompare(b.siteCategory);
+            }
+        });
+    }
+
+    document.getElementById('sortSelect').addEventListener('change', (event) => {
+        const sortedComponents = sortComponents(components, event.target.value);
+        renderComponents(sortedComponents);
+    });
+
+    window.sortComponents = sortComponents;
     window.renderComponents = renderComponents;
+
 })();

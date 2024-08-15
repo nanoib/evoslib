@@ -43,6 +43,15 @@
         </aside>
         <main>
             <section class="library">
+                <div class="sort-options">
+                    <label for="sortSelect">Сортировать по:</label>
+                    <select id="sortSelect">
+                        <option value="updDate">Дата последнего обновления</option>
+                        <option value="name">Имя компонента</option>
+                        <option value="manufacturer">Название производителя</option>
+                        <option value="technicalCategory">Техническая категория</option>
+                    </select>
+                </div>
                 <div class="component-grid" id="componentGrid"></div>
             </section>
         </main>

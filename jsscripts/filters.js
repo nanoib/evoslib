@@ -213,6 +213,27 @@
         applyFilters();
     }
 
+    function getCurrentFilters() {
+        return {
+            siteCategory: Object.entries(filters.siteCategory).reduce((acc, [category, data]) => {
+                if (data.checked) {
+                    acc[category] = true;
+                } else {
+                    const checkedSubcategories = Object.entries(data.subcategories)
+                        .filter(([, isChecked]) => isChecked)
+                        .map(([subcategory]) => subcategory);
+                    if (checkedSubcategories.length > 0) {
+                        acc[category] = checkedSubcategories;
+                    }
+                }
+                return acc;
+            }, {}),
+            manufacturer: filters.manufacturer.slice(),
+            graphicType: filters.graphicType.slice(),
+            shape: filters.shape.slice()
+        };
+    }
+
     window.initializeFilters = initializeFilters;
     window.getUniqueValues = getUniqueValues;
     window.renderFilterOptions = renderFilterOptions;
@@ -223,4 +244,6 @@
     window.handleFilterChange = handleFilterChange;
     window.applyFilters = applyFilters;
     window.resetFilters = resetFilters;
+    window.getCurrentFilters = getCurrentFilters;
+
 })();
