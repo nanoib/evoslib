@@ -3,6 +3,7 @@
         const modal = document.getElementById('modal');
         const modalImage = document.getElementById('modal-image');
         const modalText = document.getElementById('modal-text');
+        const modalInner = document.querySelector('.modal-inner');
 
         modalImage.src = `./im/${component.id}.png`;
         modalImage.alt = component.name;
@@ -12,11 +13,13 @@
         // Generate the download link
         const downloadLink = `./components/${component.siteCategory}/${component.technicalCategory}/id${component.id}_v${component.version}_${component.name}/id${component.id}_v${component.version}_${component.name}.zip`;
 
+        // Add download button outside of <p> tags
+        modalContent += `<div style="display: flex; justify-content: flex-end; margin-bottom: 10px;">
+                            <a href="${downloadLink}" class="download-button" download>Скачать</a>
+                        </div>`;
+
         if (component.siteCategory) {
-            modalContent += `<p style="display: flex; justify-content: space-between; align-items: center;">
-                                <strong>Категория:</strong> <span>${component.siteCategory}</span>
-                                <a href="${downloadLink}" class="download-button" download style="margin-left: auto;">Скачать</a>
-                             </p>`;
+            modalContent += `<p><strong>Категория:</strong> <span>${component.siteCategory}</span></p>`;
         }
         
         if (component.technicalCategory) {
@@ -74,6 +77,9 @@
         modalText.innerHTML = `<hr>${modalContent}`;
 
         modal.style.display = 'flex';
+        if (modalInner) {
+            modalInner.scrollTop = 0;
+        }
         modalImage.addEventListener('click', closeModal);
         document.addEventListener('keydown', handleKeyDown);
         modal.addEventListener('click', handleOutsideClick);

@@ -123,7 +123,7 @@ main {
 }
 
 .component-tile:hover {
-    border: 1px solid #e1e1e1;
+    border: 1px solid #d8d8d8;
     transform: translateY(-10px);
 }
 
@@ -199,13 +199,20 @@ main {
 .modal-content {
     background-color: #fff;
     padding: 20px;
-    border-radius: 10px;
-    width: 70%; /* Фиксированная ширина относительно экрана */
-    max-width: 1000px; /* Максимальная ширина для очень широких экранов */
-    max-height: 80vh; /* Максимальная высота относительно высоты viewport */
-    overflow: auto;
+    border-radius: 30px;
+    width: 70%;
+    max-width: 1000px;
+    max-height: 80vh;
     text-align: left;
-    box-sizing: border-box; /* Учитывает padding в общей ширине */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-inner {
+    flex: 1;
+    overflow-y: auto;
+    padding-right: 20px;
 }
 
 .modal-content p {
@@ -269,6 +276,7 @@ main {
     transition: background-color 0.3s ease;
     text-align: center;
     margin-bottom: -40px;
+    margin-right: 5%;
 }
 
 .download-button:hover {
@@ -296,7 +304,7 @@ main {
 
 .download-selected-button {
     width: auto;
-    padding: 0 15px;
+    padding: 0 35px;
     height: 30px;
     border-radius: 5px;
     margin-left: 1rem;
