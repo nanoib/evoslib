@@ -69,47 +69,77 @@
         console.log(`Found ${renderedComponents.length} components to download`);
     
         const zip = new JSZip();
+        const sizeLimit = 50 * 1024 * 1024; // 50 MB limit
+        let totalSize = 0;
     
-        const addFileToZip = (url, filename, siteCategory) => {
-            console.log(`Attempting to fetch: ${url}`);
-            return fetch(url)
+        const calculateSize = (url) => {
+            return fetch(url, { method: 'HEAD' })
                 .then(response => {
                     if (!response.ok) {
                         throw new Error(`HTTP error! status: ${response.status}`);
                     }
-                    console.log(`Fetch successful for ${filename}`);
-                    return response.blob();
-                })
-                .then(blob => {
-                    console.log(`Adding ${filename} to zip. Blob size: ${blob.size} bytes`);
-                    zip.folder(siteCategory).file(filename, blob);
-                    console.log(`Added ${filename} to zip in folder ${siteCategory}`);
-                })
-                .catch(error => {
-                    console.error(`Failed to add ${filename}: ${error}`);
+                    return parseInt(response.headers.get('content-length') || '0');
                 });
         };
     
-        const promises = Array.from(renderedComponents).map(tile => {
+        const sizePromises = Array.from(renderedComponents).map(tile => {
             const componentId = tile.getAttribute('data-component-id');
-            console.log(`found Id: ${componentId}`);
             const component = window.components.find(c => String(c.id) === String(componentId));
             
             if (component) {
                 const zipFileName = `id${component.id}_v${component.version}_${component.name}.zip`;
                 const zipFilePath = `./components/${component.siteCategory}/${component.technicalCategory}/id${component.id}_v${component.version}_${component.name}/${zipFileName}`;
-                
-                console.log(`Processing component: ${component.name}`);
-                console.log(`Zip file path: ${zipFilePath}`);
-                
-                return addFileToZip(zipFilePath, zipFileName, component.siteCategory);
-            } else {
-                console.warn(`Component not found for ID: ${componentId}`);
-                return Promise.resolve();
+                return calculateSize(zipFilePath);
             }
+            return Promise.resolve(0);
         });
     
-        Promise.all(promises)
+        Promise.all(sizePromises)
+            .then(sizes => {
+                totalSize = sizes.reduce((acc, size) => acc + size, 0);
+                console.log(`Total size to download: ${totalSize} bytes`);
+    
+                if (totalSize > sizeLimit) {
+                    alert('Пожалуйста, подождите! Ваш архив больше 50 Мб. Создание архива может занять несколько минут. Скачивание начнется автоматически');
+                }
+    
+                const addFileToZip = (url, filename, siteCategory) => {
+                    console.log(`Attempting to fetch: ${url}`);
+                    return fetch(url)
+                        .then(response => {
+                            if (!response.ok) {
+                                throw new Error(`HTTP error! status: ${response.status}`);
+                            }
+                            console.log(`Fetch successful for ${filename}`);
+                            return response.blob();
+                        })
+                        .then(blob => {
+                            console.log(`Adding ${filename} to zip. Blob size: ${blob.size} bytes`);
+                            zip.folder(siteCategory).file(filename, blob);
+                            console.log(`Added ${filename} to zip in folder ${siteCategory}`);
+                        })
+                        .catch(error => {
+                            console.error(`Failed to add ${filename}: ${error}`);
+                        });
+                };
+    
+                const promises = Array.from(renderedComponents).map(tile => {
+                    const componentId = tile.getAttribute('data-component-id');
+                    const component = window.components.find(c => String(c.id) === String(componentId));
+                    
+                    if (component) {
+                        const zipFileName = `id${component.id}_v${component.version}_${component.name}.zip`;
+                        const zipFilePath = `./components/${component.siteCategory}/${component.technicalCategory}/id${component.id}_v${component.version}_${component.name}/${zipFileName}`;
+                        
+                        return addFileToZip(zipFilePath, zipFileName, component.siteCategory);
+                    } else {
+                        console.warn(`Component not found for ID: ${componentId}`);
+                        return Promise.resolve();
+                    }
+                });
+    
+                return Promise.all(promises);
+            })
             .then(() => {
                 console.log('All files processed. Generating final zip...');
                 return zip.generateAsync({type:"blob"});
@@ -132,8 +162,8 @@
                 console.log('Download initiated');
             })
             .catch(error => {
-                console.error('Error creating zip file:', error);
-                alert('Произошла ошибка при создании zip-файла. Пожалуйста, попробуйте еще раз.');
+                console.error('Error during download process:', error);
+                alert('Произошла ошибка при загрузке файлов. Пожалуйста, попробуйте еще раз.');
             });
     }
     
