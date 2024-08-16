@@ -21,6 +21,7 @@
     // Add event listener for reset button
     document.getElementById('resetFilters').addEventListener('click', resetFilters);
     document.getElementById('resetFilters').style.display = 'none';
+    document.getElementById('downloadSelected').addEventListener('click', downloadSelectedComponents);
 
     // Add event listener for sort select dropdown
     document.getElementById('sortSelect').addEventListener('change', (event) => {

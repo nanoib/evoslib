@@ -32,6 +32,7 @@
             tile.addEventListener('click', () => openModal(component));
 
             grid.appendChild(tile);
+            tile.setAttribute('data-component-id', component.id);
         });
     }
 
@@ -57,7 +58,87 @@
         renderComponents(sortedComponents);
     });
 
+    function downloadSelectedComponents() {
+        const renderedComponents = document.querySelectorAll('.component-tile');
+        if (renderedComponents.length === 0) {
+            console.log('No components to download');
+            alert('Нет компонентов для скачивания.');
+            return;
+        }
+    
+        console.log(`Found ${renderedComponents.length} components to download`);
+    
+        const zip = new JSZip();
+    
+        const addFileToZip = (url, filename, siteCategory) => {
+            console.log(`Attempting to fetch: ${url}`);
+            return fetch(url)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    console.log(`Fetch successful for ${filename}`);
+                    return response.blob();
+                })
+                .then(blob => {
+                    console.log(`Adding ${filename} to zip. Blob size: ${blob.size} bytes`);
+                    zip.folder(siteCategory).file(filename, blob);
+                    console.log(`Added ${filename} to zip in folder ${siteCategory}`);
+                })
+                .catch(error => {
+                    console.error(`Failed to add ${filename}: ${error}`);
+                });
+        };
+    
+        const promises = Array.from(renderedComponents).map(tile => {
+            const componentId = tile.getAttribute('data-component-id');
+            console.log(`found Id: ${componentId}`);
+            const component = window.components.find(c => String(c.id) === String(componentId));
+            
+            if (component) {
+                const zipFileName = `id${component.id}_v${component.version}_${component.name}.zip`;
+                const zipFilePath = `./components/${component.siteCategory}/${component.technicalCategory}/id${component.id}_v${component.version}_${component.name}/${zipFileName}`;
+                
+                console.log(`Processing component: ${component.name}`);
+                console.log(`Zip file path: ${zipFilePath}`);
+                
+                return addFileToZip(zipFilePath, zipFileName, component.siteCategory);
+            } else {
+                console.warn(`Component not found for ID: ${componentId}`);
+                return Promise.resolve();
+            }
+        });
+    
+        Promise.all(promises)
+            .then(() => {
+                console.log('All files processed. Generating final zip...');
+                return zip.generateAsync({type:"blob"});
+            })
+            .then(content => {
+                console.log(`Final zip size: ${content.size} bytes`);
+                console.log('Zip contents:');
+                zip.forEach((relativePath, zipEntry) => {
+                    console.log(`- ${relativePath}: ${zipEntry.uncompressedSize} bytes`);
+                });
+    
+                const url = window.URL.createObjectURL(content);
+                const a = document.createElement('a');
+                a.style.display = 'none';
+                a.href = url;
+                a.download = 'selected_components.zip';
+                document.body.appendChild(a);
+                a.click();
+                window.URL.revokeObjectURL(url);
+                console.log('Download initiated');
+            })
+            .catch(error => {
+                console.error('Error creating zip file:', error);
+                alert('Произошла ошибка при создании zip-файла. Пожалуйста, попробуйте еще раз.');
+            });
+    }
+    
     window.sortComponents = sortComponents;
     window.renderComponents = renderComponents;
+    window.downloadSelectedComponents = downloadSelectedComponents;
 
 })();

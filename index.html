@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Библиотека BIM-компонентов</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
 </head>
 <body>
     <button class="filter-toggle" id="filterToggle">Фильтры</button>
@@ -51,6 +52,7 @@
                         <option value="manufacturer">Название производителя</option>
                         <option value="technicalCategory">Техническая категория</option>
                     </select>
+                    <button class="download-selected-button" id="downloadSelected" >⬇</button>
                 </div>
                 <div class="component-grid" id="componentGrid"></div>
             </section>

@@ -190,6 +190,7 @@
 
         const resetButton = document.getElementById('resetFilters');
         resetButton.style.display = anyFilterSelected ? 'inline-block' : 'none';
+        return filteredComponents;
     }
 
     function resetFilters() {
