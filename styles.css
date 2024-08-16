@@ -330,7 +330,23 @@ main {
     pointer-events: none;
 }
 
+.info-icon {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #5ba5f5;
+    color: white;
+    text-align: center;
+    line-height: 18px;
+    font-size: 12px;
+    cursor: help;
+    transition: background-color 0.3s ease;
+}
 
+.info-icon:hover {
+    background-color: #0056b3;
+}
 
 
 @media (max-width: 768px) {

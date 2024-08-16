@@ -18,12 +18,15 @@
                                 <a href="${downloadLink}" class="download-button" download style="margin-left: auto;">Скачать</a>
                              </p>`;
         }
+        
         if (component.technicalCategory) {
             modalContent += `<p><strong>Подкатегория:</strong> <span>${component.technicalCategory}</span></p>`;
         }
+
         if (component.surname) {
             modalContent += `<p><strong>Дополнительная характеристика:</strong> <span>${component.surname}</span></p>`;
         }
+
         if (component.note) {
             modalContent += `<p><strong>Описание:</strong> <span>${component.note}</span></p>`;
         }
@@ -39,7 +42,10 @@
         if (component.typesizes) {
             const typesizesArray = component.typesizes.split(';').map(size => size.trim());
             const formattedTypesizes = typesizesArray.join(';<br>');
-            modalContent += `<p><strong>Доступные типоразмеры:</strong><br><span>${formattedTypesizes}</span></p>`;
+            const typesizesTitle = component.graphicType === "Параметрическая" 
+                ? 'Доступные типоразмеры <i><span class="info-icon" title="Этот компонент с параметрической графикой.\nЭто значит, что вы легко можете добавить новые типоразмеры копированием\nкомпонента и дальнейшей заменой значений параметров">i</span></i>:'
+                : 'Доступные типоразмеры:';
+            modalContent += `<p><strong>${typesizesTitle}</strong><br><span>${formattedTypesizes}</span></p>`;
         }
 
         if (component.manufUrl) {
