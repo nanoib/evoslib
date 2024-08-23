@@ -1715,5 +1715,22 @@
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "100, 125",
         "updDate": "2024.08.22"
+    },
+    {
+        "id": 103,
+        "name": "Тройник",
+        "version": 1,
+        "md5": "689ea6b671e113595877f96820db574d",
+        "siteCategory": "Элементы воздуховодов",
+        "technicalCategory": "Тройник",
+        "surname": "параметрический",
+        "shape": "Различные",
+        "manufacturer": "Базовое оборудование",
+        "graphicType": "Параметрическая",
+        "note": "Параметризованы вылеты (прямые участки) для отвода и для магистрали",
+        "versionHistory": "",
+        "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
+        "typesizes": "(100x100)x(100),(200x200)x(200),(800x200)x(200)",
+        "updDate": "2024.08.23\\"
     }
 ]
