@@ -1732,5 +1732,22 @@
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "(100x100)x(100),(200x200)x(200),(800x200)x(200)",
         "updDate": "2024.08.23"
+    },
+    {
+        "id": 104,
+        "name": "Отвод",
+        "version": 1,
+        "md5": "e83be117d00f7ad6d6e759a69d263522",
+        "siteCategory": "Элементы воздуховодов",
+        "technicalCategory": "Отвод",
+        "surname": "с полкой параметрический",
+        "shape": "Прямоугольный",
+        "manufacturer": "Базовое оборудование",
+        "graphicType": "Параметрическая",
+        "note": "Параметризован размер полки и угол отвода",
+        "versionHistory": "",
+        "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
+        "typesizes": "100x100, 200x100, 200x200, 800x200",
+        "updDate": "2024.08.29"
     }
 ]
