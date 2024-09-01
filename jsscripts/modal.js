@@ -4,7 +4,8 @@
         const modalImage = document.getElementById('modal-image');
         const modalText = document.getElementById('modal-text');
         const modalInner = document.querySelector('.modal-inner');
-
+        const componentDiv = document.getElementById('container');
+        componentDiv.style.display = 'none';
         modalImage.src = `./im/${component.id}.png`;
         modalImage.alt = component.name;
 
@@ -14,8 +15,9 @@
         const downloadLink = `./components/${component.siteCategory}/${component.technicalCategory}/id${component.id}_v${component.version}_${component.name}/id${component.id}_v${component.version}_${component.name}.zip`;
 
         // Add download button outside of <p> tags
-        modalContent += `<div style="display: flex; justify-content: flex-end; margin-bottom: 10px;">
+        modalContent += `<div class="modal-buttons">
                             <a href="${downloadLink}" class="download-button" download>Скачать</a>
+                            <button id="view3DButton" class="view-3d-button">3D</button>
                         </div>`;
 
         if (component.siteCategory) {
@@ -83,6 +85,26 @@
         modalImage.addEventListener('click', closeModal);
         document.addEventListener('keydown', handleKeyDown);
         modal.addEventListener('click', handleOutsideClick);
+    
+
+
+        // Add event listener for the 3D button
+        const view3DButton = document.getElementById('view3DButton');
+        view3DButton.addEventListener('click', () => {
+            if (view3DButton.textContent === '3D') {
+                modalImage.style.display = 'none';
+                componentDiv.style.display = 'block';
+                view3DButton.textContent = '2D';
+                view3DButton.style.backgroundColor = 'rgb(61, 139, 175)';
+                // Load the 3D model using the myIfcLoader.js script
+                // load3DModel(component);
+            } else {
+                componentDiv.style.display = 'none';
+                modalImage.style.display = 'block';
+                view3DButton.textContent = '3D';
+                view3DButton.style.backgroundColor = 'rgb(83, 168, 207)';
+            }
+        });
     }
 
     function closeModal() {
@@ -92,6 +114,9 @@
         modalImage.removeEventListener('click', closeModal);
         document.removeEventListener('keydown', handleKeyDown);
         modal.removeEventListener('click', handleOutsideClick);
+        const componentDiv = document.getElementById('container');
+        componentDiv.style.display = 'none';
+        modalImage.style.display = 'block';
     }
 
     function handleKeyDown(event) {
@@ -113,6 +138,13 @@
             modal.style.display = 'none';
         }
     }
+
+    // function load3DModel(component) {
+    //     // Assuming myIfcLoader.js has a function to load the model
+    //     // You might need to adjust this based on the actual implementation of myIfcLoader.js
+    //     const modelPath = `./components/${component.siteCategory}/${component.technicalCategory}/id${component.id}_v${component.version}_${component.name}/model.ifc`;
+    //     window.loadIfcModel(modelPath, 'component');
+    // }
 
     window.openModal = openModal;
     window.closeModal = closeModal;
