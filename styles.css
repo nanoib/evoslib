@@ -200,19 +200,24 @@ main {
     background-color: #fff;
     padding: 20px;
     border-radius: 30px;
-    width: 70%;
-    max-width: 1000px;
-    max-height: 80vh;
+    width: 45%; /* Set modal width to 60% of the screen width */
+    max-width: 45vw; /* Ensure it doesn't exceed 60% of the viewport width */
+    min-height: 70vh;
+    max-height: 70vh;
     text-align: left;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    position: absolute;
 }
 
 .modal-inner {
+    height: 40vh;
+    min-height: 40vh;
     flex: 1;
     overflow-y: auto;
     padding-right: 20px;
+    position: relative;
 }
 
 .modal-content p {
@@ -234,13 +239,12 @@ main {
 }
 
 #modal-image {
-    max-height: 45vh; /* Максимальная высота изображения */
-    width: auto; /* Автоматическая ширина для сохранения пропорций */
-    height: auto; /* Автоматическая высота для сохранения пропорций */
+    max-height: 40vh;
+    width: auto; /* Maintain aspect ratio */
     display: block;
     margin: 0 auto;
     margin-top: 15px;
-    object-fit: contain; /* Сохраняет пропорции изображения */
+    /* object-fit: contain; Maintain image proportions */
 }
 
 #modal-text, #modal-link {
@@ -263,8 +267,53 @@ main {
     text-decoration: underline;
 }
 
-.download-button {
+.modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 7%;
+}
+
+.modal-buttons a,
+.modal-buttons button {
+    margin-left: 5px;
+}
+
+#resetFilters {
+    padding: 0.5rem 1rem;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 0.3rem;
+    margin-right: 1.3rem;
+    font-size: 0.9rem;
+}
+
+.view-3d-button {
     display: inline-block;
+    padding: 0.9rem 1.7rem;
+    background-color: rgb(83, 168, 207); /* Green background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 7px;
+    text-decoration: none; /* Remove underline from links */
+    font-size: 1.0rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    text-decoration:none;
+    margin-right: 5%;
+}
+
+.view-3d-button:hover {
+    background-color: rgb(61, 139, 175) /* Darker green on hover */
+}
+
+
+.download-button {
+    display: block;
     padding: 0.9rem 1.7rem;
     background-color: #4CAF50; /* Green background */
     color: white; /* White text */
@@ -275,7 +324,6 @@ main {
     cursor: pointer;
     transition: background-color 0.3s ease;
     text-align: center;
-    margin-bottom: -40px;
     margin-right: 5%;
 }
 
