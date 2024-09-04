@@ -14,6 +14,20 @@
         // Generate the download link
         const downloadLink = `./components/${component.siteCategory}/${component.technicalCategory}/id${component.id}_v${component.version}_${component.name}/id${component.id}_v${component.version}_${component.name}.zip`;
 
+        function getFilePath(component, filetype) {
+            const basePath = `./components/${component.siteCategory}/${component.technicalCategory}/id${component.id}_v${component.version}_${component.name}/id${component.id}_v${component.version}_${component.name}`;
+            switch (filetype) {
+                case 'png':
+                    return `${basePath}.png`;
+                case 'ifc':
+                    return `${basePath}.ifc`;
+                case 'zip':
+                    return `${basePath}.zip`;
+                default:
+                    throw new Error('Unsupported file type');
+            }
+        }
+
         // Add download button outside of <p> tags
         modalContent += `<div class="modal-buttons">
                             <a href="${downloadLink}" class="download-button" download>Скачать</a>
@@ -97,7 +111,7 @@
                 view3DButton.textContent = '2D';
                 view3DButton.style.backgroundColor = 'rgb(61, 139, 175)';
                 // Load the 3D model using the myIfcLoader.js script
-                // load3DModel(component);
+                load3DModel(component);
             } else {
                 componentDiv.style.display = 'none';
                 modalImage.style.display = 'block';
@@ -139,12 +153,12 @@
         }
     }
 
-    // function load3DModel(component) {
-    //     // Assuming myIfcLoader.js has a function to load the model
-    //     // You might need to adjust this based on the actual implementation of myIfcLoader.js
-    //     const modelPath = `./components/${component.siteCategory}/${component.technicalCategory}/id${component.id}_v${component.version}_${component.name}/model.ifc`;
-    //     window.loadIfcModel(modelPath, 'component');
-    // }
+    function load3DModel(component) {
+        // Assuming myIfcLoader.js has a function to load the model
+        // You might need to adjust this based on the actual implementation of myIfcLoader.js
+        const modelPath = `./components/${component.siteCategory}/${component.technicalCategory}/id${component.id}_v${component.version}_${component.name}/model.ifc`;
+        window.loadIfcFromFile(getFilePath(component, filetype));
+    }
 
     window.openModal = openModal;
     window.closeModal = closeModal;
