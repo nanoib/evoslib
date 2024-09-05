@@ -8,7 +8,7 @@
             tile.className = 'component-tile';
 
             const img = document.createElement('img');
-            img.src = `./im/${component.id}.png`;
+            img.src = getFilePath(component, 'png');
             img.alt = component.name;
 
             const details = document.createElement('div');
@@ -34,6 +34,20 @@
             grid.appendChild(tile);
             tile.setAttribute('data-component-id', component.id);
         });
+    }
+
+    function getFilePath(component, filetype) {
+        const componentFolder = `./components/${component.siteCategory}/${component.technicalCategory}/id${component.id}_v${component.version}_${component.name}`;
+        switch (filetype) {
+            case 'png':
+                return `${componentFolder}/${component.id}.png`;
+            case 'ifc':
+                return `${componentFolder}/${component.id}.ifc`;
+            case 'zip':
+                return `${componentFolder}/id${component.id}_v${component.version}_${component.name}.zip`;
+            default:
+                throw new Error('Unsupported file type');
+        }
     }
 
     function sortComponents(components, sortBy) {
@@ -170,5 +184,6 @@
     window.sortComponents = sortComponents;
     window.renderComponents = renderComponents;
     window.downloadSelectedComponents = downloadSelectedComponents;
+    window.getFilePath = getFilePath;
 
 })();
