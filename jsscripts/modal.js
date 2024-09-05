@@ -6,7 +6,7 @@
         const modalInner = document.querySelector('.modal-inner');
         const componentDiv = document.getElementById('container');
         componentDiv.style.display = 'none';
-        modalImage.src = `./im/${component.id}.png`;
+        modalImage.src = getFilePath(component, 'png');
         modalImage.alt = component.name;
 
         let modalContent = '';
@@ -14,23 +14,9 @@
         // Generate the download link
         const downloadLink = `./components/${component.siteCategory}/${component.technicalCategory}/id${component.id}_v${component.version}_${component.name}/id${component.id}_v${component.version}_${component.name}.zip`;
 
-        function getFilePath(component, filetype) {
-            const basePath = `./components/${component.siteCategory}/${component.technicalCategory}/id${component.id}_v${component.version}_${component.name}/id${component.id}_v${component.version}_${component.name}`;
-            switch (filetype) {
-                case 'png':
-                    return `${basePath}.png`;
-                case 'ifc':
-                    return `${basePath}.ifc`;
-                case 'zip':
-                    return `${basePath}.zip`;
-                default:
-                    throw new Error('Unsupported file type');
-            }
-        }
-
         // Add download button outside of <p> tags
         modalContent += `<div class="modal-buttons">
-                            <a href="${downloadLink}" class="download-button" download>Скачать</a>
+                            <a href="${getFilePath(component, 'png')}" class="download-button" download>Скачать</a>
                             <button id="view3DButton" class="view-3d-button">3D</button>
                         </div>`;
 
@@ -119,6 +105,28 @@
                 view3DButton.style.backgroundColor = 'rgb(83, 168, 207)';
             }
         });
+
+        const ifcFilePath = getFilePath(component, 'ifc');
+        fetch(ifcFilePath)
+            .then(response => response.ok)
+            .then(exists => {
+                if (exists) {
+                    // Add the 3D view button
+                    const view3DButton = document.getElementById('view3DButton');
+                    view3DButton.style.display = 'inline-block';
+                } else {
+                    // Hide the 3D view button if the IFC file does not exist
+                    const view3DButton = document.getElementById('view3DButton');
+                    view3DButton.style.display = 'none';
+                }
+            })
+            .catch(() => {
+                // Hide the 3D view button if there is an error fetching the file
+                const view3DButton = document.getElementById('view3DButton');
+                view3DButton.style.display = 'none';
+            });
+    
+
     }
 
     function closeModal() {
@@ -157,7 +165,7 @@
         // Assuming myIfcLoader.js has a function to load the model
         // You might need to adjust this based on the actual implementation of myIfcLoader.js
         const modelPath = `./components/${component.siteCategory}/${component.technicalCategory}/id${component.id}_v${component.version}_${component.name}/model.ifc`;
-        window.loadIfcFromFile(getFilePath(component, filetype));
+        window.loadIfcFromFile(getFilePath(component, 'ifc'));
     }
 
     window.openModal = openModal;
