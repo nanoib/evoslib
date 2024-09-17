@@ -6,4 +6,3 @@ __pycache__
 /components/**/*.*
 /components/**/md5
 !/components/*/*/*/*.zip
-/jsscripts/assets/_old/

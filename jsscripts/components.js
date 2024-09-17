@@ -29,7 +29,7 @@
 
             tile.appendChild(img);
             tile.appendChild(details);
-            tile.addEventListener('click', () => openModal(component));
+            tile.addEventListener('click', async () => await openModal(component));
 
             grid.appendChild(tile);
             tile.setAttribute('data-component-id', component.id);
