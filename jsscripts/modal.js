@@ -1,5 +1,5 @@
 (function() {
-    function openModal(component) {
+    async function openModal(component) {
         const modal = document.getElementById('modal');
         const modalImage = document.getElementById('modal-image');
         const modalText = document.getElementById('modal-text');
@@ -16,7 +16,7 @@
 
         // Add download button outside of <p> tags
         modalContent += `<div class="modal-buttons">
-                            <a href="${getFilePath(component, 'png')}" class="download-button" download>Скачать</a>
+                            <a href="${getFilePath(component, 'zip')}" class="download-button" download>Скачать</a>
                             <button id="view3DButton" class="view-3d-button">3D</button>
                         </div>`;
 
@@ -90,14 +90,15 @@
 
         // Add event listener for the 3D button
         const view3DButton = document.getElementById('view3DButton');
-        view3DButton.addEventListener('click', () => {
+        view3DButton.addEventListener('click', async () => {
             if (view3DButton.textContent === '3D') {
                 modalImage.style.display = 'none';
                 componentDiv.style.display = 'block';
                 view3DButton.textContent = '2D';
                 view3DButton.style.backgroundColor = 'rgb(61, 139, 175)';
                 // Load the 3D model using the myIfcLoader.js script
-                load3DModel(component);
+                // window.loadIfcFromFile(getFilePath(component, 'ifc'));
+                await window.loadIfcFromFile();
             } else {
                 componentDiv.style.display = 'none';
                 modalImage.style.display = 'block';
@@ -108,23 +109,22 @@
 
         const ifcFilePath = getFilePath(component, 'ifc');
         fetch(ifcFilePath)
-            .then(response => response.ok)
-            .then(exists => {
-                if (exists) {
-                    // Add the 3D view button
-                    const view3DButton = document.getElementById('view3DButton');
-                    view3DButton.style.display = 'inline-block';
-                } else {
-                    // Hide the 3D view button if the IFC file does not exist
-                    const view3DButton = document.getElementById('view3DButton');
-                    view3DButton.style.display = 'none';
-                }
-            })
-            .catch(() => {
-                // Hide the 3D view button if there is an error fetching the file
+        .then(response => {
+            if (response.ok) {
+                console.log("Ifc IS found on path: ", ifcFilePath);
+                const view3DButton = document.getElementById('view3DButton');
+                view3DButton.style.display = 'inline-block';
+            } else {
+                console.log("Ifc NOT found!");
                 const view3DButton = document.getElementById('view3DButton');
                 view3DButton.style.display = 'none';
-            });
+            }
+        })
+        .catch(() => {
+            // Hide the 3D view button if there is an error fetching the file
+            const view3DButton = document.getElementById('view3DButton');
+            view3DButton.style.display = 'none';
+        });
     
 
     }
@@ -159,13 +159,6 @@
         if (modal) {
             modal.style.display = 'none';
         }
-    }
-
-    function load3DModel(component) {
-        // Assuming myIfcLoader.js has a function to load the model
-        // You might need to adjust this based on the actual implementation of myIfcLoader.js
-        const modelPath = `./components/${component.siteCategory}/${component.technicalCategory}/id${component.id}_v${component.version}_${component.name}/model.ifc`;
-        window.loadIfcFromFile(getFilePath(component, 'ifc'));
     }
 
     window.openModal = openModal;
