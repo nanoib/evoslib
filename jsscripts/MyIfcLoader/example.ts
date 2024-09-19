@@ -8,8 +8,8 @@ declare global {
 
 // Function to load the IFC file from the same directory
 (async function() {
-  async function loadIfcFromFile() {
-    async function loadIfcFromFileInner(filenameInner: string='1_simple.ifc') {
+  async function loadIfcFromFile(filename: string = '1_simple.ifc') {
+    async function loadIfcFromFileInner(filenameInner: string=filename) {
       const response = await fetch(filenameInner);
       const data = await response.arrayBuffer();
       const buffer = new Uint8Array(data);
