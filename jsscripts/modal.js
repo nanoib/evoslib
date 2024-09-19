@@ -89,6 +89,7 @@
 
 
         // Add event listener for the 3D button
+        const ifcFilePath = getFilePath(component, 'ifc');
         const view3DButton = document.getElementById('view3DButton');
         view3DButton.addEventListener('click', async () => {
             if (view3DButton.textContent === '3D') {
@@ -97,8 +98,7 @@
                 view3DButton.textContent = '2D';
                 view3DButton.style.backgroundColor = 'rgb(61, 139, 175)';
                 // Load the 3D model using the myIfcLoader.js script
-                // window.loadIfcFromFile(getFilePath(component, 'ifc'));
-                await window.loadIfcFromFile();
+                await window.loadIfcFromFile(ifcFilePath);
             } else {
                 componentDiv.style.display = 'none';
                 modalImage.style.display = 'block';
@@ -107,7 +107,7 @@
             }
         });
 
-        const ifcFilePath = getFilePath(component, 'ifc');
+
         fetch(ifcFilePath)
         .then(response => {
             if (response.ok) {
