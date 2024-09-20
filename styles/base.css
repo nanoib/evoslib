@@ -1,0 +1,91 @@
+/* Глобальные стили */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f0;
+}
+
+body {
+    font-size: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color : #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    flex-shrink: 0;
+}
+
+.content-wrapper {
+    flex-grow: 1;
+    display: flex;
+    overflow: hidden;
+}
+
+main {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 1rem;
+}
+
+.sort-options {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.sort-options label {
+    margin-right: 0.5rem;
+}
+
+#sortSelect {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.download-selected-button {
+    width: auto;
+    padding: 0 35px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 1rem;
+    border: 1px solid rgb(118, 118, 118);
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative;
+}
+
+.download-selected-button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.download-selected-button:hover::after {
+    content: "Скачать выбранные компоненты";
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    transform: translateY(-5px);
+    color: black;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    z-index: 99999;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
