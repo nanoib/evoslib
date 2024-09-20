@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Библиотека BIM-компонентов</title>
+    <link rel="icon" type="image/png" href="styles/img/favicon.png">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/components.css">
     <link rel="stylesheet" href="styles/filters.css">
@@ -14,7 +15,46 @@
     <button class="filter-toggle" id="filterToggle">Фильтры</button>
     <header>
         <h1>Библиотека BIM-компонентов</h1>
+        <button class="info-button" id="infoButton">ⓘ</button>
     </header>
+    <div id="infoModal" class="modal" onclick="this.style.display='none'">
+        <div class="info-modal">
+            <div class="image-content-wrapper">
+                <a href="https://www.nanocad.ru/products/bim/ventilation/database/" target="_blank">
+                    <img src="styles/img/icon.png" alt="Icon" class="info-modal-image">
+                </a>
+                <div class="info-modal-text">
+                    <p>Библиотека BIM-компонентов для программного комплекса nanoCAD BIM Вентиляция.</p>
+                    <br>
+                    <p><b><u><a href="mailto:baydakov@nanocad.ru?subject=Предложить компонент для nanoCAD BIM Вентиляция">Предложить компонент</a></u></b></p>
+                    <br>
+                    <p><b><u><a href="https://github.com/nanoib/evoslib" target="_blank">github.com/nanoib/evoslib</a></u></b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const infoButton = document.getElementById('infoButton');
+        const infoModal = document.getElementById('infoModal');
+
+        infoModal.style.display = 'none';  // Hide modal by default
+
+        infoButton.addEventListener('click', () => {
+            infoModal.style.display = 'block';
+        });
+
+        window.addEventListener('click', (event) => {
+            if (event.target === infoModal) {
+                infoModal.style.display = 'none';
+            }
+        });
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape') {
+                infoModal.style.display = 'none';
+            }
+        });
+    </script>
     <div class="content-wrapper">
         <aside class="filters">
             <div class="filter-section">
@@ -48,6 +88,7 @@
         <main>
             <section class="library">
                 <div class="sort-options">
+                    <span id="memoryUsage" style="margin-right: 1rem;"></span>
                     <label for="sortSelect">Сортировать по:</label>
                     <select id="sortSelect">
                         <option value="updDate">Дата последнего обновления</option>

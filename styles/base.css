@@ -89,3 +89,82 @@ main {
     z-index: 99999;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
+
+#memoryUsage {
+    color: #f0f0f0;
+}
+
+.info-button {
+    position: fixed;
+    margin-right: 4rem;
+    margin-top: 0.3rem;
+    right: 1rem;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: transparent;
+    border: none;
+    font-size: 25px;
+    color: #696969;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    transition: background-color 0.3s ease;
+    font-family: 'Arial', sans-serif;
+}
+
+.info-button:hover {
+    background-color: rgba(236, 235, 235, 0.1);
+}
+
+.info-modal {
+
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    color: white;
+    padding: 2.5rem;
+    border-radius: 5px;
+    width: 600px;
+    height: fit-content;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    line-height: 1.4;
+    overflow-y: auto;
+    z-index: 1001;
+    text-align: center;
+}
+
+.info-modal.content-wrapper {
+    flex-direction: column;
+}
+
+.info-modal a {
+    color: inherit;
+}
+
+.image-content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-modal-image {
+    height: 100px;
+    margin-right: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.info-modal-text {
+    flex: 1;
+}
+
