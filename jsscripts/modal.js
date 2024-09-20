@@ -97,13 +97,16 @@
                 componentDiv.style.display = 'block';
                 view3DButton.textContent = '2D';
                 view3DButton.style.backgroundColor = 'rgb(61, 139, 175)';
-                // Load the 3D model using the myIfcLoader.js script
+                // Clear any existing 3D content
+                componentDiv.innerHTML = '';
                 await window.loadIfcFromFile(ifcFilePath);
             } else {
                 componentDiv.style.display = 'none';
                 modalImage.style.display = 'block';
                 view3DButton.textContent = '3D';
                 view3DButton.style.backgroundColor = 'rgb(83, 168, 207)';
+                // Clear 3D content when switching back to 2D
+                componentDiv.innerHTML = '';
             }
         });
 
