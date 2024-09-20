@@ -23,7 +23,7 @@ import * as OBC from "@thatopen/components";
     // Initialize components and set up the scene
     components.init();
     world.scene.setup();
-    world.camera.controls.setLookAt(1, 1, -1, 0, 0, 0);
+    world.camera.controls.setLookAt(-1, 1, 1, 0, 0, 0);
     world.camera.projection.set("Orthographic");
     world.scene.three.background = null;
 
@@ -40,9 +40,32 @@ import * as OBC from "@thatopen/components";
     // Add bounding box and fit camera
     fragmentBbox.add(model);
     const bbox = fragmentBbox.getMesh();
+    fragmentBbox.reset();
     world.camera.controls.fitToSphere(bbox, true);
     }
 
+    function cleanup() {
+        if (world) {
+            world.dispose();
+        }
+        if (components) {
+            components.dispose();
+        }
+        if (fragmentIfcLoader) {
+            fragmentIfcLoader.dispose();
+        }
+        if (fragmentBbox) {
+            fragmentBbox.dispose();
+        }
+        
+        // Reset variables
+        components = null;
+        world = null;
+        fragmentIfcLoader = null;
+        fragmentBbox = null;
+    }
+
     window.loadIfcFromFile = loadIfcFromFile;
+    window.cleanupIfcLoader = cleanup;
 
 })();

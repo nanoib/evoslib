@@ -17,7 +17,7 @@
         // Add download button outside of <p> tags
         modalContent += `<div class="modal-buttons">
                             <a href="${getFilePath(component, 'zip')}" class="download-button" download>Скачать</a>
-                            <button id="view3DButton" class="view-3d-button">3D</button>
+                            <button id="view3DButton" class="view-3d-button">2D</button>
                         </div>`;
 
         if (component.siteCategory) {
@@ -111,23 +111,28 @@
         });
 
 
-        fetch(ifcFilePath)
-        .then(response => {
+        try {
+            const response = await fetch(ifcFilePath);
             if (response.ok) {
                 console.log("Ifc IS found on path: ", ifcFilePath);
-                const view3DButton = document.getElementById('view3DButton');
                 view3DButton.style.display = 'inline-block';
+                view3DButton.textContent = '2D';
+                view3DButton.style.backgroundColor = 'rgb(61, 139, 175)';
+                modalImage.style.display = 'none';
+                componentDiv.style.display = 'block';
+                await window.loadIfcFromFile(ifcFilePath);
             } else {
                 console.log("Ifc NOT found!");
-                const view3DButton = document.getElementById('view3DButton');
                 view3DButton.style.display = 'none';
+                modalImage.style.display = 'block';
+                componentDiv.style.display = 'none';
             }
-        })
-        .catch(() => {
-            // Hide the 3D view button if there is an error fetching the file
-            const view3DButton = document.getElementById('view3DButton');
+        } catch (error) {
+            console.error("Error checking IFC file:", error);
             view3DButton.style.display = 'none';
-        });
+            modalImage.style.display = 'block';
+            componentDiv.style.display = 'none';
+        }
     
 
     }
@@ -141,7 +146,11 @@
         modal.removeEventListener('click', handleOutsideClick);
         const componentDiv = document.getElementById('container');
         componentDiv.style.display = 'none';
+        componentDiv.innerHTML = '';
         modalImage.style.display = 'block';
+
+        // Call cleanup to free up memory
+        window.cleanupIfcLoader();
     }
 
     function handleKeyDown(event) {
