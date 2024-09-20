@@ -30,4 +30,25 @@
         const sortedComponents = sortComponents(filteredComponents, event.target.value);
         renderComponents(sortedComponents);
     });
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const memoryUsageElement = document.getElementById('memoryUsage');
+    
+        function updateMemoryUsage() {
+            if (performance.memory) {
+                const memory = performance.memory;
+                const usedMB = (memory.usedJSHeapSize / 1048576).toFixed(2);
+                memoryUsageElement.textContent = `Потребление памяти: ${usedMB} Mb`;
+            } else {
+                memoryUsageElement.textContent = ' ';
+            }
+        }
+    
+        // Update memory usage every 5 seconds
+        setInterval(updateMemoryUsage, 5000);
+    
+        // Initial call to display memory usage immediately
+        updateMemoryUsage();
+    });
+
 })();
