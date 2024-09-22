@@ -1,0 +1,169 @@
+/*Стили плиток компонентов*/
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid;     
+    border-color: rgb(222, 227, 230);
+    border-radius: 15px;
+    width: 45%; /* Set modal width to 60% of the screen width */
+    max-width: 45vw; /* Ensure it doesn't exceed 60% of the viewport width */
+    min-height: 70vh;
+    max-height: 70vh;
+    text-align: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    overflow-x: hidden;
+
+}
+
+.modal-inner {
+    height: 40vh;
+    min-height: 40vh;
+    flex: 1;
+    overflow-y: auto;
+    padding-right: 20px;
+    position: relative;
+    overflow-x: hidden;
+
+}
+
+.modal-content p {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.modal-content p strong {
+    flex: 0 0 300px; /* Ширина для жирного текста */
+    margin-right: 0px;
+}
+
+.modal-content p span {
+    flex: 1;
+    padding-left: 0px; /* Отступ для текста после двоеточия */
+}
+
+#modal-image {
+    max-height: 40vh;
+    width: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    /* object-fit: contain; Maintain image proportions */
+}
+
+#modal-text, #modal-link {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.modal-content hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+#modal-link a {
+    color: black;
+    text-decoration: underline;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 7%;
+}
+
+.modal-buttons a,
+.modal-buttons button {
+    margin-left: 5px;
+}
+
+.view-3d-button {
+    display: inline-block;
+    padding: 0.9rem 1.7rem;
+    background-color: rgb(255, 255, 255); /* Green background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline from links */
+    font-size: 1.0rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    text-decoration:none;
+    margin-right: 5%;
+    border-color: rgba(59,130,246,.5);
+}
+
+.view-3d-button:hover {
+    color: rgb(0, 0, 0); 
+    background-color: white;
+}
+
+
+.download-button {
+    display: block;
+    padding: 0.9rem 1.7rem;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline from links */
+    font-size: 1.0rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    margin-right: 5%;
+    border: 1px solid;
+    border-color: rgb(222, 227, 230);
+}
+
+.download-button:hover {
+    background-color: #ffffff; /* Darker green on hover */
+    color: rgb(0, 172, 226); 
+    background-color: white;
+}
+
+.info-icon {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #5ba5f5;
+    color: white;
+    text-align: center;
+    line-height: 18px;
+    font-size: 12px;
+    cursor: help;
+    transition: background-color 0.3s ease;
+}
+
+.info-icon:hover {
+    background-color: #0056b3;
+}
