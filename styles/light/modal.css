@@ -12,12 +12,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+
 }
 
 .modal-content {
-    background-color: #fff;
+    background-color: rgb(16, 18, 20);
     padding: 20px;
     border-radius: 30px;
+    color: rgb(148, 160, 171);
     width: 45%; /* Set modal width to 60% of the screen width */
     max-width: 45vw; /* Ensure it doesn't exceed 60% of the viewport width */
     min-height: 70vh;
@@ -28,8 +31,11 @@
     flex-direction: column;
     position: absolute;
     overflow-x: hidden;
+    border: 1px solid;
+    border-color: rgb(148, 160, 171);
 
 }
+
 
 .modal-inner {
     height: 40vh;
@@ -72,6 +78,7 @@
 #modal-text, #modal-link {
     text-align: left;
     margin-top: 10px;
+    color: inherit;
 }
 
 .modal-content hr {
@@ -85,7 +92,7 @@
 }
 
 #modal-link a {
-    color: black;
+    color: rgb(148, 160, 171);
     text-decoration: underline;
 }
 
@@ -103,9 +110,7 @@
 
 .view-3d-button {
     display: inline-block;
-    padding: 0.9rem 1.7rem;
-    background-color: rgb(83, 168, 207); /* Green background */
-    color: white; /* White text */
+    padding: 0.9rem 1.7rem;/* Green background */
     border: none;
     border-radius: 7px;
     text-decoration: none; /* Remove underline from links */
@@ -115,18 +120,18 @@
     text-align: center;
     text-decoration:none;
     margin-right: 5%;
+    color: rgb(148, 160, 171);
+    border: 1px solid rgb(148, 160, 171);
 }
 
 .view-3d-button:hover {
-    background-color: rgb(61, 139, 175) /* Darker green on hover */
+    color: rgb(0, 172, 226);
 }
 
 
 .download-button {
     display: block;
     padding: 0.9rem 1.7rem;
-    background-color: #4CAF50; /* Green background */
-    color: white; /* White text */
     border: none;
     border-radius: 7px;
     text-decoration: none; /* Remove underline from links */
@@ -135,10 +140,12 @@
     transition: background-color 0.3s ease;
     text-align: center;
     margin-right: 5%;
+    color: rgb(148, 160, 171);
+    border: 1px solid rgb(148, 160, 171);
 }
 
 .download-button:hover {
-    background-color: #3e8e42; /* Darker green on hover */
+    color: rgb(0, 172, 226);
 }
 
 .info-icon {

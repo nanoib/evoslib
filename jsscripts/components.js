@@ -40,7 +40,9 @@
         const componentFolder = `./components/${component.siteCategory}/${component.technicalCategory}/id${component.id}_v${component.version}_${component.name}`;
         switch (filetype) {
             case 'png':
-                return `${componentFolder}/${component.id}.png`;
+                const isDarkMode = window.isDarkMode; // Assuming isDarkMode is set in @darkmodetoggle.js
+                const pngSuffix = isDarkMode ? '' : '_dark';
+                return `${componentFolder}/${component.id}${pngSuffix}.png`;
             case 'ifc':
                 return `${componentFolder}/${component.id}.ifc`;
             case 'zip':

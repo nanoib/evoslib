@@ -5,10 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Библиотека BIM-компонентов</title>
     <link rel="icon" type="image/png" href="styles/img/favicon.png">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/components.css">
-    <link rel="stylesheet" href="styles/filters.css">
-    <link rel="stylesheet" href="styles/modal.css">
+
+    <link rel="stylesheet" href="styles/light/base.css">
+    <link rel="stylesheet" href="styles/light/components.css">
+    <link rel="stylesheet" href="styles/light/filters.css">
+    <link rel="stylesheet" href="styles/light/modal.css">
+    
+    <!-- Dark mode stylesheets (initially disabled) -->
+    <link rel="stylesheet" href="styles/dark/base.css" disabled>
+    <link rel="stylesheet" href="styles/dark/components.css" disabled>
+    <link rel="stylesheet" href="styles/dark/filters.css" disabled>
+    <link rel="stylesheet" href="styles/dark/modal.css" disabled>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
 </head>
 <body>
@@ -16,12 +23,13 @@
     <header>
         <h1>Библиотека BIM-компонентов</h1>
         <button class="info-button" id="infoButton">ⓘ</button>
+        <button class="dark-button" id="darkModeToggle">☽</button>
     </header>
     <div id="infoModal" class="modal" onclick="this.style.display='none'">
         <div class="info-modal">
             <div class="image-content-wrapper">
                 <a href="https://www.nanocad.ru/products/bim/ventilation/database/" target="_blank">
-                    <img src="styles/img/favicon.png" alt="Icon" class="info-modal-image">
+                    <img src="styles/img/icon.png" alt="Icon" class="info-modal-image">
                 </a>
                 <div class="info-modal-text">
                     <p>Библиотека BIM-компонентов для программного комплекса nanoCAD BIM Вентиляция.</p>
@@ -103,6 +111,7 @@
         </main>
     </div>
 
+    <script src="jsscripts/darkmodetoggle.js"></script>
     <script type="module" src="jsscripts/ifcloader.js"></script>
     <script type="module" src="jsscripts/modal.js"></script>
     <script type="module" src="jsscripts/components.js"></script>
