@@ -21,8 +21,8 @@
     border: 1px solid;     
     border-color: rgb(222, 227, 230);
     border-radius: 15px;
-    width: 45%; /* Set modal width to 60% of the screen width */
-    max-width: 45vw; /* Ensure it doesn't exceed 60% of the viewport width */
+    width: 60%; /* Set modal width to 60% of the screen width */
+    max-width: 60vw; /* Ensure it doesn't exceed 60% of the viewport width */
     min-height: 70vh;
     max-height: 70vh;
     text-align: left;
