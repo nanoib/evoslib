@@ -23,8 +23,8 @@
     border-radius: 15px;
     width: 60%; /* Set modal width to 60% of the screen width */
     max-width: 60vw; /* Ensure it doesn't exceed 60% of the viewport width */
-    min-height: 70vh;
-    max-height: 70vh;
+    min-height: 80vh;
+    max-height: 80vh;
     text-align: left;
     box-sizing: border-box;
     display: flex;
@@ -35,8 +35,8 @@
 }
 
 .modal-inner {
-    height: 40vh;
-    min-height: 40vh;
+    height: 50vh;
+    min-height: 50vh;
     flex: 1;
     overflow-y: auto;
     padding-right: 20px;
