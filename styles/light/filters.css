@@ -6,7 +6,7 @@
     margin: 2rem 4rem 0;
     margin-bottom: 2rem;
     padding: 1rem;
-    border-radius: 5px;
+    border-radius: 7px;
     border: 1px solid rgb(222, 227, 230);
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     overflow-y: auto;
@@ -18,10 +18,53 @@
 }
 
 .filters:hover {
-    box-shadow: inset 0 0 0 1px rgb(222, 227, 230);
-    border-color: rgb(222, 227, 230)
+
+    border-color: rgb(182, 185, 187)
 
 }
+
+.filters {
+    padding: 20px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 1px solid rgb(222, 227, 230);
+    text-align: left;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    max-height: 90vh;
+    background-color: #fff;
+
+}
+
+.filter-section {
+    overflow-y: auto; /* Add vertical scrollbar to the content */
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #c6c6c6 #f1f1f1; /* For Firefox */
+    border-radius: 7px;
+}
+
+/* Scrollbar styles for WebKit browsers (Chrome, Safari, etc.) */
+.filter-section::-webkit-scrollbar {
+    width: 0;
+    transition: width 0.3s ease;
+}
+
+.filter-section::-webkit-scrollbar-track {
+    background: #f1f1f1;
+
+}
+
+.filter-section::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 7px;
+}
+
+.filter-section::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 
 /* Категории "Воздухораспределители", "Оборудование" и тд */
 .filter-category {
@@ -46,12 +89,21 @@
 }
 
 .filter-header {
+    padding-top: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: -0.5rem;
 }
 
+.content-wrapper {
+    flex-grow: 1;
+    display: flex;
+    overflow-y: auto;
+    border-radius: 7px;
+    background-color: #fff;
+    overflow: hidden;
+}
 
 #resetFilters {
     padding: 0.5rem 1rem;
@@ -71,7 +123,7 @@
 
 .filter-divider {
     border: 0;
-    height: 1px;
+    height: 0.5px;
     background-color: #ccc;
     margin: 10px 0;
     margin-right: 15%;
