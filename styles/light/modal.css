@@ -15,36 +15,56 @@
 
 }
 
-.modal-content {
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid;     
-    border-color: rgb(222, 227, 230);
+.modal-scroll-container {
+    width: 60%;
+    max-width: 60vw;
+    max-height: 90vh;
+    overflow-y: auto;
     border-radius: 15px;
-    width: 60%; /* Set modal width to 60% of the screen width */
-    max-width: 60vw; /* Ensure it doesn't exceed 60% of the viewport width */
-    min-height: 80vh;
-    max-height: 80vh;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+
+
+.modal-content {
+    padding: 20px;
+    padding-right: 20px;
+    border: 1px solid rgb(222, 227, 230);
     text-align: left;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    position: absolute;
-    overflow-x: hidden;
+    flex-direction: column;
+    max-height: 90vh;
+    overflow-y: auto; /* Add vertical scrollbar to the content */
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #888 #f1f1f1; /* For Firefox */
+}
 
+/* Scrollbar styles for WebKit browsers (Chrome, Safari, etc.) */
+.modal-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.modal-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.modal-content::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
 
 .modal-inner {
-    height: 50vh;
-    min-height: 50vh;
+    min-height: 40vh;
     flex: 1;
-    overflow-y: auto;
-    padding-right: 20px;
-    position: relative;
     overflow: hidden;
-
 }
-
 .modal-content p {
     margin-left: 5%;
     margin-right: 5%;
@@ -75,6 +95,7 @@
 #modal-text, #modal-link {
     text-align: left;
     margin-top: 10px;
+    position: relative;
 }
 
 .modal-content hr {
@@ -96,7 +117,7 @@
     display: flex;
     justify-content: flex-end;
     position: absolute;
-    right: 7%;
+    right: 5%;
 }
 
 .modal-buttons a,
@@ -108,14 +129,13 @@
     display: inline-block;
     padding: 0.9rem 1.7rem;/* Green background */
     border-radius: 7px;
-    color: black;
-    font-size: 1.0rem;
+    font-size: 0.9  rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
     text-align: center;
     text-decoration:none;
     margin-right: 5%;
-    color: rgb(148, 160, 171);
+    color: black;
     border: 1px solid  rgb(222, 227, 230);
 }
 
@@ -143,7 +163,7 @@
     border: none;
     border-radius: 5px;
     text-decoration: none; /* Remove underline from links */
-    font-size: 1.0rem;
+    font-size: 0.9rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
     text-align: center;

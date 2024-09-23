@@ -2,17 +2,19 @@
     async function openModal(component) {
         const modal = document.getElementById('modal');
         const modalImage = document.getElementById('modal-image');
+        const modalImageDiv = document.getElementById('modal-image-div');
+
         const modalText = document.getElementById('modal-text');
         const modalInner = document.querySelector('.modal-inner');
+        
         const componentDiv = document.getElementById('container');
         componentDiv.style.display = 'none';
+        modalImageDiv.style.display = 'none';
+        
         modalImage.src = getFilePath(component, 'png');
         modalImage.alt = component.name;
 
         let modalContent = '';
-
-        // Generate the download link
-        const downloadLink = `./components/${component.siteCategory}/${component.technicalCategory}/id${component.id}_v${component.version}_${component.name}/id${component.id}_v${component.version}_${component.name}.zip`;
 
         // Add download button outside of <p> tags
         modalContent += `<div class="modal-buttons">
@@ -92,9 +94,13 @@
         const ifcFilePath = getFilePath(component, 'ifc');
         const view3DButton = document.getElementById('view3DButton');
         view3DButton.addEventListener('click', async () => {
+            const modalImageContainer = document.getElementById('modal-image');
             if (view3DButton.textContent === '3D') {
-                modalImage.style.display = 'none';
+                modalImageContainer.style.display = 'none';
+                modalImageDiv.style.display = 'none';
+
                 componentDiv.style.display = 'block';
+
                 view3DButton.textContent = '2D';
                 view3DButton.classList.remove('view-3d-button-inactive');
                 view3DButton.classList.add('view-3d-button-active');
@@ -103,7 +109,9 @@
                 await window.loadIfcFromFile(ifcFilePath);
             } else {
                 componentDiv.style.display = 'none';
-                modalImage.style.display = 'block';
+                modalImageContainer.style.display = 'block';
+                modalImageDiv.style.display = 'block';
+
                 view3DButton.textContent = '3D';
                 view3DButton.classList.remove('view-3d-button-active');
                 view3DButton.classList.add('view-3d-button-inactive');
