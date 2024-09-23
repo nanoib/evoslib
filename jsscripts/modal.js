@@ -45,8 +45,8 @@
         }
 
         if (component.typesizes) {
-            const typesizesArray = component.typesizes.split(';').map(size => size.trim());
-            const formattedTypesizes = typesizesArray.join(';<br>');
+            const typesizesString = String(component.typesizes || '');
+            const formattedTypesizes = typesizesString.split(';').map(size => size.trim()).join('<br>');
             const typesizesTitle = component.graphicType === "Параметрическая" 
                 ? 'Доступные типоразмеры <i><span class="info-icon" title="Этот компонент с параметрической графикой.\nЭто значит, что вы легко можете добавить новые типоразмеры копированием\nкомпонента и дальнейшей заменой значений параметров">i</span></i>:'
                 : 'Доступные типоразмеры:';
