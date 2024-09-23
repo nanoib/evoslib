@@ -3,7 +3,7 @@
 ~$*
 /prom
 __pycache__
-/components/**/*.*
-/components/**/md5
-!/components/*/*/*/*.zip
+/public/components/**/*.*
+/public/components/**/md5
+!/public/components/*/*/*/*.zip
 /dist/**
