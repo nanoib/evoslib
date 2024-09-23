@@ -8,3 +8,9 @@ __pycache__
 !/public/components/*/*/*/*.zip
 !/public/components/*/*/*/*.png
 !/public/components/*/*/*/*.ifc
+
+/docs/components/**/*.*
+/docs/components/**/md5
+!/docs/components/*/*/*/*.zip
+!/docs/components/*/*/*/*.png
+!/docs/components/*/*/*/*.ifc
