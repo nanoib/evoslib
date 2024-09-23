@@ -15,7 +15,6 @@ def check_consistency(json_data):
 
     # Получаем пути из конфигурации
     root_folder_path = CONFIG['root_folder_path']
-    image_folder_path = CONFIG['image_folder_path']
 
     # Создаем словарь ожидаемых папок для каждой категории
     expected_folders = {}
@@ -58,7 +57,7 @@ def check_consistency(json_data):
                 missing_internal_structure += 1
 
         # Проверяем наличие файла изображения
-        image_file_path = os.path.join(image_folder_path, f"{component_id}.png")
+        image_file_path = os.path.join(full_path, f"{component_id}.png")
         if not os.path.exists(image_file_path):
             print(f"ОТСУТСТВУЕТ ИЗОБРАЖЕНИЕ: {image_file_path}")
             missing_images += 1
