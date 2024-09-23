@@ -4,7 +4,7 @@ export default defineConfig({
   base: '/evoslib/',
   root: './',
   build: {
-    outDir: 'dist',
+    outDir: 'docs',
     rollupOptions: {
       input: 'index.html',
     },
