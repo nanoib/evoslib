@@ -6,4 +6,7 @@ __pycache__
 /public/components/**/*.*
 /public/components/**/md5
 !/public/components/*/*/*/*.zip
+!/public/components/*/*/*/*.png
+!/public/components/*/*/*/*.ifc
+
 /dist/**
