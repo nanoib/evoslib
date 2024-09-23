@@ -96,7 +96,8 @@
                 modalImage.style.display = 'none';
                 componentDiv.style.display = 'block';
                 view3DButton.textContent = '2D';
-                view3DButton.style.backgroundColor = 'rgb(61, 139, 175)';
+                view3DButton.classList.remove('view-3d-button-inactive');
+                view3DButton.classList.add('view-3d-button-active');
                 // Clear any existing 3D content
                 componentDiv.innerHTML = '';
                 await window.loadIfcFromFile(ifcFilePath);
@@ -104,7 +105,8 @@
                 componentDiv.style.display = 'none';
                 modalImage.style.display = 'block';
                 view3DButton.textContent = '3D';
-                view3DButton.style.backgroundColor = 'rgb(83, 168, 207)';
+                view3DButton.classList.remove('view-3d-button-active');
+                view3DButton.classList.add('view-3d-button-inactive');
                 // Clear 3D content when switching back to 2D
                 componentDiv.innerHTML = '';
             }
@@ -117,7 +119,8 @@
                 console.log("Ifc IS found on path: ", ifcFilePath);
                 view3DButton.style.display = 'inline-block';
                 view3DButton.textContent = '2D';
-                view3DButton.style.backgroundColor = 'rgb(61, 139, 175)';
+                view3DButton.classList.remove('view-3d-button-active');
+                view3DButton.classList.add('view-3d-button-inactive');
                 modalImage.style.display = 'none';
                 componentDiv.style.display = 'block';
                 await window.loadIfcFromFile(ifcFilePath);
