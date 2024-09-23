@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Библиотека BIM-компонентов</title>
+    <link rel="icon" type="image/png" href="/evoslib/assets/favicon-Bt7-QqzR.png">
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+  <script type="module" crossorigin src="/evoslib/assets/index-BpVg96j9.js"></script>
+  <link rel="stylesheet" crossorigin href="/evoslib/assets/index-D52cRrQO.css">
+</head>
+<body>
+    <button class="filter-toggle" id="filterToggle">Фильтры</button>
+    <header>
+        <h1>Библиотека BIM-компонентов</h1>
+        <button class="info-button" id="infoButton">ⓘ</button>
+    </header>
+    <div id="infoModal" class="modal" onclick="this.style.display='none'">
+        <div class="info-modal">
+            <div class="image-content-wrapper">
+                <a href="https://www.nanocad.ru/products/bim/ventilation/database/" target="_blank">
+                    <img src="/evoslib/assets/icon-DZC7c-5Q.png" alt="Icon" class="info-modal-image">
+                </a>
+                <div class="info-modal-text">
+                    <p>Библиотека BIM-компонентов для программного комплекса nanoCAD BIM Вентиляция.</p>
+                    <br>
+                    <p><b><u><a href="mailto:baydakov@nanocad.ru?subject=Предложить компонент для nanoCAD BIM Вентиляция">Предложить компонент</a></u></b></p>
+                    <br>
+                    <p><b><u><a href="https://github.com/nanoib/evoslib" target="_blank">github.com/nanoib/evoslib</a></u></b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const infoButton = document.getElementById('infoButton');
+        const infoModal = document.getElementById('infoModal');
+
+        infoModal.style.display = 'none';  // Hide modal by default
+
+        infoButton.addEventListener('click', () => {
+            infoModal.style.display = 'block';
+        });
+
+        window.addEventListener('click', (event) => {
+            if (event.target === infoModal) {
+                infoModal.style.display = 'none';
+            }
+        });
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape') {
+                infoModal.style.display = 'none';
+            }
+        });
+    </script>
+    <div class="content-wrapper">
+        <aside class="filters">
+            <div class="filter-section">
+                <div class="filter-header">
+                    <h2 class="filter-title">Фильтры</h2>
+                    <button id="resetFilters">Сбросить все</button>
+                </div>
+                <hr class="filter-divider">
+        
+                <div class="filter-category">
+                    <h3>Техническая категория</h3>
+                    <div class="filter-options scrollable" id="siteCategory"></div>
+                </div>
+        
+                <div class="filter-category">
+                    <h3>Производитель</h3>
+                    <div class="filter-options" id="manufacturer"></div>
+                </div>
+        
+                <div class="filter-category">
+                    <h3>Тип графики</h3>
+                    <div class="filter-options" id="graphicType"></div>
+                </div>
+        
+                <div class="filter-category">
+                    <h3>Форма</h3>
+                    <div class="filter-options" id="shape"></div>
+                </div>
+            </div>
+        </aside>
+        <main>
+            <section class="library">
+                <div class="sort-options">
+                    <span id="memoryUsage" style="margin-right: 1rem;"></span>
+                    <label for="sortSelect">Сортировать по:</label>
+                    <select id="sortSelect">
+                        <option value="updDate">Дата последнего обновления</option>
+                        <option value="name">Имя компонента</option>
+                        <option value="manufacturer">Название производителя</option>
+                        <option value="technicalCategory">Техническая категория</option>
+                    </select>
+                    <button class="download-selected-button" id="downloadSelected" >⬇</button>
+                </div>
+                <div class="component-grid" id="componentGrid"></div>
+            </section>
+        </main>
+    </div>
+
+    
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-inner" id="container"></div>
+            <div class="modal-inner">
+                <img id="modal-image" src="" alt="">
+                <div id="modal-text"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
