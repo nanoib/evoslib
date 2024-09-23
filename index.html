@@ -6,16 +6,12 @@
     <title>Библиотека BIM-компонентов</title>
     <link rel="icon" type="image/png" href="styles/img/favicon.png">
 
-    <link rel="stylesheet" href="styles/light/base.css">
-    <link rel="stylesheet" href="styles/light/components.css">
-    <link rel="stylesheet" href="styles/light/filters.css">
-    <link rel="stylesheet" href="styles/light/modal.css">
-    
-    <!-- Dark mode stylesheets (initially disabled) -->
-    <link rel="stylesheet" href="styles/dark/base.css" disabled>
-    <link rel="stylesheet" href="styles/dark/components.css" disabled>
-    <link rel="stylesheet" href="styles/dark/filters.css" disabled>
-    <link rel="stylesheet" href="styles/dark/modal.css" disabled>
+    <link rel="stylesheet" href="/styles/light/base.css">
+    <link rel="stylesheet" href="/styles/light/components.css">
+    <link rel="stylesheet" href="/styles/light/filters.css">
+    <link rel="stylesheet" href="/styles/light/modal.css">
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
 </head>
 <body>
@@ -23,7 +19,6 @@
     <header>
         <h1>Библиотека BIM-компонентов</h1>
         <button class="info-button" id="infoButton">ⓘ</button>
-        <button class="dark-button" id="darkModeToggle">☽</button>
     </header>
     <div id="infoModal" class="modal" onclick="this.style.display='none'">
         <div class="info-modal">
@@ -111,7 +106,6 @@
         </main>
     </div>
 
-    <script type="module" src="jsscripts/darkmodetoggle.js"></script>
     <script type="module" src="jsscripts/ifcloader.js"></script>
     <script type="module" src="jsscripts/modal.js"></script>
     <script type="module" src="jsscripts/components.js"></script>
