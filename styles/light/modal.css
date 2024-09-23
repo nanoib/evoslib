@@ -125,6 +125,7 @@
 }
 
 .view-3d-button-active {
+    color: black;
     background-color: rgb(255, 255, 255);
 }
 
