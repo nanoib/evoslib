@@ -18,8 +18,8 @@
 }
 
 .filters:hover {
-    box-shadow: inset 0 0 0 1px rgb(0, 172, 226);
-    border-color: rgb(0, 172, 226);
+    box-shadow: inset 0 0 0 1px rgb(222, 227, 230);
+    border-color: rgb(222, 227, 230)
 
 }
 
