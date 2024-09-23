@@ -13,14 +13,14 @@
     justify-content: center;
     align-items: center;
 
-
 }
 
 .modal-content {
-    background-color: rgb(16, 18, 20);
+    background-color: #fff;
     padding: 20px;
-    border-radius: 30px;
-    color: rgb(148, 160, 171);
+    border: 1px solid;     
+    border-color: rgb(222, 227, 230);
+    border-radius: 15px;
     width: 45%; /* Set modal width to 60% of the screen width */
     max-width: 45vw; /* Ensure it doesn't exceed 60% of the viewport width */
     min-height: 70vh;
@@ -31,11 +31,8 @@
     flex-direction: column;
     position: absolute;
     overflow-x: hidden;
-    border: 1px solid;
-    border-color: rgb(148, 160, 171);
 
 }
-
 
 .modal-inner {
     height: 40vh;
@@ -78,7 +75,6 @@
 #modal-text, #modal-link {
     text-align: left;
     margin-top: 10px;
-    color: inherit;
 }
 
 .modal-content hr {
@@ -92,7 +88,7 @@
 }
 
 #modal-link a {
-    color: rgb(148, 160, 171);
+    color: black;
     text-decoration: underline;
 }
 
@@ -111,9 +107,8 @@
 .view-3d-button {
     display: inline-block;
     padding: 0.9rem 1.7rem;/* Green background */
-    border: none;
     border-radius: 7px;
-    text-decoration: none; /* Remove underline from links */
+    color: black;
     font-size: 1.0rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -121,31 +116,45 @@
     text-decoration:none;
     margin-right: 5%;
     color: rgb(148, 160, 171);
-    border: 1px solid rgb(148, 160, 171);
+    border: 1px solid  rgb(222, 227, 230);
+}
+
+.view-3d-button-inactive {
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+.view-3d-button-active {
+    background-color: rgb(255, 255, 255);
 }
 
 .view-3d-button:hover {
-    color: rgb(0, 172, 226);
+    background-color: #ffffff; /* Darker green on hover */
+    color: rgb(0, 172, 226); 
+    background-color: white;
 }
-
 
 .download-button {
     display: block;
     padding: 0.9rem 1.7rem;
+    background-color: white;
+    color: black;
     border: none;
-    border-radius: 7px;
+    border-radius: 5px;
     text-decoration: none; /* Remove underline from links */
     font-size: 1.0rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
     text-align: center;
     margin-right: 5%;
-    color: rgb(148, 160, 171);
-    border: 1px solid rgb(148, 160, 171);
+    border: 1px solid;
+    border-color: rgb(222, 227, 230);
 }
 
 .download-button:hover {
-    color: rgb(0, 172, 226);
+    background-color: #ffffff; /* Darker green on hover */
+    color: rgb(0, 172, 226); 
+    background-color: white;
 }
 
 .info-icon {

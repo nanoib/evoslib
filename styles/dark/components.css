@@ -19,12 +19,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: white;
-    border: 1px solid rgb(222, 227, 230);
+    background-color: rgb(16, 18, 20);
+    border: 1px solid rgb(148, 160, 171);
     border-radius: 5px;
-    transition: box-shadow 0.3s ease;
     padding: 1rem;
     text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .component-tile:hover {
@@ -49,6 +49,7 @@
     margin: 5px 0 0 0;
     font-size: 1em;
     font-weight: bold;
+    color: rgb(148, 160, 171);
 }
 
 .gray-info {

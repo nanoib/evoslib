@@ -5,7 +5,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    background-color: rgb(16, 18, 20);
+    background-color: white;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 
 header {
     background-color : rgb(29, 38, 46);
-    color: white;
+    color: rgb(148, 160, 171);
     text-align: center;
     padding: 1rem;
     flex-shrink: 0;
@@ -35,7 +35,6 @@ main {
 }
 
 .sort-options {
-    color: rgb(148, 160, 171);
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -51,15 +50,9 @@ main {
     width: 250px;
     height: 30px;
     border-radius: 5px;
-    color: rgb(148, 160, 171);
-
-    border: 1px solid rgb(148, 160, 171);
-    background-color: rgb(16, 18, 20);
-}
-
-#sortSelect:hover{
-    border-color: #ccc;
-
+    border: 1px solid;
+    background-color: white;
+    border-color: rgb(222, 227, 230);
 }
 
 .download-selected-button {
@@ -68,17 +61,18 @@ main {
     height: 30px;
     border-radius: 5px;
     margin-left: 1rem;
-    color: rgb(148, 160, 171);
-    border: 1px solid rgb(148, 160, 171);
-    background-color: rgb(16, 18, 20);
+    border: 1px solid;
+    border-color: rgb(222, 227, 230);
     font-size: 20px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     position: relative;
+    background-color: white;
 }
 
-.download-selected-button:hover { 
-    color: rgb(0, 172, 226);
+.download-selected-button:hover {
+    color: rgb(0, 172, 226); 
+    background-color: white;
 }
 
 .download-selected-button:hover::after {
@@ -88,7 +82,7 @@ main {
     right: 0;
     transform: translateY(-5px);
     color: black;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(222, 227, 230);
     background-color: white;
     padding: 5px 10px;
     border-radius: 3px;
@@ -102,7 +96,7 @@ main {
 }
 
 #memoryUsage {
-    color: #f0f0f0;
+    color: #ffffff;
 }
 
 .info-button {
@@ -113,13 +107,12 @@ main {
     top: 0px;
     width: 50px;
     height: 50px;
-    border: 1px solid rgb(222, 227, 230);
-    background-color: rgb(16, 18, 20);
+    border: rgb(222, 227, 230);
     border-radius: 50%;
     background: transparent;
     border: none;
     font-size: 30px;
-    color: #696969;
+    color: rgb(148, 160, 171);
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -133,7 +126,7 @@ main {
 }
 
 .info-button:hover {
-    color: rgb(255, 255, 255);    
+    color: rgb(0, 172, 226);    
 }
 
 .dark-button {
@@ -148,7 +141,7 @@ main {
     background: transparent;
     border: none;
     font-size: 35px;
-    color: #696969;
+    color: rgb(148, 160, 171);
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -160,7 +153,7 @@ main {
 }
 
 .dark-button:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 172, 226);
 }
 
 .info-modal {

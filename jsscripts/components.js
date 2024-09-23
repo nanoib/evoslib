@@ -41,7 +41,7 @@
         switch (filetype) {
             case 'png':
                 const isDarkMode = window.isDarkMode; // Assuming isDarkMode is set in @darkmodetoggle.js
-                const pngSuffix = isDarkMode ? '' : '_dark';
+                const pngSuffix = isDarkMode ? '_dark' : '';
                 return `${componentFolder}/${component.id}${pngSuffix}.png`;
             case 'ifc':
                 return `${componentFolder}/${component.id}.ifc`;
