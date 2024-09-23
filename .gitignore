@@ -8,5 +8,3 @@ __pycache__
 !/public/components/*/*/*/*.zip
 !/public/components/*/*/*/*.png
 !/public/components/*/*/*/*.ifc
-
-/dist/**
