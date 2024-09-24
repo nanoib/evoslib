@@ -78,18 +78,26 @@ GitHub Pages — это сервис, предоставляемый GitHub дл
 
 # Используемые технологии
 
-Все используемые технологие открыты (open source), но имеют различные лицензии. Список лицензий не готов.
+Все используемые технологие открыты (open source), но имеют разные лицензии. Список лицензий не готов.
 
+**Языки программирования и программные платформы**  
 [*javascript*](https://ru.wikipedia.org/wiki/JavaScript) (+ javascript-библиотека [*jszip*](https://stuk.github.io/jszip/))  
+[*python*](https://python.org/) (+ python-библиотеки [*PIL*](https://pillow.readthedocs.io/en/stable/index.html), [*pandas*](https://pandas.pydata.org/))     
 [*node.js*](https://nodejs.org/en) (+ node.js-пакеты [*yarn*](https://yarnpkg.com/), [*vite*](https://vitejs.dev/))  
-[*ifc*](https://www.buildingsmart.org/standards/bsi-standards/industry-foundation-classes/) (+ node.js-пакет [*@thatopen/components*](https://github.com/ThatOpen/engine_components), и многие зависимые от него:  [*web-ifc*](https://www.npmjs.com/package/web-ifc), [*Three.js*](https://threejs.org/) и др.)  
-[*webassembly*](https://webassembly.org/)
+[*git*](https://git-scm.com/) (+ сервис [*GitHub Pages*](https://pages.github.com/))  
+[*webassembly*](https://webassembly.org/)  (в зависимостях у *web-ifc*)
+
+**Форматы данных**  
 [*xlsx*](https://en.wikipedia.org/wiki/Office_Open_XML)  
+[*ifc*](https://www.buildingsmart.org/standards/bsi-standards/industry-foundation-classes/) (+ node.js-пакет [*@thatopen/components*](https://github.com/ThatOpen/engine_components), и многие зависимые от него:  [*web-ifc*](https://www.npmjs.com/package/web-ifc), [*Three.js*](https://threejs.org/) и др.)  
+[*png*](https://png-mng.sourceforge.net/pub/png/)  
 [*json*](https://www.json.org/json-en.html)  
+формат баз данных nanoCAD BIM Вентиляция ("[*repository*](https://download.nanodev.ru/distr/nanocadVent/23/instruction/nanoCAD%20BIM%20%D0%92%D0%B5%D0%BD%D1%82%D0%B8%D0%BB%D1%8F%D1%86%D0%B8%D1%8F.%20%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE%20%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F.pdf/)")
+
+**Языки разметки**  
 [*html*](https://en.wikipedia.org/wiki/HTML)  
 [*css*](https://www.w3.org/Style/CSS/)  
-[*python*](https://python.org/) (+ python-библиотеки [*PIL*](https://pillow.readthedocs.io/en/stable/index.html), [*pandas*](https://pandas.pydata.org/))        
-[*git*](https://git-scm.com/) (+ сервис [*GitHub Pages*](https://pages.github.com/))  
+[*markdown*](https://daringfireball.net/projects/markdown/)  
 
 
 # Структура проекта
