@@ -1,5 +1,6 @@
 import os
 
+    # переменная для текущей директории, не менять
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 CONFIG = {
