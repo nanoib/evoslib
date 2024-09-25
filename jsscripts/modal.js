@@ -136,12 +136,14 @@
                 console.log("Ifc NOT found!");
                 view3DButton.style.display = 'none';
                 modalImage.style.display = 'block';
+                modalImageDiv.style.display = 'block';
                 componentDiv.style.display = 'none';
             }
         } catch (error) {
             console.error("Error checking IFC file:", error);
             view3DButton.style.display = 'none';
             modalImage.style.display = 'block';
+            modalImageDiv.style.display = 'block';
             componentDiv.style.display = 'none';
         }
     
