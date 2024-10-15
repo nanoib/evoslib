@@ -149,3 +149,21 @@
 .filter-toggle:hover {
     background-color: rgba(100, 100, 100, 0.9);
 }
+
+.filter-textsearch {
+    margin-top: 15px;
+    margin-bottom: -8px;
+
+}
+
+.filter-textsearch input {
+    width: 60%;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.filter-textsearch input:hover {
+    border-color: #888;
+}

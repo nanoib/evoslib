@@ -31,6 +31,9 @@
         filters.graphicType = getUniqueValues(components, 'graphicType');
         filters.shape = getUniqueValues(components, 'shape');
 
+        const textFilterInput = document.getElementById('textFilter');
+        textFilterInput.addEventListener('input', applyFilters);
+
         renderFilterOptions();
         applyFilters();
         resetFilters();
@@ -162,7 +165,7 @@
             Array.isArray(f) ? f.length > 0 : Object.values(f).some(v => v.checked || Object.values(v.subcategories).some(Boolean))
         );
 
-        const filteredComponents = anyFilterSelected ? components.filter(component => {
+        let filteredComponents = anyFilterSelected ? components.filter(component => {
             const siteCategoryMatch = 
                 Object.values(filters.siteCategory).some(category => 
                     category.checked || Object.values(category.subcategories).some(Boolean)
@@ -186,11 +189,55 @@
             return siteCategoryMatch && manufacturerMatch && graphicTypeMatch && shapeMatch;
         }) : components;
 
+        // Применяем текстовый фильтр
+        const textFilterValue = document.getElementById('textFilter').value;
+        filteredComponents = applyTextFilter(filteredComponents, textFilterValue);
+
         renderComponents(filteredComponents);
 
         const resetButton = document.getElementById('resetFilters');
-        resetButton.style.display = anyFilterSelected ? 'inline-block' : 'none';
+        resetButton.style.display = (anyFilterSelected || textFilterValue) ? 'inline-block' : 'none';
         return filteredComponents;
+    }
+
+    function applyTextFilter(components, filterText) {
+        if (!filterText || filterText.trim() === "") return components;
+    
+        filterText = filterText.toLowerCase().trim();
+        const filterParts = filterText.split('*').map(part => part.trim());
+    
+        return components.filter(component => {
+            const componentFields = [
+                component.manufacturer,
+                component.siteCategory,
+                component.technicalCategory,
+                component.surname,
+                component.note
+            ];
+    
+            return componentFields.some(field => {
+                if (!field) return false;
+                const lowercaseField = field.toLowerCase();
+    
+                return filterParts.every((part, index) => {
+                    if (part === '') return true; // Handle empty parts (consecutive *)
+                    if (index === 0 && filterParts.length === 1) {
+                        // No wildcards, use includes
+                        return lowercaseField.includes(part);
+                    }
+                    if (index === 0) {
+                        // First part, should be at the start
+                        return lowercaseField.startsWith(part);
+                    }
+                    if (index === filterParts.length - 1) {
+                        // Last part, should be at the end
+                        return lowercaseField.endsWith(part);
+                    }
+                    // Middle parts, should be included in order
+                    return lowercaseField.includes(part);
+                });
+            });
+        });
     }
 
     function resetFilters() {
@@ -211,6 +258,8 @@
             checkbox.checked = false;
         });
     
+        document.getElementById('textFilter').value = '';
+
         applyFilters();
     }
 
@@ -231,7 +280,8 @@
             }, {}),
             manufacturer: filters.manufacturer.slice(),
             graphicType: filters.graphicType.slice(),
-            shape: filters.shape.slice()
+            shape: filters.shape.slice(),
+            textFilter: document.getElementById('textFilter').value
         };
     }
 
@@ -244,6 +294,7 @@
     window.handleSubcategoryChange = handleSubcategoryChange;
     window.handleFilterChange = handleFilterChange;
     window.applyFilters = applyFilters;
+    window.applyTextFilter = applyTextFilter;
     window.resetFilters = resetFilters;
     window.getCurrentFilters = getCurrentFilters;
 
