@@ -1,7 +1,15 @@
 (function() {
     function renderComponents(components) {
         const grid = document.getElementById('componentGrid');
+        const noResultsMessage = document.getElementById('noResultsMessage');
         grid.innerHTML = '';
+    
+        if (components.length === 0) {
+            grid.style.display = 'none';
+            noResultsMessage.style.display = 'block';
+        } else {
+            grid.style.display = 'grid';
+            noResultsMessage.style.display = 'none';
 
         components.forEach(component => {
             const tile = document.createElement('div');
@@ -35,6 +43,7 @@
             tile.setAttribute('data-component-id', component.id);
         });
     }
+}
 
     function getFilePath(component, filetype) {
         const componentFolder = `./components/${component.siteCategory}/${component.technicalCategory}/id${component.id}_v${component.version}_${component.name}`;

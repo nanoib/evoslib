@@ -123,7 +123,7 @@
 
 .filter-divider {
     border: 0;
-    height: 0.5px;
+    height: 1px;
     background-color: #ccc;
     margin: 10px 0;
     margin-right: 15%;
@@ -157,7 +157,7 @@
 }
 
 .filter-textsearch input {
-    width: 60%;
+    width: 75%;
     padding: 4px;
     border: 1px solid #ccc;
     border-radius: 4px;

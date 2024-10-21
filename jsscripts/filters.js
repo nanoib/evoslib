@@ -202,43 +202,45 @@
 
     function applyTextFilter(components, filterText) {
         if (!filterText || filterText.trim() === "") return components;
-    
+
         filterText = filterText.toLowerCase().trim();
+        // Добавляем звездочки в начало и конец, если их там нет
+        if (!filterText.startsWith('*')) filterText = '*' + filterText;
+        if (!filterText.endsWith('*')) filterText += '*';
         const filterParts = filterText.split('*').map(part => part.trim());
-    
+
         return components.filter(component => {
             const componentFields = [
+                component.name,
                 component.manufacturer,
                 component.siteCategory,
                 component.technicalCategory,
                 component.surname,
                 component.note
             ];
-    
+
             return componentFields.some(field => {
                 if (!field) return false;
                 const lowercaseField = field.toLowerCase();
-    
+
+                let lastIndex = 0;
                 return filterParts.every((part, index) => {
                     if (part === '') return true; // Handle empty parts (consecutive *)
-                    if (index === 0 && filterParts.length === 1) {
-                        // No wildcards, use includes
-                        return lowercaseField.includes(part);
-                    }
-                    if (index === 0) {
-                        // First part, should be at the start
-                        return lowercaseField.startsWith(part);
-                    }
-                    if (index === filterParts.length - 1) {
-                        // Last part, should be at the end
-                        return lowercaseField.endsWith(part);
-                    }
-                    // Middle parts, should be included in order
-                    return lowercaseField.includes(part);
+
+                    const partIndex = lowercaseField.indexOf(part, lastIndex);
+                    if (partIndex === -1) return false;
+
+                    if (index === 0 && partIndex !== 0 && !filterText.startsWith('*')) return false;
+                    if (index === filterParts.length - 1 && partIndex + part.length !== lowercaseField.length && !filterText.endsWith('*')) return false;
+
+                    lastIndex = partIndex + part.length;
+                    return true;
                 });
             });
         });
     }
+
+
 
     function resetFilters() {
         Object.keys(filters).forEach(filterType => {
