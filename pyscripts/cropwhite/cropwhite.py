@@ -11,8 +11,8 @@ to_crop_folder_name = "to_crop"
 # Папка с готовыми изображениями
 final_folder_name = "final"
 # Положение начала обрезки
-left_position = 520
-top_position = 210
+left_position = 0
+top_position = 0
 # Размер обрезки
 width_new = 860
 height_new = 660

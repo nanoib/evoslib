@@ -1800,5 +1800,22 @@
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "91...131 кВт",
         "updDate": "2024.10.21"
+    },
+    {
+        "id": 108,
+        "name": "Нерпа",
+        "version": 1,
+        "md5": "8e67c617dc5eadaaf1db7af5048f4553",
+        "siteCategory": "Арматура воздуховодов",
+        "technicalCategory": "Клапан воздушный",
+        "surname": "высокой плотности",
+        "shape": "Прямоугольный",
+        "manufacturer": "Веза",
+        "graphicType": "Параметрическая",
+        "note": "Параметризованы все габариты, количество приводов, автоматический подбор количества лопаток, артикул автоформируемый, защита от неправильных габаритов",
+        "versionHistory": "",
+        "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/vozdushnye-klapany/pryamougolnye-vozdushnye-klapany/nerpa-pryamougolnyy",
+        "typesizes": "(100x200)x(2200x2100)",
+        "updDate": "2024.10.21"
     }
 ]
