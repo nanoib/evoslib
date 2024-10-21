@@ -198,3 +198,15 @@ main {
     flex: 1;
 }
 
+#noResultsMessage {
+    font-size: 2.5rem;
+    color: #6666668e;
+    text-align: center;
+    padding: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
