@@ -20,7 +20,7 @@
         "id": 2,
         "name": "АМН",
         "version": 2,
-        "md5": "f6aa636a735baf77feb3c1f1df96980f",
+        "md5": "e5a6688b3270328e37bc280a5ea313f8",
         "siteCategory": "Воздухораспределители",
         "technicalCategory": "Решетка",
         "surname": "жалюзийная",
@@ -1766,5 +1766,39 @@
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "(100x100)x(100),(200x200)x(200),(800x200)x(200)",
         "updDate": "2024.08.30"
+    },
+    {
+        "id": 106,
+        "name": "Чиллер модульный",
+        "version": 1,
+        "md5": "e805835f79ab0c20004fee239013904b",
+        "siteCategory": "Оборудование",
+        "technicalCategory": "Чиллер",
+        "surname": "воздушный",
+        "shape": "Круглый",
+        "manufacturer": "Базовое оборудование",
+        "graphicType": "Параметрическая",
+        "note": "Параметризованы все основные габариты и патрубки воды",
+        "versionHistory": "",
+        "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
+        "typesizes": "45...188 кВт",
+        "updDate": "2024.10.21"
+    },
+    {
+        "id": 107,
+        "name": "Драйкулер V-образный",
+        "version": 1,
+        "md5": "0dcbe09a0bf3debac6e01b14026d511a",
+        "siteCategory": "Оборудование",
+        "technicalCategory": "Драйкулер",
+        "surname": "V-образный",
+        "shape": "Круглый",
+        "manufacturer": "Базовое оборудование",
+        "graphicType": "Параметрическая",
+        "note": "Параметризованы все основные габариты и патрубки воды",
+        "versionHistory": "",
+        "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
+        "typesizes": "91...131 кВт",
+        "updDate": "2024.10.21"
     }
 ]
