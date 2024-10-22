@@ -9,8 +9,8 @@
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
-  <script type="module" crossorigin src="/evoslib/assets/index-CDTnXDYQ.js"></script>
-  <link rel="stylesheet" crossorigin href="/evoslib/assets/index-D5MVb_Z2.css">
+  <script type="module" crossorigin src="/evoslib/assets/index-D2KveePL.js"></script>
+  <link rel="stylesheet" crossorigin href="/evoslib/assets/index-BHqeBUIX.css">
 </head>
 <body>
     <button class="filter-toggle" id="filterToggle">Фильтры</button>
@@ -66,7 +66,7 @@
                 <hr class="filter-divider">
                 <div class="filter-textsearch" title="Поиск по полям:&#10;Производитель, Категория, Подкатегория, Дополнительная характеристика, Описание.&#10;Поддерживается подстановочный знак «*»">
                     <label for="textFilter"></label>
-                    <input type="text" id="textFilter" placeholder="Поиск...">
+                    <input type="text" id="textFilter" placeholder="Поиск..." autocomplete="off">
                 </div>
                 
                 <div class="filter-category">
@@ -103,6 +103,8 @@
                     </select>
                     <button class="download-selected-button" id="downloadSelected" >⬇</button>
                 </div>
+                <div id="noResultsMessage" style="display: none; text-align: center; padding: 20px;">Ничего не найдено</div>
+                <div class="component-grid" id="componentGrid"></div>
                 <div class="component-grid" id="componentGrid"></div>
             </section>
         </main>
