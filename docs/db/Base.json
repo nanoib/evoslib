@@ -1817,5 +1817,39 @@
         "manufUrl": "https://www.veza.ru/produktsiya/klapany-i-setevye-elementy/vozdushnye-klapany/pryamougolnye-vozdushnye-klapany/nerpa-pryamougolnyy",
         "typesizes": "(100x200)x(2200x2100)",
         "updDate": "2024.10.21"
+    },
+    {
+        "id": 109,
+        "name": "Фанкойл кассетный",
+        "version": 1,
+        "md5": "b74114f19448fcca3ad1b3d10deaaecd",
+        "siteCategory": "Оборудование",
+        "technicalCategory": "Фанкойл",
+        "surname": "четырехтрубный",
+        "shape": "Круглый",
+        "manufacturer": "Базовое оборудование",
+        "graphicType": "Параметрическая",
+        "note": "Параметризованы все габариты",
+        "versionHistory": "",
+        "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
+        "typesizes": "5,7…12,9 кВт (холод)\n9,7…17,6 кВт (тепло)\n(ширина/высота панели 950 мм)",
+        "updDate": "2024.11.11"
+    },
+    {
+        "id": 110,
+        "name": "Фанкойл кассетный",
+        "version": 1,
+        "md5": "110ab64b34191f9153caea9dd675ac38",
+        "siteCategory": "Оборудование",
+        "technicalCategory": "Фанкойл",
+        "surname": "двухтрубный",
+        "shape": "Круглый",
+        "manufacturer": "Базовое оборудование",
+        "graphicType": "Параметрическая",
+        "note": "Параметризованы все габариты",
+        "versionHistory": "",
+        "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
+        "typesizes": "3…4.5 кВт (холод)\n4…6 кВт (тепло)\n(ширина/высота панели 647 мм)",
+        "updDate": "2024.11.11"
     }
 ]
