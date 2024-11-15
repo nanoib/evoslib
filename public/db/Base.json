@@ -1885,5 +1885,22 @@
         "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
         "typesizes": "3,3…9 кВт (тепло)\n2,4…7,3 кВт (холод)",
         "updDate": "2024.11.13"
+    },
+    {
+        "id": 113,
+        "name": "Фанкойл канальный",
+        "version": 1,
+        "md5": "48fd0e6c72edbd827bec0fcb59664684",
+        "siteCategory": "Оборудование",
+        "technicalCategory": "Фанкойл",
+        "surname": "",
+        "shape": "Не применимо",
+        "manufacturer": "Базовое оборудование",
+        "graphicType": "Параметрическая",
+        "note": "Параметризованы все габариты",
+        "versionHistory": "",
+        "manufUrl": "https://www.nanocad.ru/products/bim/ventilation/",
+        "typesizes": "3,5…21 кВт (тепло)\n2,2…12,5 кВт (холод)",
+        "updDate": "2024.11.15"
     }
 ]
