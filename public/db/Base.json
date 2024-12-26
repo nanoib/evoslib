@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "ДПУ-М",
-        "version": 1,
+        "version": 2,
         "md5": "47cf0003983ce58d8c8a90c5e604d8c5",
         "siteCategory": "Воздухораспределители",
         "technicalCategory": "Диффузор",
@@ -11,10 +11,10 @@
         "manufacturer": "Арктос",
         "graphicType": "Параметрическая",
         "note": "",
-        "versionHistory": "",
+        "versionHistory": "v2: исправлен диаметр точек подключений",
         "manufUrl": "http://www.arktika.ru/html/dpum.htm",
         "typesizes": "100, 125, 160, 200, 250",
-        "updDate": "2024.08.02"
+        "updDate": "2024.12.26"
     },
     {
         "id": 2,
